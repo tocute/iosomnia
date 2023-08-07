@@ -1,0 +1,17 @@
+_id: fld_44bae2eada7443f6a90051633caf57a4
+type: RequestGroup
+parentId: wrk_8f7d981a997e49e4ba54d682b54aba19
+modified: 1691395584283
+created: 1691394788930
+name: Download
+description: ""
+environment:
+  user_id: saku.bys.acct+018@gmail.com
+  device_id: c4d88e14-8b3f-45fa-8591-9f8c8dc3a210
+  QA_DOWNLOAD: https://api.saku.kkvqa.com/download
+environmentPropertyOrder:
+  "&":
+    - user_id
+    - device_id
+    - QA_DOWNLOAD
+metaSortKey: -1691394788930

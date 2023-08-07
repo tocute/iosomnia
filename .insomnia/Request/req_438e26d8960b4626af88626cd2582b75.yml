@@ -1,0 +1,42 @@
+_id: req_438e26d8960b4626af88626cd2582b75
+type: Request
+parentId: fld_44bae2eada7443f6a90051633caf57a4
+modified: 1691395929422
+created: 1691395767225
+url: "{{ _.QA_DOWNLOAD }}/v1/users/{{ _.user_id }}/download/{{ _.device_id
+  }}/download_items/50977/complete"
+name: Complete download item
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_162632657a5346e0bcad9a161a9f0344
+    name: download_token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTEzOTU5NzEsIm5iZiI6MTY5MTM5NTkxMSwiaWF0IjoxNjkxMzk1OTExLCJqdGkiOiIzY2RmMWIwOS1iMDg4LTQ5NTMtODQ4Mi0xMjNhMTY1NmJkNTMiLCJEYXRhIjp7Ik1lbWJlcklEIjoiMTg3NzU2OSIsIkRvd25sb2FkSXRlbUlEIjoiNTA5NzciLCJMaWNlbnNlSUQiOiIxNTMwNjg4IiwiRGV2aWNlVHlwZSI6ImlvcyJ9fQ.QbgXqNZ2V9-8wTgV6OSBQjEAvbapX256rk3mFaw0Btc
+    description: ""
+headers:
+  - id: pair_dc0a5227980147ae898afe69da308f0f
+    name: Authorization
+    value: WW5zWnFiSnZBZ0N0cEZyZMhchXIoppk3wX9x4m51flDjyXwYFXKvdX4WbFGOIJM3gAlZOVEmwmnwGGCGAUe8JieFDuyNkfM7sVv6m5OVAvXXCcXncSipM4lKjKXYtgHXMrR0UrPOLZTlz/R+lVazU6bI+KgnSFAXs0xC4dliERnNg6lnSFGWdBhCcfBFZFGDlJVLOs3k9MJMH7iOqUjKzu7UFFrCGFCs4kFc/R5z2K33RQORNVJyQ0Wa2P33+Nxh
+    description: ""
+  - id: pair_d42d7bb1abb141a8a22bd86edc5926c5
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_5691e08eada94c899a90ad4f7c580c5f
+    name: X-Device-ID
+    value: c4d88e14-8b3f-45fa-8591-9f8c8dc3a210
+    description: ""
+  - id: pair_cc3d30e6f4a94a868868d34e13279d4f
+    name: X-Device-Type
+    value: sakuios
+    description: ""
+authentication: {}
+metaSortKey: -1690506762511.7812
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
