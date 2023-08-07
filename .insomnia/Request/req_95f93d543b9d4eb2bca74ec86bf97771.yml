@@ -1,0 +1,23 @@
+_id: req_95f93d543b9d4eb2bca74ec86bf97771
+type: Request
+parentId: fld_caf8f716ba254ec2a8928378bc2e25b7
+modified: 1641878437066
+created: 1641878437066
+url: https://api.saku.ottfs.com/login
+name: login
+description: ""
+method: GET
+body:
+  mimeType: application/x-www-form-urlencoded
+  params: []
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1620957581422
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

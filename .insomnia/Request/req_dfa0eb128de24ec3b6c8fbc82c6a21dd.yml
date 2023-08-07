@@ -1,0 +1,53 @@
+_id: req_dfa0eb128de24ec3b6c8fbc82c6a21dd
+type: Request
+parentId: fld_31ee9480d7524100bc4547d4495b1c0e
+modified: 1627458694608
+created: 1627456821886
+url: https://api.saku.kkv-simcity.com/download
+name: fetch DownloadList
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  downloadableList(item_id: 50041, item_type: \"Video\")
+    {\n    item_id\n    item_type\n    title\n    duration\n    age\n    license
+    {\n      id\n      time
+    {\n        start_at\n        end_at\n        before_first_play\n        after_first_play\n        offline_duration\n        first_play_end_at\n        after_first_play_end_at\n        offline_end_at\n      }\n    }\n    images
+    {\n      url\n      width\n      height\n    }\n    manifests
+    {\n      protocol\n      items
+    {\n        name\n        size\n        url\n      }\n    }\n    thumbnailSeeking
+    {\n      quality\n      url\n    }\n    endStart\n    sort\n    season
+    {\n      title\n      id\n      sort\n      series
+    {\n        id\n        title\n        images
+    {\n          url\n          width\n          height\n        }\n      }\n    }\n  }\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_991442ac9c8a4183b64e0d77d4ab4272
+    name: Authorization
+    value: bk9IWm5yVnBNQWRNR3JSaQmeyMoIxBY94dBAtJDltPHghDATYvUdRoxATBZJL3PlDemjQogj9LHqA+ZboyOvy4GnlwcFd/Cb7UEVW2/+MDTqgxAqNWOMIQ8BjuiX41vRdqLW3gVnwMXZ3FeIb0N0oW0di3bS+zCcqB0NSnw5K2oS4kkRyCdzbRX+BR/bGzoyxweokCk0OnNBGp8qeew4VklkocdSE0RZiklRmIoubho=
+  - description: ""
+    id: pair_bd7c3ad28e9c4cc4bb7e59eb4319f8ad
+    name: X-Device-ID
+    value: 3e2a32a5-7de3-43c9-883d-df3fd396707d
+  - description: ""
+    id: pair_72c76c333fdf49c8a8e59e21de65840b
+    name: X-Device-Type
+    value: sakuios
+  - description: ""
+    disabled: false
+    id: pair_568ce8ff95be449085eac792cff4c476
+    name: x-api-key
+    value: da2-3cspkhrt4fbw5c4m2zrzdfs75e
+authentication: {}
+metaSortKey: -1560152297454.1406
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

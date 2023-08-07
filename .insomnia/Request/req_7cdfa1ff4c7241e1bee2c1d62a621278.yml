@@ -1,0 +1,35 @@
+_id: req_7cdfa1ff4c7241e1bee2c1d62a621278
+type: Request
+parentId: fld_ae822c0767ca4b71bbf2b740ae1c9d2a
+modified: 1641783708021
+created: 1635240261900
+url: https://{{ _.kkvqa }}/graphql
+name: GetUserProfile_test
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  userProfile
+    {\n    property\n    name\n    email\n    age\n    gender\n    rating_user\n    rating_subscriber\n    stb_list
+    {\n      box_id\n      mac_addr\n      bound\n      r20_viewable\n      contract_status
+    {\n        plan_name\n        viewable_channels\n        subscribed_channels\n        subscribed_channel_packages\n        subscribed_packages\n      }\n      is_dongle\n    }\n  }\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: x-device-type
+    value: sakuweb
+  - id: pair_e1827a20371f42a6aa6bac112222db5d
+    name: Authorization
+    value: YU1OTUdyRFVKUnFiVUt1bRwFiLRM80Q9spTXtvFj+ryMa+PG7MV2FIeB9XLQ/S9EOZ0tew5EPpSa5fsC+FaCpHeCrRSPXugIErZ3DE/+V30UFRY3aipzXz5Q7PKbW0qP1CgyvjEw7mTMWu3iMGJSrnu3K5m7n13lMgE8/OPojfDXolpBuvgB0PiIyvxpZHrqFpKtEvp0h/1odE/EZavEO77uIWGcdx0Lu5ZMa5bBndqKlHD1nqcORrFfWn8XqYOF
+    disabled: false
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1560152297541.6406
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

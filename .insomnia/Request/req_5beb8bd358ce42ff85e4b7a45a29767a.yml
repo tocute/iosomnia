@@ -1,0 +1,36 @@
+_id: req_5beb8bd358ce42ff85e4b7a45a29767a
+type: Request
+parentId: fld_0499a42f4160497391649ddefe8734b4
+modified: 1627457732489
+created: 1622621708274
+url: https://cms-api.saku.kkvqa.com/graphql
+name: Query CMS
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  Collection(id: 361781)
+    {\n    ...CollectionFragment\n    __typename\n  }\n}\n\nfragment
+    CollectionFragment on Collection
+    {\n  id\n  original_id\n  title\n  properties\n  title\n  start_at\n  end_at\n  properties\n  active_status\n  updated_at\n  taxonomies
+    {\n    key\n    __typename\n  }\n  images
+    {\n    secure_url\n    __typename\n  }\n  children(pagination: {page: 1,
+    per_page: 1}) {\n    total\n    __typename\n  }\n  __typename\n}\n"}'
+parameters: []
+headers:
+  - name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJwcm92aWRlciI6IkpDT00iLCJjaGFubmVsX2lkIjowLCJwcm9wZXJ0eSI6bnVsbCwiZXhwIjoxNjU0MTU4MTI4LCJpc3MiOiJKQ09NX0NNUyIsInN1YiI6IkxPR0lORUQifQ.4urrOf6A3hdJOzqSTlDviy1gxNCTcdPWqNwmNUCXu80
+    description: ""
+    id: pair_a2633f1111dc4c0b8d0bf732d54b7c72
+  - name: Content-Type
+    value: application/json
+    id: pair_0491ce4b4fa046bd9fe4cab40c6d6994
+authentication: {}
+metaSortKey: -1621228279761.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_45b609bf7d71446eae1f50c1704a8a12
+type: Request
+parentId: fld_c5ae421eb67b4522ad8b5f6a06ee7bb3
+modified: 1630549098137
+created: 1627456821800
+url: https://{{ _.kkvqa }}/graphql
+name: Set Artist Favorite
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation {\n  setFavorite(\n    title_ids: [\"1263832\"],
+    \n    collection_ids: [], \n    artist_ids: [], \n    favorite:
+    false\n  )\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_991442ac9c8a4183b64e0d77d4ab4272
+    name: Authorization
+    value: Q1pFUHRya2NRRXlyQlNMaNtZYVu0+6EgQ8kZ9BiXP+xpDWeeErIawFhNmGXdVQyh3cyrajyC06KkuPKjza4RguLvMgqmUe8SpohQT0O7p4H5wBU4RlOFw/0FjEWCp9Dlepdg/z7MJ+ad3CdCDJYYD1Yt7bbnW/x5GZ/jknFT/KU=
+authentication: {}
+metaSortKey: -1560152167998
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

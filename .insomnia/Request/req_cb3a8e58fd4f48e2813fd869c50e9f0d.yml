@@ -1,0 +1,98 @@
+_id: req_cb3a8e58fd4f48e2813fd869c50e9f0d
+type: Request
+parentId: fld_25b75e56b469424d9ca1ea39d003a582
+modified: 1687250978202
+created: 1627456821820
+url: https://{{ _.kkvqa }}/graphql
+name: PlayNow
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  collectionNew2(namespace: \"new_play_now\", pagination:
+    {page: 2, per_page: 10})
+    {\n    id\n    item_type\n    property\n    taxonomies\n    display_title\n    page\n    per_page\n    total\n    collection_items
+    {\n      ... on VideoNew {\n        lightTitle:
+    title\n        id\n        item_type\n        series_title\n        season_title\n        discontinue\n        purchase_at\n        purchase_status\n        purchase_device_type\n        purchase_history_price\n        purchase_history_id\n        property\n        tag_group
+    {\n          group_name\n          tags
+    {\n            type\n            value\n          }\n        }\n        taxonomies\n        watch_history_id\n        playable
+    {\n          video_id\n          until\n          name\n          subdub\n          playable_platform\n          license_id\n        }\n        licenseStatus:
+    status {\n          time\n          type\n        }\n        status_bar
+    {\n          type\n          property\n        }\n        images
+    {\n          type\n          url\n        }\n        favorite\n        time
+    {\n          last_played\n          duration\n          opening_start\n          opening_end\n          end_start\n          chapters\n        }\n        rating\n        rating_value\n        last_watch_date\n      }\n      ...
+    on LinkText
+    {\n        id\n        item_type\n        display_text\n        link_url\n        property\n        display_start_at\n        alternative_text\n        taxonomies\n        rating_value\n        image
+    {\n          url\n          width\n          height\n          type\n        }\n      }\n      ...
+    on CollectionNew2
+    {\n        id\n        item_type\n        property\n        taxonomies\n        display_title\n        page\n        per_page\n        total\n        collection_items
+    {\n          ... on Program
+    {\n            id\n            item_type\n            images
+    {\n              type\n              url\n            }\n            title\n            startTime\n            startTimestamp\n            endTime\n            endTimestamp\n            synopsis\n            programStatus:
+    status\n            channel
+    {\n              id\n              display_title\n              property\n            }\n            tags
+    {\n              type\n              value\n            }\n            logo
+    {\n              name\n              image
+    {\n                type\n                url\n              }\n            }\n            property\n          }\n          ...
+    on VideoNew {\n            lightTitle:
+    title\n            id\n            item_type\n            series_title\n            season_title\n            discontinue\n            purchase_at\n            purchase_status\n            purchase_device_type\n            purchase_history_price\n            purchase_history_id\n            property\n            tag_group
+    {\n              group_name\n              tags
+    {\n                type\n                value\n              }\n            }\n            taxonomies\n            watch_history_id\n            playable
+    {\n              video_id\n              until\n              name\n              subdub\n              playable_platform\n              license_id\n            }\n            licenseStatus:
+    status
+    {\n              time\n              type\n            }\n            status_bar
+    {\n              type\n              property\n            }\n            images
+    {\n              type\n              url\n            }\n            favorite\n            time
+    {\n              last_played\n              duration\n              opening_start\n              opening_end\n              end_start\n              chapters\n            }\n            rating\n            rating_value\n            last_watch_date\n          }\n          ...
+    on LinkText
+    {\n            id\n            item_type\n            display_text\n            link_url\n            property\n            display_start_at\n            alternative_text\n            taxonomies\n            rating_value\n            image
+    {\n              url\n              width\n              height\n              type\n            }\n          }\n          ...
+    on ArtistDetail
+    {\n            id\n            item_type\n            name\n            occupation\n            birthday\n            hometown\n            sign\n            blood_type\n            bio\n            image
+    {\n              url\n              width\n              height\n              type\n            }\n            favorite\n          }\n          ...
+    on CollectionNew2
+    {\n            id\n            item_type\n            property\n            taxonomies\n            display_title\n            page\n            per_page\n            total\n            collection_items
+    {\n              ... on Program
+    {\n                id\n                item_type\n                images
+    {\n                  type\n                  url\n                }\n                title\n                startTime\n                startTimestamp\n                endTime\n                endTimestamp\n                synopsis\n                programStatus:
+    status\n                channel
+    {\n                  id\n                  display_title\n                  property\n                }\n                tags
+    {\n                  type\n                  value\n                }\n                logo
+    {\n                  name\n                  image
+    {\n                    type\n                    url\n                  }\n                }\n                property\n              }\n              ...
+    on VideoNew {\n                lightTitle:
+    title\n                id\n                item_type\n                series_title\n                season_title\n                discontinue\n                purchase_at\n                purchase_status\n                purchase_device_type\n                purchase_history_price\n                purchase_history_id\n                property\n                tag_group
+    {\n                  group_name\n                  tags
+    {\n                    type\n                    value\n                  }\n                }\n                taxonomies\n                watch_history_id\n                playable
+    {\n                  video_id\n                  until\n                  name\n                  subdub\n                  playable_platform\n                  license_id\n                }\n                licenseStatus:
+    status
+    {\n                  time\n                  type\n                }\n                status_bar
+    {\n                  type\n                  property\n                }\n                images
+    {\n                  type\n                  url\n                }\n                favorite\n                time
+    {\n                  last_played\n                  duration\n                  opening_start\n                  opening_end\n                  end_start\n                  chapters\n                }\n                rating\n                rating_value\n                last_watch_date\n              }\n              ...
+    on LinkText
+    {\n                id\n                item_type\n                display_text\n                link_url\n                property\n                display_start_at\n                alternative_text\n                taxonomies\n                rating_value\n                image
+    {\n                  url\n                  width\n                  height\n                  type\n                }\n              }\n              ...
+    on ArtistDetail
+    {\n                id\n                item_type\n                name\n                occupation\n                birthday\n                hometown\n                sign\n                blood_type\n                bio\n                image
+    {\n                  url\n                  width\n                  height\n                  type\n                }\n                favorite\n              }\n              ...
+    on CollectionNew2
+    {\n                id\n                item_type\n                property\n                taxonomies\n                display_title\n                page\n                per_page\n                total\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - id: pair_e1827a20371f42a6aa6bac112222db5d
+    name: Authorization
+    value: V2JZV3Z5c09RdGt1QXB4b0PrtcPieHb2KqfBm5YkD6qzjixkQyqOs3Xpy/Ur1PfBGpnN16J/xYw3zomodASM19r9zSXsYEVnuHWq7npdT1E/DHtyy1M726tDkF4GdmKbHLpP7pT3c/LzMziGLO0E2JAdhkvRjQ6V7wMxChlyouPIUfFLENG1xkFs5ZVsVKAzYLmdthI9oy5HdmP2nQDq8TjlnLluRV8uGvmGfY4BdRs=
+    disabled: true
+authentication: {}
+metaSortKey: -1560152310931.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

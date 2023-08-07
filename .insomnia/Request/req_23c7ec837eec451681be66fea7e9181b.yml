@@ -1,0 +1,56 @@
+_id: req_23c7ec837eec451681be66fea7e9181b
+type: Request
+parentId: fld_f108964a10894ee5b73539990f01a0ae
+modified: 1662433126530
+created: 1641878436703
+url: https://api.blabo.kkv48.com/graphql
+name: program detail
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n    collectionNew2(id: \"19757\",type: \"program\",
+    pagination: {page: 1, per_page: 30})
+    {\n    id\nitem_type\nproperty\ntaxonomies\ndisplay_title\nnext_collection_id\npage\nper_page\ntotal\nstart_at\nend_at\n    collection_items
+    {\n... on Program
+    {\n    id\n    meta_program_id\n    item_type\n    taxonomies\n    images
+    {\n    type\n    url\n}\n    title\n    startTime\n    startTimestamp\n    endTime\n    endTimestamp\n    synopsis\n    programStatus:
+    status\n    channel {\n    id\n    display_title\n    property\n}\n    tags
+    {\n    type\n    value\n}\n    tag_group {\n        group_name\n        tags
+    {\n            type\n            value\n        }\n    }\n    logo
+    {\n    name\n    image
+    {\n    type\n    url\n}\n}\n    is_favorite\n    catchup_info
+    {\n        item_id\n        item_type\n    }\n    rating\n    actors\n    actor_str\n    property\n    is_on_air\n}\n...
+    on CollectionNew2
+    {\n    id\nitem_type\nproperty\ntaxonomies\ndisplay_title\nnext_collection_id\npage\nper_page\ntotal\nstart_at\nend_at\n    collection_items
+    {\n... on VideoNew {\n    lightTitle:
+    title\n        id\n    item_type\n    series_title\n    series_id\n    season_title\n    discontinue\n    purchase_at\n    purchase_status\n    purchase_device_type\n    purchase_history_price\n    purchase_history_id\n    preorder_at\n    preorder_release_at\n    property\n    tag_group
+    {\n        group_name\n        tags
+    {\n            type\n            value\n        }\n    }\n    taxonomies\n    watch_history_id\n    playable
+    {\n    video_id\n    until\n    name\n    subdub\n    playable_platform\n    license_id\n}\n    licenseStatus:
+    status {\n    time\n    type\n}\n    status {\ntype\ntime\n}\n    status_bar
+    {\ntype\nproperty\n}\n    preorder_status_bar
+    {\ntype\nproperty\n}\n    images {\n    type\n    url\n}\n    series_images
+    {\n    type\n    url\n}\n    favorite\n    time
+    {\n    last_played\n    duration\n    opening_start\n    opening_end\n    end_start\n    chapters\n}\n    rating\n    rating_value\n    last_watch_date\n}\n...
+    on LinkText
+    {\n    id\n    item_type\n    display_text\n    link_url\n    property\n    display_start_at\n    alternative_text\n    taxonomies\n    rating_value\n    image
+    {\n        url\n        width\n        height\n        type\n    }\n}\n}\n}\n}\n}\n}"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - id: pair_70c39110f2e140c78234178a1034a582
+    name: X-Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiMTM5Iiwic3ViYWNjb3VudF9pZCI6IjExNyIsImpjb21fYWNjZXNzX3Rva2VuIjoiUHR0NU9LdVFUQ1R4Q0N3dlIzN096YmRKMWRxLXNlN3RGSTlqY0htQnl2WSIsImpjb21fcmVmcmVzaF90b2tlbiI6Ik1BLVY2T2ZvbkJvc0xWWGVDNjB4RFd0TTZpXzM2aU81VzFwaVdGUkRreHMiLCJkZXZpY2VfdHlwZSI6ImlvcyIsInRva2VuX3R5cGUiOiJhY2Nlc3NfdG9rZW4iLCJpc3MiOiJjbGllbnQtYXBpLXNlcnZpY2UiLCJleHAiOjE2NjIwMjE4MTAsIm5iZiI6MTY2MjAxODIxMCwiaWF0IjoxNjYyMDE4MjEwLCJqdGkiOiIzNjEwMGUwZi04ODU5LTQyNGQtYjY4ZC04OGRmZGQ0ODUxMmUifQ.Jr4KfLl7wZjDYWjXUTwbstDUjV86tROdYJOe90QKRPk
+    description: ""
+authentication: {}
+metaSortKey: -1560152168310.5
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,45 @@
+_id: req_70b1d7a1abda4bd2be26ea799ba75105
+type: Request
+parentId: fld_31ee9480d7524100bc4547d4495b1c0e
+modified: 1627458698534
+created: 1627456821829
+url: https://{{ staging }}/playback
+name: Seek Thumbnail
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  thumbnailSeekings(mediaSource:SUBTITLE, item_id:3660942,
+    item_type:Mezzanine,
+    playback_token:\"8f86442638ce85cb214bdf951937c40b1f49a9b421ae5452e07c7b8ba8225756\")  {\n    quality\n    url\n  }\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: text/plain;charset=UTF-8
+  - description: ""
+    id: pair_991442ac9c8a4183b64e0d77d4ab4272
+    name: Authorization
+    value: WWhxRWFPSmNpdmt1bmp4RGtXMDDw/U27gOJs/JWTWwQDVgjNzkZVEhd3tT383eaPM4rHzogl7wqs/KkppwbrGDJ7e9qwdmsbXnNfi2M4CrYvI45Vqsl6pis96LRlKdleEGwdUvnETG4e1AHU2wwDmX5fw97SxT2RrVhurm93hgp+486Tt1amExClIlqC2+4whFjRgWEYQH3hNEZ/xx1q78j8jJNTlRRVNlFDC2BGVWE=
+  - description: ""
+    id: pair_bd7c3ad28e9c4cc4bb7e59eb4319f8ad
+    name: X-Device-ID
+    value: c46cb2e3-7004-49b4-a0e4-718181f5a9ce
+  - description: ""
+    id: pair_72c76c333fdf49c8a8e59e21de65840b
+    name: X-Device-Type
+    value: sakuios
+  - description: ""
+    disabled: false
+    id: pair_568ce8ff95be449085eac792cff4c476
+    name: X-Bonus-ID
+    value: "21"
+authentication: {}
+metaSortKey: -1560152297447.8906
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

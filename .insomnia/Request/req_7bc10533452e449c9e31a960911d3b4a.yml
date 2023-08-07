@@ -1,0 +1,53 @@
+_id: req_7bc10533452e449c9e31a960911d3b4a
+type: Request
+parentId: fld_ae822c0767ca4b71bbf2b740ae1c9d2a
+modified: 1627458334746
+created: 1627456821915
+url: https://test.id.zaq.ne.jp/id/script/connect/token_req/endpoint.seam
+name: renewToken
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: refresh_token
+      value: sPmxDft_B7Il5chTQmlTA19NOuJqnxf3
+      description: ""
+      id: pair_da83b0d9871c4cfd8edc799ec8b26762
+      disabled: false
+    - name: grant_type
+      value: refresh_token
+      description: ""
+      id: pair_ff288be659824914942daac7db3b1285
+    - name: client_id
+      value: sakukksstag
+      description: ""
+      id: pair_7268c02e0ede439998628a41bd5e0c2e
+    - name: client_secret
+      value: 25ee0c0c5392c0faf8d475917da10ba4
+      description: ""
+      id: pair_0f914e075ccc455ca819eb5d718864ff
+parameters: []
+headers:
+  - description: ""
+    id: pair_a319cb46a135403c915b4650d05a6ffe
+    name: Authorization
+    value: SEtxZ1hmcENiUU10bldTeWM9hV3Fsvq+A2PS64CR8CoPI6QIsMIYJkczmrRlZxCx2UaIFelVuZSvalFFb9vWe4mBBeA/WyjaWUEkEHgFkdHJ2Q/yvKMETXbWcr3jXMb7O3fQGYA1qAsfp5VlwPyg2l95IQbr4eyxr2UkX5Luv++8eY6IbC9m26n0bjErTjBWF+NjoAA9GW6QFqgoxsOlbUHMZ0p/yQii9zN2Y3cnlzw=
+    disabled: true
+  - name: x-device-type
+    value: sakuios
+    description: ""
+    id: pair_eaee5fe09a944a9db006a53c8df6d43a
+    disabled: true
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_b938f16a33554b2bbae47ae851c30c5a
+authentication: {}
+metaSortKey: -1560152297679.1406
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

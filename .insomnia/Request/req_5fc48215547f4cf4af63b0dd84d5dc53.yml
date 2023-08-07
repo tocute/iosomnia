@@ -1,0 +1,52 @@
+_id: req_5fc48215547f4cf4af63b0dd84d5dc53
+type: Request
+parentId: fld_4afeb69068ee4be3bd296fe14331cd38
+modified: 1632970428942
+created: 1624849728880
+url: https://api.saku.kkvqa.com/playback
+name: updateMezzaninePlayedTime
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation { updateMezzaninePlayedTime( id: \"1308823\", time:
+    100 ) }"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: text/plain;charset=UTF-8
+  - id: pair_e1827a20371f42a6aa6bac112222db5d
+    name: Authorization
+    value: Y0ZraWpYSkRhcHZXQnlncS/m/Y0mJC/71cYzzIBs/WQlG7DaHpzuBzCQYt4zR69PSWEo1txHh0V0/6iG0ywSOUmR8bW1mSW4qs8tJC8cbPlGrnc400hJaOWMkxY6qZHjMXmfHtECBn77Lea3JdNZ5lxxe5qFKBpoNGhICvB+gOepIsFtD04y31NVAB7d6pGznM1qeURrT4xEDvrU3121LNdhR90vJgj9rsPoHvBWmnWD+5avNzdPjlHK6ub7RCmz
+    disabled: false
+  - description: ""
+    id: pair_62822f4a448e44cebb631dafdea66b54
+    name: X-Device-ID
+    value: 9cf52a54-2e11-4fc2-9f04-2584d4c3f4ab
+    disabled: false
+  - description: ""
+    id: pair_0b45ac2bb164440e82485e28f245f28e
+    name: x-api-key
+    value: da2-3cspkhrt4fbw5c4m2zrzdfs75e
+    disabled: true
+  - description: ""
+    id: pair_bcde98aa41374ed79919a4b1516bb005
+    name: X-Device-Type
+    value: sakuweb
+    disabled: false
+  - name: user-agent
+    value: Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X)
+      AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148
+      Safari/604.1
+    description: ""
+    id: pair_42aeac89742942c199dae889b21906f1
+authentication: {}
+metaSortKey: -1560152223465.545
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

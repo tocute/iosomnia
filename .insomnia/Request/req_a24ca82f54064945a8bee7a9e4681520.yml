@@ -1,0 +1,35 @@
+_id: req_a24ca82f54064945a8bee7a9e4681520
+type: Request
+parentId: fld_ca550d15bd2743a2a3d2744bc08d78b3
+modified: 1651027311657
+created: 1627456821940
+url: https://api.saku.kkvqa.com/graphql
+name: purchaseGroup
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  purchaseGroup(purchase_type: \"EST\", title_id: 1322326)
+    {\n    video {\n      id\n      images
+    {\n        url\n      }\n      series_id\n      series_title\n      season_title\n      title\n      rating_value\n      property\n    }\n    purchaseGroup
+    {\n      name\n      purchase_plans
+    {\n        type\n        id\n        video_id\n        name\n        discount\n        price\n        purchasable\n        url\n        warning_note
+    {\n          available_period_after_first_play_seconds\n          unlimited_play_duration\n          preorder_release_time\n          bonus_items
+    {\n            title\n          }\n        }\n      }\n    }\n  }\n}"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - id: pair_e1827a20371f42a6aa6bac112222db5d
+    name: Authorization
+    value: VnJwVXpRa0pIQWFaZWROWl8cgBJFiaCzaJKQ8g5aJjp9dsMuMN7PsdVCqR/BLhMHBCanyHfiip4QpN2f3OfqWUSXAuFCfm1alnV9Ksdvxa8eBnIfQbnKjUNW+zI5F7g+LaBWWYPvGvissDHl28qSv64ChFNgUrl2f7HIb3NNewg=
+authentication: {}
+metaSortKey: -1560152306514.0469
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

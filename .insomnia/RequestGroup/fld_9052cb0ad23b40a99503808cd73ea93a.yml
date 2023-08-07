@@ -1,0 +1,19 @@
+_id: fld_9052cb0ad23b40a99503808cd73ea93a
+type: RequestGroup
+parentId: wrk_8f7d981a997e49e4ba54d682b54aba19
+modified: 1690447612944
+created: 1622167887367
+name: Saku - Mobile
+description: ""
+environment:
+  staging: api.saku.kkv48.com
+  kkvqa: api.saku.kkvqa.com
+  prod: api.saku.ottfs.com
+  preprod: api.saku.preottfs.com
+environmentPropertyOrder:
+  "&":
+    - staging
+    - kkvqa
+    - prod
+    - preprod
+metaSortKey: -1554878383388

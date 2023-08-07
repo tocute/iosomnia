@@ -1,0 +1,71 @@
+_id: req_e1c5ea27cf1544d7a240c300db14487e
+type: Request
+parentId: fld_25b75e56b469424d9ca1ea39d003a582
+modified: 1682999180785
+created: 1627456821661
+url: https://{{ _.prod }}/graphql
+name: VideoTop
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n\tcollectionNew2(\n\t\tnamespace:
+    \"mobile_new_videotop\"\n\t\tpagination: { page: 1, per_page: 10
+    }\n\t\tchildren_pagination: [{ per_page: 30 }, { per_page: 30 }]\n\t)
+    {\n\t\tid\n\t\titem_type\n\t\tproperty\n\t\ttaxonomies\n\t\tdisplay_title\n\t\tpage\n\t\tper_page\n\t\ttotal\n\t\tcollection_items
+    {\n\t\t\t... on VideoNew {\n\t\t\t\tlightTitle:
+    title\n\t\t\t\tid\n\t\t\t\titem_type\n\t\t\t\tseries_title\n\t\t\t\tproperty\n\t\t\t\ttaxonomies\n\t\t\t\twatch_history_id\n\t\t\t\tplayable
+    {\n\t\t\t\t\tvideo_id\n\t\t\t\t\tuntil\n\t\t\t\t\tname\n\t\t\t\t\tsubdub\n\t\t\t\t\tplayable_platform\n\t\t\t\t\tlicense_id\n\t\t\t\t}\n\t\t\t\timages
+    {\n\t\t\t\t\ttype\n\t\t\t\t\turl\n\t\t\t\t}\n\t\t\t\tseries_images
+    {\n\t\t\t\t\ttype\n\t\t\t\t\turl\n\t\t\t\t}\n\t\t\t\tfavorite\n\t\t\t\ttime
+    {\n\t\t\t\t\tlast_played\n\t\t\t\t\tduration\n\t\t\t\t\topening_start\n\t\t\t\t\topening_end\n\t\t\t\t\tend_start\n\t\t\t\t\tchapters\n\t\t\t\t}\n\t\t\t\trating\n\t\t\t\trating_value\n\t\t\t}\n\t\t\t...
+    on LinkText
+    {\n\t\t\t\tid\n\t\t\t\titem_type\n\t\t\t\tdisplay_text\n\t\t\t\tlink_url\n\t\t\t\tproperty\n\t\t\t\tdisplay_start_at\n\t\t\t\talternative_text\n\t\t\t\ttaxonomies\n\t\t\t\trating_value\n\t\t\t\timage
+    {\n\t\t\t\t\turl\n\t\t\t\t\twidth\n\t\t\t\t\theight\n\t\t\t\t\ttype\n\t\t\t\t}\n\t\t\t}\n\t\t\t...
+    on CollectionNew2
+    {\n\t\t\t\tid\n\t\t\t\titem_type\n\t\t\t\tproperty\n\t\t\t\ttaxonomies\n\t\t\t\tdisplay_title\n\t\t\t\tpage\n\t\t\t\tper_page\n\t\t\t\ttotal\n\t\t\t\tcollection_items
+    {\n\t\t\t\t\t... on VideoNew {\n\t\t\t\t\t\tlightTitle:
+    title\n\t\t\t\t\t\tid\n\t\t\t\t\t\titem_type\n\t\t\t\t\t\tseries_title\n\t\t\t\t\t\tproperty\n\t\t\t\t\t\ttaxonomies\n\t\t\t\t\t\twatch_history_id\n\t\t\t\t\t\tplayable
+    {\n\t\t\t\t\t\t\tvideo_id\n\t\t\t\t\t\t\tuntil\n\t\t\t\t\t\t\tname\n\t\t\t\t\t\t\tsubdub\n\t\t\t\t\t\t\tplayable_platform\n\t\t\t\t\t\t\tlicense_id\n\t\t\t\t\t\t}\n\t\t\t\t\t\timages
+    {\n\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t\turl\n\t\t\t\t\t\t}\n\t\t\t\t\t\tseries_images
+    {\n\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t\turl\n\t\t\t\t\t\t}\n\t\t\t\t\t\tfavorite\n\t\t\t\t\t\ttime
+    {\n\t\t\t\t\t\t\tlast_played\n\t\t\t\t\t\t\tduration\n\t\t\t\t\t\t\topening_start\n\t\t\t\t\t\t\topening_end\n\t\t\t\t\t\t\tend_start\n\t\t\t\t\t\t\tchapters\n\t\t\t\t\t\t}\n\t\t\t\t\t\trating\n\t\t\t\t\t\trating_value\n\t\t\t\t\t}\n\t\t\t\t\t...
+    on LinkText
+    {\n\t\t\t\t\t\tid\n\t\t\t\t\t\titem_type\n\t\t\t\t\t\tdisplay_text\n\t\t\t\t\t\tlink_url\n\t\t\t\t\t\tproperty\n\t\t\t\t\t\tdisplay_start_at\n\t\t\t\t\t\talternative_text\n\t\t\t\t\t\ttaxonomies\n\t\t\t\t\t\trating_value\n\t\t\t\t\t\timage
+    {\n\t\t\t\t\t\t\turl\n\t\t\t\t\t\t\twidth\n\t\t\t\t\t\t\theight\n\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t\t...
+    on CollectionNew2
+    {\n\t\t\t\t\t\tid\n\t\t\t\t\t\titem_type\n\t\t\t\t\t\tproperty\n\t\t\t\t\t\ttaxonomies\n\t\t\t\t\t\tdisplay_title\n\t\t\t\t\t\tpage\n\t\t\t\t\t\tper_page\n\t\t\t\t\t\ttotal\n\t\t\t\t\t\tcollection_items
+    {\n\t\t\t\t\t\t\t... on VideoNew {\n\t\t\t\t\t\t\t\tlightTitle:
+    title\n\t\t\t\t\t\t\t\tid\n\t\t\t\t\t\t\t\titem_type\n\t\t\t\t\t\t\t\tseries_title\n\t\t\t\t\t\t\t\tproperty\n\t\t\t\t\t\t\t\ttaxonomies\n\t\t\t\t\t\t\t\twatch_history_id\n\t\t\t\t\t\t\t\tplayable
+    {\n\t\t\t\t\t\t\t\t\tvideo_id\n\t\t\t\t\t\t\t\t\tuntil\n\t\t\t\t\t\t\t\t\tname\n\t\t\t\t\t\t\t\t\tsubdub\n\t\t\t\t\t\t\t\t\tplayable_platform\n\t\t\t\t\t\t\t\t\tlicense_id\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\timages
+    {\n\t\t\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t\t\t\turl\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\tseries_images
+    {\n\t\t\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t\t\t\turl\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\tfavorite\n\t\t\t\t\t\t\t\ttime
+    {\n\t\t\t\t\t\t\t\t\tlast_played\n\t\t\t\t\t\t\t\t\tduration\n\t\t\t\t\t\t\t\t\topening_start\n\t\t\t\t\t\t\t\t\topening_end\n\t\t\t\t\t\t\t\t\tend_start\n\t\t\t\t\t\t\t\t\tchapters\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\trating\n\t\t\t\t\t\t\t\trating_value\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t...
+    on LinkText
+    {\n\t\t\t\t\t\t\t\tid\n\t\t\t\t\t\t\t\titem_type\n\t\t\t\t\t\t\t\tdisplay_text\n\t\t\t\t\t\t\t\tlink_url\n\t\t\t\t\t\t\t\tproperty\n\t\t\t\t\t\t\t\tdisplay_start_at\n\t\t\t\t\t\t\t\talternative_text\n\t\t\t\t\t\t\t\ttaxonomies\n\t\t\t\t\t\t\t\trating_value\n\t\t\t\t\t\t\t\timage
+    {\n\t\t\t\t\t\t\t\t\turl\n\t\t\t\t\t\t\t\t\twidth\n\t\t\t\t\t\t\t\t\theight\n\t\t\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t...
+    on CollectionNew2
+    {\n\t\t\t\t\t\t\t\tid\n\t\t\t\t\t\t\t\titem_type\n\t\t\t\t\t\t\t\tproperty\n\t\t\t\t\t\t\t\ttaxonomies\n\t\t\t\t\t\t\t\tdisplay_title\n\t\t\t\t\t\t\t\tpage\n\t\t\t\t\t\t\t\tper_page\n\t\t\t\t\t\t\t\ttotal\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_a319cb46a135403c915b4650d05a6ffe
+    name: Authorization
+    value: WE5ER0t3ekxUUU5oZE5pWKu4it10DuIixW+3MZvy8NEWs1TgLhw0Hqtha7vaw687jpGJ71zyGzIdC9ri71ffAIKRk2K7To1AyVZ3OsGtdBM20o9EyU45kvTo45R5pqbsRA3ExWFCiMICJTPYaay7x/NvB0RHOjrMqhcKVKMNLdgrH1hDvPNz3UeFNgI9DCjQMXAyEVb3JeED0OuQXI3eYxJUEca+ZiJRPGpJqVnx+MGHcLCdhGLNSy6P86aUXaeo
+    disabled: true
+  - name: x-device-type
+    value: blobaios
+    description: ""
+    id: pair_eaee5fe09a944a9db006a53c8df6d43a
+authentication: {}
+metaSortKey: -1560152310919
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_94dc6ee175d14e7aa36c4de3b5cf6fec
+type: Request
+parentId: fld_6319f29f72524dbc8e0039fd81d62e98
+modified: 1625128757060
+created: 1625106671245
+url: http://video-jenkins-slave-4.kkcorp:5000/system_log/qa
+name: system_log 2
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: start_time
+    value: 2021-07-01T08:37
+    description: ""
+    id: pair_c92d02728ed344fab0fab2c03eac882a
+headers: []
+authentication: {}
+metaSortKey: -1624814431177.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

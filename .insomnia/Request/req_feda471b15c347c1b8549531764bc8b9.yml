@@ -1,0 +1,52 @@
+_id: req_feda471b15c347c1b8549531764bc8b9
+type: Request
+parentId: fld_5be807f61a4c4fa48a0666096a69ba5f
+modified: 1641878436942
+created: 1641878436942
+url: https://{{ _.preprod }}/download
+name: createDownload
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation {\n  createDownload(token:
+    \"2a9eb085f67a7f83543659de74c6ad31bf05325df489f5eeb44b643799a000ae\")
+    {\n    item_id\n    item_type\n    title\n    duration\n    age\n    license
+    {\n      id\n      time
+    {\n        start_at\n        end_at\n        before_first_play\n        after_first_play\n        offline_duration\n        first_play_end_at\n        after_first_play_end_at\n        offline_end_at\n      }\n    }\n    images
+    {\n      url\n      width\n      height\n    }\n    manifests
+    {\n      protocol\n      items
+    {\n        name\n        size\n        url\n      }\n    }\n    thumbnailSeeking
+    {\n      quality\n      url\n    }\n    endStart\n    sort\n    season
+    {\n      title\n      id\n      sort\n      series
+    {\n        id\n        title\n        images
+    {\n          url\n          width\n          height\n        }\n      }\n    }\n    mediaSource\n  }\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - id: pair_e1827a20371f42a6aa6bac112222db5d
+    name: Authorization
+    value: QnlaaGV1a2RQUFR3Y1V1TLYiJ48ym0omhltHYyXcnaFVqycbg2+wFzfmChZyJBS/hROHJdY9ecZm+LqBw73k0J1JtiZljrEBYCA+aVa6AF1ggUzoFnU0E4W970eH3LQmBeQDO6bv1ZLlaSSg4L2IH4WXFUXKAGroKcisHhbcsMHeJHuz1Kwlwak+DfBTIIYPhaa2gZP0T1SyxBhZEv2mkAxfnh4uajj5Jp62Uq0WyDLN3UYe9Q7g2jKd5aUtZMWS
+  - name: x-api-key
+    value: da2-3cspkhrt4fbw5c4m2zrzdfs75e
+    description: ""
+    id: pair_7857a1965df44c4c92d133c78e626683
+  - name: X-Device-Type
+    value: sakuios
+    description: ""
+    id: pair_f7e8ff20721f45b7bf9fed5c85b6f8ad
+  - name: X-Device-ID
+    value: 0a7570a6-4fa6-4398-91b9-50a258cbd515
+    description: ""
+    id: pair_f86d0d3273d34741913505b5ad49b83f
+authentication: {}
+metaSortKey: -1560152297529.1406
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

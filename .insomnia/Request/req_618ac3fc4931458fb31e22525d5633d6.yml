@@ -1,0 +1,92 @@
+_id: req_618ac3fc4931458fb31e22525d5633d6
+type: Request
+parentId: fld_e2dab734103b44aa8845aa550022b79a
+modified: 1627458645240
+created: 1627456821757
+url: https://api.saku.kkv48.com/graphql
+name: NHK
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  collectionNew2(namespace: \"mobile_new2_nod\", pagination:
+    {page: 1, per_page: 30})
+    {\n    id\n    item_type\n    property\n    taxonomies\n    display_title\n    page\n    per_page\n    total\n    collection_items
+    {\n      ... on VideoNew {\n        lightTitle:
+    title\n        id\n        item_type\n        series_title\n        season_title\n        discontinue\n        purchase_at\n        purchase_status\n        purchase_device_type\n        purchase_history_price\n        property\n        tag_group
+    {\n          group_name\n          tags
+    {\n            type\n            value\n          }\n        }\n        taxonomies\n        watch_history_id\n        playable
+    {\n          video_id\n          until\n          name\n          subdub\n          playable_platform\n          license_id\n        }\n        licenseStatus:
+    status {\n          time\n          type\n        }\n        status_bar
+    {\n          type\n          property\n        }\n        images
+    {\n          type\n          url\n        }\n        favorite\n        time
+    {\n          last_played\n          duration\n          opening_start\n          opening_end\n          end_start\n          chapters\n        }\n        rating\n        last_watch_date\n      }\n      ...
+    on LinkText
+    {\n        id\n        item_type\n        display_text\n        link_url\n        property\n        display_start_at\n        alternative_text\n        taxonomies\n        rating_value\n        image
+    {\n          url\n          width\n          height\n          type\n        }\n      }\n      ...
+    on CollectionNew2
+    {\n        id\n        item_type\n        property\n        taxonomies\n        display_title\n        page\n        per_page\n        total\n        collection_items
+    {\n          ... on Program
+    {\n            id\n            item_type\n            images
+    {\n              type\n              url\n            }\n            title\n            startTime\n            startTimestamp\n            endTime\n            endTimestamp\n            synopsis\n            programStatus:
+    status\n            channel
+    {\n              id\n              display_title\n            }\n            tags
+    {\n              type\n              value\n            }\n            logo
+    {\n              name\n              image
+    {\n                type\n                url\n              }\n            }\n            property\n          }\n          ...
+    on VideoNew {\n            lightTitle:
+    title\n            id\n            item_type\n            series_title\n            season_title\n            discontinue\n            purchase_at\n            purchase_status\n            purchase_device_type\n            purchase_history_price\n            property\n            tag_group
+    {\n              group_name\n              tags
+    {\n                type\n                value\n              }\n            }\n            taxonomies\n            watch_history_id\n            playable
+    {\n              video_id\n              until\n              name\n              subdub\n              playable_platform\n              license_id\n            }\n            licenseStatus:
+    status
+    {\n              time\n              type\n            }\n            status_bar
+    {\n              type\n              property\n            }\n            images
+    {\n              type\n              url\n            }\n            favorite\n            time
+    {\n              last_played\n              duration\n              opening_start\n              opening_end\n              end_start\n              chapters\n            }\n            rating\n            last_watch_date\n          }\n          ...
+    on LinkText
+    {\n            id\n            item_type\n            display_text\n            link_url\n            property\n            display_start_at\n            alternative_text\n            taxonomies\n            rating_value\n            image
+    {\n              url\n              width\n              height\n              type\n            }\n          }\n          ...
+    on CollectionNew2
+    {\n            id\n            item_type\n            property\n            taxonomies\n            display_title\n            page\n            per_page\n            total\n            collection_items
+    {\n              ... on Program
+    {\n                id\n                item_type\n                images
+    {\n                  type\n                  url\n                }\n                title\n                startTime\n                startTimestamp\n                endTime\n                endTimestamp\n                synopsis\n                programStatus:
+    status\n                channel
+    {\n                  id\n                  display_title\n                }\n                tags
+    {\n                  type\n                  value\n                }\n                logo
+    {\n                  name\n                  image
+    {\n                    type\n                    url\n                  }\n                }\n                property\n              }\n              ...
+    on VideoNew {\n                lightTitle:
+    title\n                id\n                item_type\n                series_title\n                season_title\n                discontinue\n                purchase_at\n                purchase_status\n                purchase_device_type\n                purchase_history_price\n                property\n                tag_group
+    {\n                  group_name\n                  tags
+    {\n                    type\n                    value\n                  }\n                }\n                taxonomies\n                watch_history_id\n                playable
+    {\n                  video_id\n                  until\n                  name\n                  subdub\n                  playable_platform\n                  license_id\n                }\n                licenseStatus:
+    status
+    {\n                  time\n                  type\n                }\n                status_bar
+    {\n                  type\n                  property\n                }\n                images
+    {\n                  type\n                  url\n                }\n                favorite\n                time
+    {\n                  last_played\n                  duration\n                  opening_start\n                  opening_end\n                  end_start\n                  chapters\n                }\n                rating\n                last_watch_date\n              }\n              ...
+    on LinkText
+    {\n                id\n                item_type\n                display_text\n                link_url\n                property\n                display_start_at\n                alternative_text\n                taxonomies\n                rating_value\n                image
+    {\n                  url\n                  width\n                  height\n                  type\n                }\n              }\n              ...
+    on CollectionNew2
+    {\n                id\n                item_type\n                property\n                taxonomies\n                display_title\n                page\n                per_page\n                total\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_6f3747fc92974ce3bbf49d83c6abda86
+    name: Authorization
+    value: WGZXWGx1Tmhud2JLbVFmSQIrIE4wHDrVJPTHZF0iHa0ncPXAWJqjnhfg2KMxiCC8NYYf+TDwtSsycN7LylOL/SkhFxsqSY3btXjZuNdL4afVuLdQBzlOKTRXa0Lms5hwV5SNx8c5M73bwWXcsEUJgw9RyccC2iAr8rQMqnYLQDeRfIoa+IHgWnWvAF15IWgIz8LXqYHM2LZ37ydhZ0LmvCFNWKcl1FekXiN7ApKeLc8=
+authentication: {}
+metaSortKey: -1560152308586.836
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

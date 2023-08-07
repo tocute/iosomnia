@@ -1,0 +1,19 @@
+_id: fld_6319f29f72524dbc8e0039fd81d62e98
+type: RequestGroup
+parentId: wrk_8f7d981a997e49e4ba54d682b54aba19
+modified: 1690447601240
+created: 1625025782018
+name: Saku - Helper
+description: ""
+environment:
+  API_Gateway_QA: https://8pcmz1m7rl.execute-api.ap-northeast-1.amazonaws.com/qa
+  API_Gateway_PREP: https://wrx1bg6p1b.execute-api.ap-northeast-1.amazonaws.com/prep
+  API_Gateway_PROD: https://7uuemhdhqc.execute-api.ap-northeast-1.amazonaws.com/prod
+  API_Gateway_X_API_KEY: F1iDeQpUkr4S2qNDCzJpj8DtROiWMwNkkNQIKxWj
+environmentPropertyOrder:
+  "&":
+    - API_Gateway_QA
+    - API_Gateway_PREP
+    - API_Gateway_PROD
+    - API_Gateway_X_API_KEY
+metaSortKey: -1587917982380

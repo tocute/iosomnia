@@ -1,0 +1,31 @@
+_id: req_b64d7d9b15884e13abf4f0fa97b8606c
+type: Request
+parentId: fld_b9c2596055524595bef5dcd50563bee6
+modified: 1678161183903
+created: 1627456821888
+url: https://{{ _.kkvqa }}/graphql
+name: GetVersion
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n    appVersion
+    {\n        min_version\n        latest_version\n        update_url\n    }\n}"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_bde4f2106e1a4ec399b480614d915d90
+    name: X-Device-Type
+    value: sakuios
+authentication: {}
+metaSortKey: -1560152167785.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

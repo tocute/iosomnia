@@ -1,0 +1,32 @@
+_id: req_bc2297032d9442ffb516701e287de91b
+type: Request
+parentId: fld_40cee0ecb21944ca80cd9fd7213988d3
+modified: 1666772957764
+created: 1664872856933
+url: https://{{ _.staging }}/graphql
+name: download List
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n    downloadList(item_id: 1355216, item_type: \"Video\")
+    {\n        item_id\n        item_type\n        title\n    }\n}"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_f68e07228d0f4084aa5a7f68ef59f48d
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiMTQyIiwic3ViYWNjb3VudF9pZCI6IjEyOCIsImpjb21fYWNjZXNzX3Rva2VuIjoib2x6VFhNNy05OUxUcU9zOFN3VDNMLXY3VTZIYXczdXJKa1U5NEt4YTFydyIsImpjb21fcmVmcmVzaF90b2tlbiI6IkpUN2VRdDlwN0RMWU1xUmI4cEhVa1ZlMFZhb3Nza2JoNWpBWXVQd2Y1TkUiLCJkZXZpY2VfdHlwZSI6ImlvcyIsInRva2VuX3R5cGUiOiJhY2Nlc3NfdG9rZW4iLCJpc3MiOiJjbGllbnQtYXBpLXNlcnZpY2UiLCJleHAiOjE2NjQ4NzMzMTAsIm5iZiI6MTY2NDg2OTcxMCwiaWF0IjoxNjY0ODY5NzEwLCJqdGkiOiIyMGZiZGEzNC0yNTAyLTQxNTEtYjFlYS02MjU5MzRhYTVkNzEifQ.PrRnChLrShLuaVFB7Lp56S44eTchrcVsOXClRS7r0aA
+    disabled: false
+authentication: {}
+metaSortKey: -1627456886690
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

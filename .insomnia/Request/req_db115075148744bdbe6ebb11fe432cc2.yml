@@ -1,0 +1,113 @@
+_id: req_db115075148744bdbe6ebb11fe432cc2
+type: Request
+parentId: fld_40cee0ecb21944ca80cd9fd7213988d3
+modified: 1676445829971
+created: 1664246863572
+url: https://{{ _.prep }}/graphql
+name: Video Detail
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n\tcollectionNew2(\n\t\tid: \"1498775\"\n\t\ttype:
+    \"title\"\n\t\tpagination: { page: 1, per_page: 30 }\n\t)
+    {\n\t\tid\n\t\titem_type\n\t\tproperty\n\t\ttaxonomies\n\t\tdisplay_title\n\t\tnext_collection_id\n\t\tpage\n\t\tper_page\n\t\ttotal\n\t\tstart_at\n\t\tend_at\n\t\tcollection_items
+    {\n\t\t\t... on VideoNew
+    {\n\t\t\t\tid\n\t\t\t\titem_type\n\t\t\t\tseries_title\n\t\t\t\tseries_id\n\t\t\t\tseason_title\n\t\t\t\tdiscontinue\n\t\t\t\tpurchase_at\n\t\t\t\tpurchase_status\n\t\t\t\tpurchase_device_type\n\t\t\t\tpurchase_history_price\n\t\t\t\tpurchase_history_id\n\t\t\t\tpreorder_at\n\t\t\t\tpreorder_release_at\n\t\t\t\tproperty\n\t\t\t\ttag_group
+    {\n\t\t\t\t\tgroup_name\n\t\t\t\t\ttags
+    {\n\t\t\t\t\t\ttype\n\t\t\t\t\t\tvalue\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\ttaxonomies\n\t\t\t\twatch_history_id\n\t\t\t\tplayable
+    {\n\t\t\t\t\tvideo_id\n\t\t\t\t\tuntil\n\t\t\t\t\tname\n\t\t\t\t\tsubdub\n\t\t\t\t\tplayable_platform\n\t\t\t\t\tlicense_id\n\t\t\t\t}\n\t\t\t\tlicenseStatus:
+    status {\n\t\t\t\t\ttime\n\t\t\t\t\ttype\n\t\t\t\t}\n\t\t\t\tstatus
+    {\n\t\t\t\t\ttype\n\t\t\t\t\ttime\n\t\t\t\t}\n\t\t\t\tstatus_bar
+    {\n\t\t\t\t\ttype\n\t\t\t\t\tproperty\n\t\t\t\t}\n\t\t\t\tpreorder_status_bar
+    {\n\t\t\t\t\ttype\n\t\t\t\t\tproperty\n\t\t\t\t}\n\t\t\t\timages
+    {\n\t\t\t\t\ttype\n\t\t\t\t\turl\n\t\t\t\t}\n\t\t\t\tseries_images
+    {\n\t\t\t\t\ttype\n\t\t\t\t\turl\n\t\t\t\t}\n\t\t\t\tfavorite\n\t\t\t\ttime
+    {\n\t\t\t\t\tlast_played\n\t\t\t\t\tduration\n\t\t\t\t\topening_start\n\t\t\t\t\topening_end\n\t\t\t\t\tend_start\n\t\t\t\t\tchapters\n\t\t\t\t}\n\t\t\t\trating\n\t\t\t\trating_value\n\t\t\t\tlast_watch_date\n\t\t\t\ttitle\n\t\t\t\tseason_sequence\n\t\t\t\tepisode_sequence\n\t\t\t\tlanguage\n\t\t\t\tstatus_notice
+    {\n\t\t\t\t\ttime\n\t\t\t\t\ttype\n\t\t\t\t}\n\t\t\t\tsynopsis\n\t\t\t\tactors
+    {\n\t\t\t\t\trole\n\t\t\t\t\tartist
+    {\n\t\t\t\t\t\tid\n\t\t\t\t\t\trole\n\t\t\t\t\t\tname\n\t\t\t\t\t\timage
+    {\n\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t\turl\n\t\t\t\t\t\t}\n\t\t\t\t\t\tfavorite\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\tcreators
+    {\n\t\t\t\t\trole\n\t\t\t\t\tartist
+    {\n\t\t\t\t\t\tid\n\t\t\t\t\t\trole\n\t\t\t\t\t\tname\n\t\t\t\t\t\timage
+    {\n\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t\turl\n\t\t\t\t\t\t}\n\t\t\t\t\t\tfavorite\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\tdirectors
+    {\n\t\t\t\t\trole\n\t\t\t\t\tartist
+    {\n\t\t\t\t\t\tid\n\t\t\t\t\t\trole\n\t\t\t\t\t\tname\n\t\t\t\t\t\timage
+    {\n\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t\turl\n\t\t\t\t\t\t}\n\t\t\t\t\t\tfavorite\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\tactor_str\n\t\t\t\tcreator_str\n\t\t\t\tdirector_str\n\t\t\t\tcopyright\n\t\t\t\tstudio\n\t\t\t\ttrailer
+    {\n\t\t\t\t\thls\n\t\t\t\t\tmezzanine_id\n\t\t\t\t}\n\t\t\t\tunpurchased_plans
+    {\n\t\t\t\t\tpurchasable\n\t\t\t\t\tname\n\t\t\t\t\twarning_note
+    {\n\t\t\t\t\t\tstate\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\tpreordered
+    {\n\t\t\t\t\tpurchasable\n\t\t\t\t\tname\n\t\t\t\t\twarning_note
+    {\n\t\t\t\t\t\tstate\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\trating\n\t\t\t\tfirst_release_year\n\t\t\t\tduration\n\t\t\t\taward_info\n\t\t\t\tlegend_info\n\t\t\t\tfilmarks_info
+    {\n\t\t\t\t\tfilmarks_id\n\t\t\t\t\tfilmarks_genre\n\t\t\t\t\tfilmarks_url\n\t\t\t\t\ttotal_number_of_reviews\n\t\t\t\t\tscore\n\t\t\t\t}\n\t\t\t\tsvod_display_duration
+    {\n\t\t\t\t\tstart_at\n\t\t\t\t\tend_at\n\t\t\t\t}\n\t\t\t\ttvod_display_duration
+    {\n\t\t\t\t\tstart_at\n\t\t\t\t\tend_at\n\t\t\t\t}\n\t\t\t\test_display_duration
+    {\n\t\t\t\t\tstart_at\n\t\t\t\t\tend_at\n\t\t\t\t}\n\t\t\t\tdod_display_duration
+    {\n\t\t\t\t\tstart_at\n\t\t\t\t\tend_at\n\t\t\t\t}\n\t\t\t\tfvod_display_duration
+    {\n\t\t\t\t\tstart_at\n\t\t\t\t\tend_at\n\t\t\t\t}\n\t\t\t\tavod_display_duration
+    {\n\t\t\t\t\tstart_at\n\t\t\t\t\tend_at\n\t\t\t\t}\n\t\t\t\tis_downloadable\n\t\t\t}\n\t\t\t...
+    on CollectionNew2
+    {\n\t\t\t\tid\n\t\t\t\titem_type\n\t\t\t\tproperty\n\t\t\t\ttaxonomies\n\t\t\t\tdisplay_title\n\t\t\t\tnext_collection_id\n\t\t\t\tpage\n\t\t\t\tper_page\n\t\t\t\ttotal\n\t\t\t\tstart_at\n\t\t\t\tend_at\n\t\t\t\tcollection_items
+    {\n\t\t\t\t\t... on LinkText
+    {\n\t\t\t\t\t\tid\n\t\t\t\t\t\titem_type\n\t\t\t\t\t\tdisplay_text\n\t\t\t\t\t\tlink_url\n\t\t\t\t\t\tproperty\n\t\t\t\t\t\tdisplay_start_at\n\t\t\t\t\t\talternative_text\n\t\t\t\t\t\ttaxonomies\n\t\t\t\t\t\trating_value\n\t\t\t\t\t\timage
+    {\n\t\t\t\t\t\t\turl\n\t\t\t\t\t\t\twidth\n\t\t\t\t\t\t\theight\n\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t\t...
+    on VideoNew {\n\t\t\t\t\t\tlightTitle:
+    title\n\t\t\t\t\t\tid\n\t\t\t\t\t\titem_type\n\t\t\t\t\t\tseries_title\n\t\t\t\t\t\tseries_id\n\t\t\t\t\t\tseason_title\n\t\t\t\t\t\tdiscontinue\n\t\t\t\t\t\tpurchase_at\n\t\t\t\t\t\tpurchase_status\n\t\t\t\t\t\tpurchase_device_type\n\t\t\t\t\t\tpurchase_history_price\n\t\t\t\t\t\tpurchase_history_id\n\t\t\t\t\t\tpreorder_at\n\t\t\t\t\t\tpreorder_release_at\n\t\t\t\t\t\tproperty\n\t\t\t\t\t\ttag_group
+    {\n\t\t\t\t\t\t\tgroup_name\n\t\t\t\t\t\t\ttags
+    {\n\t\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t\t\tvalue\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t}\n\t\t\t\t\t\ttaxonomies\n\t\t\t\t\t\twatch_history_id\n\t\t\t\t\t\tplayable
+    {\n\t\t\t\t\t\t\tvideo_id\n\t\t\t\t\t\t\tuntil\n\t\t\t\t\t\t\tname\n\t\t\t\t\t\t\tsubdub\n\t\t\t\t\t\t\tplayable_platform\n\t\t\t\t\t\t\tlicense_id\n\t\t\t\t\t\t}\n\t\t\t\t\t\tlicenseStatus:
+    status
+    {\n\t\t\t\t\t\t\ttime\n\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t}\n\t\t\t\t\t\tstatus
+    {\n\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t\ttime\n\t\t\t\t\t\t}\n\t\t\t\t\t\tstatus_bar
+    {\n\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t\tproperty\n\t\t\t\t\t\t}\n\t\t\t\t\t\tpreorder_status_bar
+    {\n\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t\tproperty\n\t\t\t\t\t\t}\n\t\t\t\t\t\timages
+    {\n\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t\turl\n\t\t\t\t\t\t}\n\t\t\t\t\t\tseries_images
+    {\n\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t\turl\n\t\t\t\t\t\t}\n\t\t\t\t\t\tfavorite\n\t\t\t\t\t\ttime
+    {\n\t\t\t\t\t\t\tlast_played\n\t\t\t\t\t\t\tduration\n\t\t\t\t\t\t\topening_start\n\t\t\t\t\t\t\topening_end\n\t\t\t\t\t\t\tend_start\n\t\t\t\t\t\t\tchapters\n\t\t\t\t\t\t}\n\t\t\t\t\t\trating\n\t\t\t\t\t\trating_value\n\t\t\t\t\t\tlast_watch_date\n\t\t\t\t\t}\n\t\t\t\t\t...
+    on BonusDetail
+    {\n\t\t\t\t\t\tid\n\t\t\t\t\t\titem_type\n\t\t\t\t\t\ttitle\n\t\t\t\t\t\tdescription\n\t\t\t\t\t\timage
+    {\n\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t\turl\n\t\t\t\t\t\t}\n\t\t\t\t\t\tavailable_version\n\t\t\t\t\t\tplayable_platform\n\t\t\t\t\t\ttime
+    {\n\t\t\t\t\t\t\tlast_played\n\t\t\t\t\t\t\tduration\n\t\t\t\t\t\t}\n\t\t\t\t\t\tplayable_info
+    {\n\t\t\t\t\t\t\tmezzanine_id\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t\t... on
+    ArtistDetail
+    {\n\t\t\t\t\t\tid\n\t\t\t\t\t\titem_type\n\t\t\t\t\t\tname\n\t\t\t\t\t\toccupation\n\t\t\t\t\t\trole\n\t\t\t\t\t\tbirthday\n\t\t\t\t\t\thometown\n\t\t\t\t\t\tsign\n\t\t\t\t\t\tblood_type\n\t\t\t\t\t\tbio\n\t\t\t\t\t\timage
+    {\n\t\t\t\t\t\t\turl\n\t\t\t\t\t\t\twidth\n\t\t\t\t\t\t\theight\n\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t}\n\t\t\t\t\t\tfavorite\n\t\t\t\t\t}\n\t\t\t\t\t...
+    on CollectionNew2
+    {\n\t\t\t\t\t\tid\n\t\t\t\t\t\titem_type\n\t\t\t\t\t\tproperty\n\t\t\t\t\t\ttaxonomies\n\t\t\t\t\t\tdisplay_title\n\t\t\t\t\t\tnext_collection_id\n\t\t\t\t\t\tpage\n\t\t\t\t\t\tper_page\n\t\t\t\t\t\ttotal\n\t\t\t\t\t\tstart_at\n\t\t\t\t\t\tend_at\n\t\t\t\t\t\tcollection_items
+    {\n\t\t\t\t\t\t\t... on VideoNew {\n\t\t\t\t\t\t\t\tlightTitle:
+    title\n\t\t\t\t\t\t\t\tid\n\t\t\t\t\t\t\t\titem_type\n\t\t\t\t\t\t\t\tseries_title\n\t\t\t\t\t\t\t\tseries_id\n\t\t\t\t\t\t\t\tseason_title\n\t\t\t\t\t\t\t\tdiscontinue\n\t\t\t\t\t\t\t\tpurchase_at\n\t\t\t\t\t\t\t\tpurchase_status\n\t\t\t\t\t\t\t\tpurchase_device_type\n\t\t\t\t\t\t\t\tpurchase_history_price\n\t\t\t\t\t\t\t\tpurchase_history_id\n\t\t\t\t\t\t\t\tpreorder_at\n\t\t\t\t\t\t\t\tpreorder_release_at\n\t\t\t\t\t\t\t\tproperty\n\t\t\t\t\t\t\t\ttag_group
+    {\n\t\t\t\t\t\t\t\t\tgroup_name\n\t\t\t\t\t\t\t\t\ttags
+    {\n\t\t\t\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t\t\t\t\tvalue\n\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\ttaxonomies\n\t\t\t\t\t\t\t\twatch_history_id\n\t\t\t\t\t\t\t\tplayable
+    {\n\t\t\t\t\t\t\t\t\tvideo_id\n\t\t\t\t\t\t\t\t\tuntil\n\t\t\t\t\t\t\t\t\tname\n\t\t\t\t\t\t\t\t\tsubdub\n\t\t\t\t\t\t\t\t\tplayable_platform\n\t\t\t\t\t\t\t\t\tlicense_id\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\tlicenseStatus:
+    status
+    {\n\t\t\t\t\t\t\t\t\ttime\n\t\t\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\tstatus
+    {\n\t\t\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t\t\t\ttime\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\tstatus_bar
+    {\n\t\t\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t\t\t\tproperty\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\tpreorder_status_bar
+    {\n\t\t\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t\t\t\tproperty\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\timages
+    {\n\t\t\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t\t\t\turl\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\tseries_images
+    {\n\t\t\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t\t\t\turl\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\tfavorite\n\t\t\t\t\t\t\t\ttime
+    {\n\t\t\t\t\t\t\t\t\tlast_played\n\t\t\t\t\t\t\t\t\tduration\n\t\t\t\t\t\t\t\t\topening_start\n\t\t\t\t\t\t\t\t\topening_end\n\t\t\t\t\t\t\t\t\tend_start\n\t\t\t\t\t\t\t\t\tchapters\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\trating\n\t\t\t\t\t\t\t\trating_value\n\t\t\t\t\t\t\t\tlast_watch_date\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t...
+    on CollectionNew2
+    {\n\t\t\t\t\t\t\t\tid\n\t\t\t\t\t\t\t\titem_type\n\t\t\t\t\t\t\t\tproperty\n\t\t\t\t\t\t\t\ttaxonomies\n\t\t\t\t\t\t\t\tdisplay_title\n\t\t\t\t\t\t\t\tnext_collection_id\n\t\t\t\t\t\t\t\tpage\n\t\t\t\t\t\t\t\tper_page\n\t\t\t\t\t\t\t\ttotal\n\t\t\t\t\t\t\t\tstart_at\n\t\t\t\t\t\t\t\tend_at\n\t\t\t\t\t\t\t\tcollection_items
+    {\n\t\t\t\t\t\t\t\t\t... on LinkText
+    {\n\t\t\t\t\t\t\t\t\t\tid\n\t\t\t\t\t\t\t\t\t\titem_type\n\t\t\t\t\t\t\t\t\t\tdisplay_text\n\t\t\t\t\t\t\t\t\t\tlink_url\n\t\t\t\t\t\t\t\t\t\tproperty\n\t\t\t\t\t\t\t\t\t\tdisplay_start_at\n\t\t\t\t\t\t\t\t\t\talternative_text\n\t\t\t\t\t\t\t\t\t\ttaxonomies\n\t\t\t\t\t\t\t\t\t\trating_value\n\t\t\t\t\t\t\t\t\t\timage
+    {\n\t\t\t\t\t\t\t\t\t\t\turl\n\t\t\t\t\t\t\t\t\t\t\twidth\n\t\t\t\t\t\t\t\t\t\t\theight\n\t\t\t\t\t\t\t\t\t\t\ttype\n\t\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n}\n"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_64c0df83d8464201af0f682002eb863c
+  - id: pair_2fbd6b645e06433cadcfa321cc26b04a
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiNDgiLCJzdWJhY2NvdW50X2lkIjoiNDciLCJqY29tX2FjY2Vzc190b2tlbiI6ImdXRDJLZE9OWXRjWFBHbmc4blVFYV95MEFDYmwzd1VkeEsxOS1hdFIwdnciLCJqY29tX2FjY2Vzc190b2tlbl9leHBpcmVfYXQiOjE2NzY1MzMyMjgsImpjb21fcmVmcmVzaF90b2tlbiI6IklMQnRCVDVTM2IxRVh1RE5PXy1YUXdhYWQ2ckdHLTYyaUF2LTYyVGd1SEkiLCJkZXZpY2VfdHlwZSI6ImlvcyIsInRva2VuX3R5cGUiOiJhY2Nlc3NfdG9rZW4iLCJpc3MiOiJjbGllbnQtYXBpLXNlcnZpY2UiLCJleHAiOjE2NzM5NzAzMTgsIm5iZiI6MTY3Mzk0MTUxOCwiaWF0IjoxNjczOTQxNTE4LCJqdGkiOiI1NmRjNDE0OS03N2M1LTQxZGItODE2Yy1iODc0YTMxMzBlNTIifQ.qCGfp8MuwZY_ker7Aa_y9S1vaop_ImgviFUwP3QtzZI
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1590705834095.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

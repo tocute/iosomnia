@@ -1,0 +1,34 @@
+_id: req_1b17bfa2cbd04e82ae9ff38740a3dec1
+type: Request
+parentId: fld_479aafb0b2864b5e8939a4eecaac6447
+modified: 1641878436839
+created: 1641878436839
+url: https://{{ kkvqa }}/graphql
+name: Title_with_bonus
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  collectionNew2(id: \"1316951\", type: \"title\",
+    pagination: {page: 1, per_page: 30})
+    {\n    id\n    item_type\n    collection_items {\n      ... on
+    CollectionNew2 {\n        id\n        item_type\n        collection_items
+    {\n          ... on BonusDetail
+    {\n            id\n            item_type\n            title\n            description\n            image
+    {\n              type\n              url\n            }\n            available_version\n            playable_platform\n            time
+    {\n              last_played\n              duration\n            }\n            playable_info
+    {\n              mezzanine_id\n            }\n          }\n        }\n      }\n    }\n  }\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1560152304249.1863
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

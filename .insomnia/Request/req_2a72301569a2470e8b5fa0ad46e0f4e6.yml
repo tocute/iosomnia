@@ -1,0 +1,30 @@
+_id: req_2a72301569a2470e8b5fa0ad46e0f4e6
+type: Request
+parentId: fld_505de71bff8f45688478e63af81d8c3b
+modified: 1641878436586
+created: 1641878436586
+url: https://{{ kkvqa }}/graphql
+name: " deleteDownload"
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation {\n   deleteDownloadItems(\n        user_mode:
+    1\n    )\n}"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - id: pair_e1827a20371f42a6aa6bac112222db5d
+    name: Authorization
+    value: T0tyWE1kSGJWZXFEV2VtS7tfPNzDE9K6nu0rLN4R6nA82vISFTXpGVTmp6LjCYMVbOdC/VSixqeeA66XZcg+JMLobYu/u9n7TpNFZ6sD8pL2UbVufUX9B+unELzlxbLCkftEJIQJSl7hMNgjejU2f1fCHbdVOnCMaiCLsIqY0PDz8NGsfrMSOxt1fgCGQiBFyKEVNwtr4DfO2/EAlNcS5XtV9xfC59hO2y9BbvjOmi4=
+authentication: {}
+metaSortKey: -1560152168060.5
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

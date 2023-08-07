@@ -1,0 +1,28 @@
+_id: req_98b5f103fb6e4be2be8a1694b1aa6ce6
+type: Request
+parentId: fld_4afeb69068ee4be3bd296fe14331cd38
+modified: 1627457775549
+created: 1624442405176
+url: https://api.saku.kkvqa.com/playback
+name: DRM Url
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n    drm__playready: drm(name: Playready) { url
+    }\n    drm__widevine: drm(name: Widevine) { url }\n    drm__fairplay:
+    drm(name: Fairplay) { url }\n}\n"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6ebea0f0d2d34de49caab1417b334bab
+authentication: {}
+metaSortKey: -1560152219080.2004
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

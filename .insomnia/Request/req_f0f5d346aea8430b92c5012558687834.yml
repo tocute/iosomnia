@@ -1,0 +1,30 @@
+_id: req_f0f5d346aea8430b92c5012558687834
+type: Request
+parentId: fld_0dd13034911b4652bedf13f2396f6ec4
+modified: 1627457328025
+created: 1627456822080
+url: localhost:5000/health_check/qa/deploy_status
+name: Query health_check URL
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - name: api_target
+    value: '"BE API"'
+    description: ""
+    id: pair_c91642d03bbf41c7823382d3984d3699
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_697f3dfed1f746dea487dcb6929132e6
+authentication: {}
+metaSortKey: -1624814431415
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

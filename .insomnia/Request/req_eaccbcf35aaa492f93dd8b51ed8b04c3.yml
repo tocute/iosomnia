@@ -1,0 +1,35 @@
+_id: req_eaccbcf35aaa492f93dd8b51ed8b04c3
+type: Request
+parentId: fld_0ecf3074ceda435cabc277dfa6f5c4f7
+modified: 1628151923499
+created: 1628151739451
+url: "{{ _.API_Gateway_PREP }}/query_purchase_plans_by_name"
+name: query_purchase_plans_by_name
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_214e57308c524c1a9f53a7eb35290202
+    name: name
+    value: メガパック
+    description: ""
+headers:
+  - name: x-api-key
+    value: "{{ _.API_Gateway_X_API_KEY }}"
+    description: ""
+    id: pair_3ee4e69eb3c644a8b0abb177de8b078d
+    disabled: false
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_a0c3826d6a024025947daee412604a93
+    disabled: true
+authentication: {}
+metaSortKey: -1624814431405.2344
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

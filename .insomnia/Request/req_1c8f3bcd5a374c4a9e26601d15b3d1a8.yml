@@ -1,0 +1,46 @@
+_id: req_1c8f3bcd5a374c4a9e26601d15b3d1a8
+type: Request
+parentId: fld_98c2fe09bbea417bad64befcf5a90822
+modified: 1660210347335
+created: 1641878437038
+url: https://cms-api.saku.kkvqa.com/graphql
+name: Query Page
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  Collections(filter: {query: [{field: ID, operator: EQUAL,
+    value: \"361781\"}]}) {\n    items {\n      item {\n        ... on
+    Collection {\n          id\n          title\n          taxonomies
+    {\n            key\n            __typename\n          }\n          properties\n          updated_at\n          children(pagination:
+    {page: 1, per_page: 500}) {\n            items {\n              item
+    {\n                ... on Collection
+    {\n                  id\n                  title\n                  taxonomies
+    {\n                    key\n                    __typename\n                  }\n                  start_at\n                  end_at\n                  active_status\n                  updated_at\n                  properties\n                  children(pagination:
+    {page: 1, per_page: 500})
+    {\n                    total\n                    items
+    {\n                      item {\n                        ... on Collection
+    {\n                          id\n                          title\n                          children(pagination:
+    {page: 1, per_page: 1})
+    {\n                            total\n                            __typename\n                          }\n                          active_status\n                          start_at\n                          end_at\n                          __typename\n                        }\n                        ...
+    on LinkText
+    {\n                          id\n                          display_text\n                          taxonomies
+    {\n                            key\n                            __typename\n                          }\n                          start_at\n                          end_at\n                          active_status\n                          __typename\n                        }\n                        __typename\n                      }\n                      __typename\n                    }\n                    __typename\n                  }\n                  __typename\n                }\n                __typename\n              }\n              __typename\n            }\n            __typename\n          }\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}'
+parameters: []
+headers:
+  - name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJwcm92aWRlciI6IkpDT00iLCJjaGFubmVsX2lkIjowLCJwcm9wZXJ0eSI6bnVsbCwiZXhwIjoxNjU0MTU4MTI4LCJpc3MiOiJKQ09NX0NNUyIsInN1YiI6IkxPR0lORUQifQ.4urrOf6A3hdJOzqSTlDviy1gxNCTcdPWqNwmNUCXu80
+    description: ""
+    id: pair_a2633f1111dc4c0b8d0bf732d54b7c72
+  - name: Content-Type
+    value: application/json
+    id: pair_0491ce4b4fa046bd9fe4cab40c6d6994
+authentication: {}
+metaSortKey: -1621092926587.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

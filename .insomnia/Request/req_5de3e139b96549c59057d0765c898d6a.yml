@@ -1,0 +1,51 @@
+_id: req_5de3e139b96549c59057d0765c898d6a
+type: Request
+parentId: fld_e3fc13c853454d6c97689752f1c5a92a
+modified: 1641878436671
+created: 1641878436671
+url: https://api.saku.kkvqa.com/graphql
+name: Search Result
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  suggest(q: \"S\") {\n    hits\n  }\n  search(q: \"S\")
+    {\n    collection_items {\n      ... on CollectionNew2
+    {\n        id\n        item_type\n        property\n        taxonomies\n        display_title\n        page\n        per_page\n        total\n        collection_items
+    {\n          ... on CollectionNew2
+    {\n            id\n            item_type\n            property\n            taxonomies\n            display_title\n            page\n            per_page\n            total\n            collection_items
+    {\n              ... on LinkText
+    {\n                id\n                item_type\n                display_text\n                link_url\n                property\n                display_start_at\n                alternative_text\n                taxonomies\n                rating_value\n                image
+    {\n                  url\n                  width\n                  height\n                  type\n                }\n              }\n              ...
+    on VideoNew {\n                lightTitle:
+    title\n                id\n                item_type\n                series_title\n                season_title\n                discontinue\n                purchase_at\n                purchase_status\n                purchase_device_type\n                purchase_history_price\n                purchase_history_id\n                preorder_at\n                preorder_release_at\n                property\n                tag_group
+    {\n                  group_name\n                  tags
+    {\n                    type\n                    value\n                  }\n                }\n                taxonomies\n                watch_history_id\n                playable
+    {\n                  video_id\n                  until\n                  name\n                  subdub\n                  playable_platform\n                  license_id\n                }\n                licenseStatus:
+    status
+    {\n                  time\n                  type\n                }\n                status_bar
+    {\n                  type\n                  property\n                }\n                preorder_status_bar
+    {\n                  type\n                  property\n                }\n                images
+    {\n                  type\n                  url\n                }\n                favorite\n                time
+    {\n                  last_played\n                  duration\n                  opening_start\n                  opening_end\n                  end_start\n                  chapters\n                }\n                rating\n                rating_value\n                last_watch_date\n              }\n              ...
+    on Program
+    {\n                id\n                item_type\n                images
+    {\n                  type\n                  url\n                }\n                title\n                startTime\n                startTimestamp\n                endTime\n                endTimestamp\n                synopsis\n                programStatus:
+    status\n                tags
+    {\n                  type\n                  value\n                }\n                logo
+    {\n                  name\n                  image
+    {\n                    type\n                    url\n                  }\n                }\n                property\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1560152308585.2734
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

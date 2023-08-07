@@ -1,0 +1,43 @@
+_id: req_ad3f0f365ff24a6795c89dded9ec7c49
+type: Request
+parentId: fld_736540ce545c40568c6b7d60e8533e7c
+modified: 1690447171044
+created: 1690446774470
+url: https://player-adaptor.smartpass.kkv48.com/playback/v1/sessions/videos/7946/playback/7ca80d14-c0e3-49b2-b225-12b9b287da8d/info
+name: Streaming Info
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_a20fd364a6524fab829a1d4ca8d39caa
+    name: playback_token
+    value: 1175b7da5af9f6297c3d636f0c79580f
+    description: ""
+    disabled: false
+  - id: pair_401318245bf2455b948247871e52cd25
+    name: playback_type
+    value: mezzanine
+    description: ""
+headers:
+  - id: pair_0765a4fd09a448b195e91b2b1e2b2d76
+    name: Authorization
+    value: 428f221efbdb9964a477ef64c36b4a164a21f90ad33b186262b5314f50b09289
+    description: ""
+    disabled: false
+  - id: pair_161b3f709d9947d6a825ca31b2393915
+    name: X-Device-ID
+    value: 7ca80d14-c0e3-49b2-b225-12b9b287da8d
+    description: ""
+  - id: pair_bad5569ee93e412bb7979ecb802f3048
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1690446847442.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

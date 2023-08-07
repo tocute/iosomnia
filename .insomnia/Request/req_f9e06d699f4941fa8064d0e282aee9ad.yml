@@ -1,0 +1,30 @@
+_id: req_f9e06d699f4941fa8064d0e282aee9ad
+type: Request
+parentId: fld_0fb125f682c549d79e5e11c2deb1e118
+modified: 1641878436873
+created: 1641878436873
+url: "{{ _.kkvqa }}/auth/others"
+name: OAuth/Other
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: X-Authorization
+    value: a1VGekpIS1picEJRZUlRbB3Ar7vUiBT17cU9mkEVMuDniFpXho2Ktc4B3MWmeUoqRJj1B+dyA4njc/FXBX3STHsCHzkMLdZatq1QwJMWvV85NtdYnEE1kFpP1KKPM6BMlS9TN+zZ1LEd5K1m2fQOXZFJdBkc77jsjfqNe0OLpNY=
+    description: ""
+    id: pair_d7c3ad9c018843bfb34ef80f1c7b4b45
+    disabled: true
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_494591f1a8d448d5b9dfcbf7305f473c
+authentication: {}
+metaSortKey: -1560152297691.6406
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

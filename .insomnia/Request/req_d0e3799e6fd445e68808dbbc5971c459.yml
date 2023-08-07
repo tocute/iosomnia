@@ -1,0 +1,43 @@
+_id: req_d0e3799e6fd445e68808dbbc5971c459
+type: Request
+parentId: fld_31ee9480d7524100bc4547d4495b1c0e
+modified: 1627457842757
+created: 1622167887497
+url: https://{{ _.preprod }}/download
+name: DownloadToken
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n    downloadToken(item_id: 316114, item_type: Mezzanine,
+    license_id: 44398)
+    {\n        item_id\n        item_type\n        token\n        expires_at\n    }\n}"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - id: pair_e1827a20371f42a6aa6bac112222db5d
+    name: Authorization
+    value: QnlaaGV1a2RQUFR3Y1V1TLYiJ48ym0omhltHYyXcnaFVqycbg2+wFzfmChZyJBS/hROHJdY9ecZm+LqBw73k0J1JtiZljrEBYCA+aVa6AF1ggUzoFnU0E4W970eH3LQmBeQDO6bv1ZLlaSSg4L2IH4WXFUXKAGroKcisHhbcsMHeJHuz1Kwlwak+DfBTIIYPhaa2gZP0T1SyxBhZEv2mkAxfnh4uajj5Jp62Uq0WyDLN3UYe9Q7g2jKd5aUtZMWS
+  - name: x-api-key
+    value: da2-3cspkhrt4fbw5c4m2zrzdfs75e
+    description: ""
+    id: pair_7857a1965df44c4c92d133c78e626683
+  - name: X-Device-Type
+    value: sakuios
+    description: ""
+    id: pair_f7e8ff20721f45b7bf9fed5c85b6f8ad
+  - name: X-Device-ID
+    value: 0a7570a6-4fa6-4398-91b9-50a258cbd515
+    description: ""
+    id: pair_f86d0d3273d34741913505b5ad49b83f
+authentication: {}
+metaSortKey: -1560152301984.0938
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

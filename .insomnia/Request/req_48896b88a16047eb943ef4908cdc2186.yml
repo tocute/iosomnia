@@ -1,0 +1,25 @@
+_id: req_48896b88a16047eb943ef4908cdc2186
+type: Request
+parentId: fld_7a5ca5ab8270459aaf47bfbb181a440b
+modified: 1627457513486
+created: 1622779099205
+url: http://127.0.0.1:5000/otp_code/saku.bys.dongle@gmail.com
+name: OTP
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_fb004bd9db3a4cc19b6c0ae40d573839
+    name: ""
+    value: ""
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1624814431470.4688
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

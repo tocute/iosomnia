@@ -1,0 +1,53 @@
+_id: req_ed0f7603ba874c9a9124c242ac535577
+type: Request
+parentId: fld_805c974082ad4f75a9d150d7e1a7a39c
+modified: 1657093607624
+created: 1657074396010
+url: https://{{ _.prod }}/graphql
+name: Title Detail for Test
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n\tcollectionNew2(type: \"title\", id: \"83584\", pagination:
+    { per_page: 30 }) {\n\t\tcollection_items {\n\t\t\t... on VideoNew
+    {\n\t\t\t\tid\n\t\t\t\ttaxonomies\n\t\t\t\tproperty\n\t\t\t\timages
+    {\n\t\t\t\t\ttype\n\t\t\t\t\turl\n\t\t\t\t}\n\t\t\t\tseries_title\n\t\t\t\tseries_images
+    {\n\t\t\t\t\ttype\n\t\t\t\t\turl\n\t\t\t\t}\n\t\t\t\tseason_title\n\t\t\t\ttitle\n\t\t\t\ttag_group
+    {\n\t\t\t\t\tgroup_name\n\t\t\t\t\ttags
+    {\n\t\t\t\t\t\ttype\n\t\t\t\t\t\tvalue\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\tsynopsis\n\t\t\t\tstudio\n\t\t\t\tcopyright\n\t\t\t\tactor_str\n\t\t\t\tdirector_str\n\t\t\t\tcreator_str\n\t\t\t\tactors
+    {\n\t\t\t\t\trole\n\t\t\t\t\tartist
+    {\n\t\t\t\t\t\tid\n\t\t\t\t\t\tname\n\t\t\t\t\t\tfavorite\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\tdirectors
+    {\n\t\t\t\t\trole\n\t\t\t\t\tartist
+    {\n\t\t\t\t\t\tid\n\t\t\t\t\t\tname\n\t\t\t\t\t\tfavorite\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\tcreators
+    {\n\t\t\t\t\trole\n\t\t\t\t\tartist
+    {\n\t\t\t\t\t\tid\n\t\t\t\t\t\tname\n\t\t\t\t\t\tfavorite\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\trating_value\n\t\t\t\tplayable
+    {\n\t\t\t\t\tvideo_id\n\t\t\t\t\tlicense_id\n\t\t\t\t\tname\n\t\t\t\t\tsubdub\n\t\t\t\t\tuntil\n\t\t\t\t\tplayable_platform\n\t\t\t\t}\n\t\t\t\tstatus
+    {\n\t\t\t\t\ttype\n\t\t\t\t\ttime\n\t\t\t\t}\n\t\t\t\tstatus_notice
+    {\n\t\t\t\t\ttype\n\t\t\t\t\ttime\n\t\t\t\t}\n\t\t\t\tpreordered
+    {\n\t\t\t\t\tid\n\t\t\t\t\tpurchase_type\n\t\t\t\t\tprice\n\t\t\t\t\tdiscount\n\t\t\t\t\tname\n\t\t\t\t\twarning_note
+    {\n\t\t\t\t\t\tstate\n\t\t\t\t\t\tpreorder_release_time\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\tunpurchased_plans
+    {\n\t\t\t\t\tid\n\t\t\t\t\tpurchase_type\n\t\t\t\t\tprice\n\t\t\t\t\tdiscount\n\t\t\t\t\tname\n\t\t\t\t\twarning_note
+    {\n\t\t\t\t\t\tstate\n\t\t\t\t\t\tpreorder_release_time\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\ttrailer
+    {\n\t\t\t\t\tmezzanine_id\n\t\t\t\t}\n\t\t\t\tfavorite\n\t\t\t\tpreorder_status_bar
+    {\n\t\t\t\t\ttype\n\t\t\t\t}\n\t\t\t\tstatus_bar
+    {\n\t\t\t\t\ttype\n\t\t\t\t\tproperty\n\t\t\t\t}\n\t\t\t}\n\t\t\t... on
+    CollectionNew2 {\n\t\t\t\tid\n\t\t\t\titem_type\n\t\t\t}\n\t\t}\n\t}\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - id: pair_a5d497affd934fcbb1177eade51033ed
+    name: Authorization
+    value: Sk10YnhmTllNTGxiQkxCSnvIfruTwjkmnSEOThIBO1uIXPN8M71rcSQ7kl0o96RvqwMpAtBFn7stFZdOSqDLHa/qS+v98phWZmvuA3Ivr4UG4Hx1xxvBT+LFgbgelQzw1vudzNbTCpPg+SHbGO4u2Ur4N5sq3oyTg4dSVEF+kuL4eEMXIvgxIp78ZyFTBwEarUgcBnHw6kmjd5gbKBC0n37Uj9iqLrOQA7UJbtI6YyMT6jeAdscJ71dI2avxhFSk
+    description: ""
+authentication: {}
+metaSortKey: -1560152304267.8203
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

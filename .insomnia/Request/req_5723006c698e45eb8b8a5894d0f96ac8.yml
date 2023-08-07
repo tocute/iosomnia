@@ -1,0 +1,41 @@
+_id: req_5723006c698e45eb8b8a5894d0f96ac8
+type: Request
+parentId: fld_1953d041ab6b4971abb563e12033ab63
+modified: 1661934340170
+created: 1641878436928
+url: https://{{ _.preprod }}/graphql
+name: licenseCandidate
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  licenseCandidate(mezzanineId: \"1318788\")
+    {\n    cp_id\n    license_id\n  }\n}"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_bde4f2106e1a4ec399b480614d915d90
+    name: X-Device-Type
+    value: sakuweb
+    disabled: false
+  - id: pair_569e2be12b4a4e08be87a3c8d5c76bb5
+    name: Authorization
+    value: VnFIR09mc3R6c2ZTZExzZNblzfXr6PZ/fhW1Iiz7XyIRgBsFsI3ZgGp2bK+TsOczynb0zLf4T5WcaggOoIBgGH2cTvxSZ6rvhaJKBgzvp7TwGdu8TXMBAtm2oBOf4v/eM2Q5CnJAFMO16uBHuhaRcJHbOhM4E5jkygj2OLObo+Q=
+    description: ""
+    disabled: false
+  - id: pair_0bc07093a32b4c1fb7fee7bbcf485a8d
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1560152167735.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

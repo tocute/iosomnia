@@ -1,0 +1,31 @@
+_id: req_78af10cb32d0469daf316223d09983f1
+type: Request
+parentId: fld_0fb125f682c549d79e5e11c2deb1e118
+modified: 1641878436867
+created: 1641878436867
+url: https://{{ kkvqa }}/graphql
+name: password_vaildate
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n    userProfile {\n        password_vaildate(pass:
+    \"saku00777\")\n    }\n}"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_e7f2989864c140c78553ce370bf63704
+    name: Authorization
+    value: Q05GSXFpekdGR3lsbEtleTyo7xjM2ebl96Z1NeQCdns1tfAYRkA4c0rhqsPxVx9aJkv4gRhf6k/a6VoEAco2KuOnRMecJeVz0vYOh/20/IwHPy36L/06cX1aESS61LuDhtFVAZzr+KVOZlWyGUB3TvicbYfJ3GbI8Qr/1AQp1IxhoQ9y0Y2ayv/vXHAZol4cdf/bhxRSlEyLcfWxt912sXUpgUF9g5hCrlssE/tUFXI=
+authentication: {}
+metaSortKey: -1560152297566.6406
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

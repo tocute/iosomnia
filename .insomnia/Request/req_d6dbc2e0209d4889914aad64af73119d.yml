@@ -1,0 +1,31 @@
+_id: req_d6dbc2e0209d4889914aad64af73119d
+type: Request
+parentId: fld_1953d041ab6b4971abb563e12033ab63
+modified: 1641878436923
+created: 1641878436923
+url: https://{{ _.prod }}/graphql
+name: GetVersion
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n    appVersion
+    {\n        min_version\n        latest_version\n        update_url\n    }\n}"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_bde4f2106e1a4ec399b480614d915d90
+    name: X-Device-Type
+    value: sakuios
+authentication: {}
+metaSortKey: -1560152167785.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

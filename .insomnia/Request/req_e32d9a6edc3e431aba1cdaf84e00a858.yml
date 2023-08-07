@@ -1,0 +1,51 @@
+_id: req_e32d9a6edc3e431aba1cdaf84e00a858
+type: Request
+parentId: fld_5be807f61a4c4fa48a0666096a69ba5f
+modified: 1641878436966
+created: 1641878436966
+url: https://{{ kkvqa }}/download
+name: fetchDownloadList
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  downloadableList(item_id: 121, item_type: Video)
+    {\n    item_id\n    item_type\n    title\n    duration\n    age\n    license
+    {\n      id\n      time
+    {\n        start_at\n        end_at\n        before_first_play\n        after_first_play\n        offline_duration\n        first_play_end_at\n        after_first_play_end_at\n        offline_end_at\n      }\n    }\n    images
+    {\n      url\n      width\n      height\n    }\n    manifests
+    {\n      protocol\n      items
+    {\n        name\n        size\n        url\n      }\n    }\n    thumbnailSeeking
+    {\n      quality\n      url\n    }\n  }\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_50bc78a78175424d8c0d4d3a31530a1a
+    name: x-api-key
+    value: da2-3cspkhrt4fbw5c4m2zrzdfs75e
+  - description: ""
+    id: pair_15e5effd5fc0479bad805143e2ae7112
+    name: X-Device-ID
+    value: cada645e-9523-4615-82bf-ad1bdb43ebab
+    disabled: false
+  - description: ""
+    id: pair_e0008f17a49749afb6c95a79f9fde05e
+    name: X-Device-Type
+    value: sakuios
+  - description: ""
+    id: pair_bc34cff33ee3450cbeb7a58e02a5fb20
+    name: Authorization
+    value: ZnFJR2RXZ3BYUW5pdmtMWDlc55ctNszsiQXvGdK7FOwiz1tTkYKyjjE1Y8xMCaYb7YGqdOTwWLVqirIRc7yXiiaImkfPpPzvIDcfiCrycaNN7cSYBMo6QHJN+WsvE1FH1LyxB8Tvn5GNZzVly5f4oAocPJlRfYywGa2IXKfmwr0=
+    disabled: false
+authentication: {}
+metaSortKey: -1560152297479.1406
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

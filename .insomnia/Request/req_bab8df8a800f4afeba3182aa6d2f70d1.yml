@@ -1,0 +1,25 @@
+_id: req_bab8df8a800f4afeba3182aa6d2f70d1
+type: Request
+parentId: fld_0ecf3074ceda435cabc277dfa6f5c4f7
+modified: 1647330516025
+created: 1627456822057
+url: "{{ _.API_Gateway_Prod }}/query_expire"
+name: query_expire
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: x-api-key
+    value: "{{ _.API_Gateway_X_API_KEY }}"
+    description: ""
+    id: pair_ea8a449e1b4e44a09cdcc4019a64114d
+authentication: {}
+metaSortKey: -1624814431327.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

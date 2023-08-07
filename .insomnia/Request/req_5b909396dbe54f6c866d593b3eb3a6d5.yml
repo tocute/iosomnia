@@ -1,0 +1,91 @@
+_id: req_5b909396dbe54f6c866d593b3eb3a6d5
+type: Request
+parentId: fld_40cee0ecb21944ca80cd9fd7213988d3
+modified: 1664872644871
+created: 1641878437076
+url: https://{{ _.dev }}/graphql
+name: downloadableList
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n    collectionNew2(id: \"sr00109778\",type: \"series\",
+    pagination: {page: 1, per_page: 30})
+    {\n    id\nitem_type\nproperty\ntaxonomies\ndisplay_title\npage\nper_page\ntotal\n    collection_items
+    {\n... on VideoNew
+    {\n        id\n    item_type\n    series_title\n    season_title\n    discontinue\n    purchase_at\n    purchase_status\n    purchase_device_type\n    purchase_history_price\n    purchase_history_id\n    preorder_at\n    preorder_release_at\n    property\n    tag_group
+    {\n        group_name\n        tags
+    {\n            type\n            value\n        }\n    }\n    taxonomies\n    watch_history_id\n    playable
+    {\n    video_id\n    until\n    name\n    subdub\n    playable_platform\n    license_id\n}\n    licenseStatus:
+    status {\n    time\n    type\n}\n    status_bar
+    {\ntype\nproperty\n}\n    preorder_status_bar
+    {\ntype\nproperty\n}\n    images {\n    type\n    url\n}\n    series_images
+    {\n    type\n    url\n}\n    favorite\n    time
+    {\n    last_played\n    duration\n    opening_start\n    opening_end\n    end_start\n    chapters\n}\n    rating\n    rating_value\n    last_watch_date\n    title\n    season_sequence\n    episode_sequence\n    language\n    status_notice
+    {\n    time\n    type\n}\n    synopsis\n    actors {\n    role\n    artist
+    {\n        id\n        role\n        name\n        image
+    {\n    type\n    url\n}\n        favorite\n    }\n}\n    creators
+    {\n    role\n    artist
+    {\n        id\n        role\n        name\n        image
+    {\n    type\n    url\n}\n        favorite\n    }\n}\n    directors
+    {\n    role\n    artist
+    {\n        id\n        role\n        name\n        image
+    {\n    type\n    url\n}\n        favorite\n    }\n}\n    actor_str\n    creator_str\n    director_str\n    copyright\n    studio\n    trailer
+    {\n    hls\n    mezzanine_id\n}\n    unpurchased_plans
+    {\n    purchasable\n    name\n    warning_note
+    {\n        state\n    }\n}\n    preordered
+    {\n    purchasable\n    name\n    warning_note
+    {\n        state\n    }\n}\n}\n... on CollectionNew2
+    {\n    id\nitem_type\nproperty\ntaxonomies\ndisplay_title\npage\nper_page\ntotal\n    collection_items
+    {\n... on LinkText
+    {\n    id\n    item_type\n    display_text\n    link_url\n    property\n    display_start_at\n    alternative_text\n    taxonomies\n    rating_value\n    image
+    {\n        url\n        width\n        height\n        type\n    }\n}\n...
+    on VideoNew {\n    lightTitle:
+    title\n        id\n    item_type\n    series_title\n    season_title\n    discontinue\n    purchase_at\n    purchase_status\n    purchase_device_type\n    purchase_history_price\n    purchase_history_id\n    preorder_at\n    preorder_release_at\n    property\n    tag_group
+    {\n        group_name\n        tags
+    {\n            type\n            value\n        }\n    }\n    taxonomies\n    watch_history_id\n    playable
+    {\n    video_id\n    until\n    name\n    subdub\n    playable_platform\n    license_id\n}\n    licenseStatus:
+    status {\n    time\n    type\n}\n    status_bar
+    {\ntype\nproperty\n}\n    preorder_status_bar
+    {\ntype\nproperty\n}\n    images {\n    type\n    url\n}\n    series_images
+    {\n    type\n    url\n}\n    favorite\n    time
+    {\n    last_played\n    duration\n    opening_start\n    opening_end\n    end_start\n    chapters\n}\n    rating\n    rating_value\n    last_watch_date\n}\n...
+    on BonusDetail
+    {\n        id\n        item_type\n        title\n        description\n        image
+    {\n    type\n    url\n}\n        available_version\n        playable_platform\n        time
+    {\n    last_played\n    duration\n}\n        playable_info
+    {\n  mezzanine_id\n}\n    }\n... on CollectionNew2
+    {\n    id\nitem_type\nproperty\ntaxonomies\ndisplay_title\npage\nper_page\ntotal\n    collection_items
+    {\n... on VideoNew {\n    lightTitle:
+    title\n        id\n    item_type\n    series_title\n    season_title\n    discontinue\n    purchase_at\n    purchase_status\n    purchase_device_type\n    purchase_history_price\n    purchase_history_id\n    preorder_at\n    preorder_release_at\n    property\n    tag_group
+    {\n        group_name\n        tags
+    {\n            type\n            value\n        }\n    }\n    taxonomies\n    watch_history_id\n    playable
+    {\n    video_id\n    until\n    name\n    subdub\n    playable_platform\n    license_id\n}\n    licenseStatus:
+    status {\n    time\n    type\n}\n    status_bar
+    {\ntype\nproperty\n}\n    preorder_status_bar
+    {\ntype\nproperty\n}\n    images {\n    type\n    url\n}\n    series_images
+    {\n    type\n    url\n}\n    favorite\n    time
+    {\n    last_played\n    duration\n    opening_start\n    opening_end\n    end_start\n    chapters\n}\n    rating\n    rating_value\n    last_watch_date\n}\n...
+    on CollectionNew2
+    {\n    id\nitem_type\nproperty\ntaxonomies\ndisplay_title\npage\nper_page\ntotal\n    collection_items
+    {\n... on LinkText
+    {\n    id\n    item_type\n    display_text\n    link_url\n    property\n    display_start_at\n    alternative_text\n    taxonomies\n    rating_value\n    image
+    {\n        url\n        width\n        height\n        type\n    }\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_64c0df83d8464201af0f682002eb863c
+  - id: pair_2fbd6b645e06433cadcfa321cc26b04a
+    name: Authorization
+    value: dG5TWFllaFJkUnhmTUtMV/3ktyetN47Em5OxRuFg5qof+cRhS1DOQmn3ZBHb0go5GadJkOISNA2yt53lFc6tAufShCNTr28Jc4y7pzNq+A8hhfc+mSHyV4SkSGn/Hx1DaG5e+XcnPWMUa+FNfqEN66Fc+WOuVlB2thaBqDL6huk=
+    description: ""
+authentication: {}
+metaSortKey: -1591158509921
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

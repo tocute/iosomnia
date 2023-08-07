@@ -1,0 +1,27 @@
+_id: req_5f0fad6dec954127a2dde68c85bb4bfa
+type: Request
+parentId: fld_c5ae421eb67b4522ad8b5f6a06ee7bb3
+modified: 1627458042451
+created: 1622167887405
+url: https://{{ kkvqa  }}/graphql
+name: download List
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n    downloadList(item_id: 50153, item_type: \"Video\")
+    {\n        item_id\n        item_type\n        title\n    }\n}"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1560152168073
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

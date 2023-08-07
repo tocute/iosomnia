@@ -1,0 +1,29 @@
+_id: req_1f15ca8f8f4140a097959c8a8fe18259
+type: Request
+parentId: fld_0dd13034911b4652bedf13f2396f6ec4
+modified: 1664437978393
+created: 1624603080312
+url: http://video-jenkins-slave-4.kkcorp:8000/health_check/daily_test?send_success_msg=True
+name: daily_test
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: repeat_times
+    value: "1"
+    description: ""
+    id: pair_c92d02728ed344fab0fab2c03eac882a
+headers:
+  - name: Query-Environment
+    value: prep
+    description: ""
+    id: pair_b7cd0fdeecb948a2811c27e68e848e01
+authentication: {}
+metaSortKey: -1624814431615
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

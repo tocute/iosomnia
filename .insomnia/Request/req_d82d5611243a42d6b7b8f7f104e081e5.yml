@@ -1,0 +1,41 @@
+_id: req_d82d5611243a42d6b7b8f7f104e081e5
+type: Request
+parentId: fld_859f722d63c341f38a944689b58a4841
+modified: 1664871286603
+created: 1664870713052
+url: https://api.blabo.kkv48.com/download/v1/users/blabo.dev+01@gmail.com/download/222b6648-1dd5-43e4-a30a-5c1c708ff298/download_items/267956/create
+name: download_create
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_2f8c995e2e6342918538cdb6a9fcfbd1
+    name: download_token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjQ5NTc1MTYsIm5iZiI6MTY2NDg3MTExNiwiaWF0IjoxNjY0ODcxMTE2LCJqdGkiOiIzNmI5MDg4YS05Nzk5LTRhZGEtYjU3Zi1lYzE4MDhmN2NhNTIiLCJEYXRhIjp7Ikl0ZW1UeXBlIjoibWV6emFuaW5lIiwiVXNlcklEIjoiMTQyIiwiTGljZW5zZUlEIjoiMzE4NTk5IiwiTWVkaWFJRCI6IjI2Nzk1NiIsIk1lZGlhVHlwZSI6IiJ9fQ.uOgwdy6dj5ZbT8TEahwY0_6jrVA94cJjnvlN8v21d44
+    description: ""
+headers:
+  - id: pair_abc98d11a49a4a708824d144ee2f616d
+    name: X-Device-ID
+    value: 222b6648-1dd5-43e4-a30a-5c1c708ff298
+    description: ""
+  - id: pair_ad4ceeb196694b7585737fd4ea9182a2
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiMTQyIiwic3ViYWNjb3VudF9pZCI6IjEyOCIsImpjb21fYWNjZXNzX3Rva2VuIjoib2x6VFhNNy05OUxUcU9zOFN3VDNMLXY3VTZIYXczdXJKa1U5NEt4YTFydyIsImpjb21fcmVmcmVzaF90b2tlbiI6IkpUN2VRdDlwN0RMWU1xUmI4cEhVa1ZlMFZhb3Nza2JoNWpBWXVQd2Y1TkUiLCJkZXZpY2VfdHlwZSI6ImlvcyIsInRva2VuX3R5cGUiOiJhY2Nlc3NfdG9rZW4iLCJpc3MiOiJjbGllbnQtYXBpLXNlcnZpY2UiLCJleHAiOjE2NjQ4NzMzMTAsIm5iZiI6MTY2NDg2OTcxMCwiaWF0IjoxNjY0ODY5NzEwLCJqdGkiOiIyMGZiZGEzNC0yNTAyLTQxNTEtYjFlYS02MjU5MzRhYTVkNzEifQ.PrRnChLrShLuaVFB7Lp56S44eTchrcVsOXClRS7r0aA
+    description: ""
+  - id: pair_95939755184f4aca8dc768fa270506fc
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_05869b11f449489caf8e2edffbfe4b14
+    name: X-Device-Type
+    value: blaboios
+    description: ""
+authentication: {}
+metaSortKey: -1629840715116.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

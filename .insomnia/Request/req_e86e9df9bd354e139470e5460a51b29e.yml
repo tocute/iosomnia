@@ -1,0 +1,36 @@
+_id: req_e86e9df9bd354e139470e5460a51b29e
+type: Request
+parentId: fld_66012c7db230415188bef51a0c2902b5
+modified: 1690447444917
+created: 1669791895173
+url: https://pay.yallvend.com/epay/staff/staff.php
+name: staff_api
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_2a75b22b5924487d88ace36889871f02
+      name: data
+      value: '
+        {"vid":"faa62cfd575a3de6d43098c0af1b4933","amount":"12","haveAuth":false,"staff_id":"1908003","uuid":"123"}'
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_dae7193b5d8c4537be95caf8edf219c4
+  - id: pair_0a1f78fbf75f4e94a9296552b1797bb0
+    name: Referer
+    value: https://pay.yallvend.com/kkcompany?vid=faa62cfd575a3de6d43098c0af1b4933
+    description: ""
+    disabled: true
+authentication: {}
+metaSortKey: -1690447438916.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

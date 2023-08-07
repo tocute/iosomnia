@@ -1,0 +1,33 @@
+_id: req_575e0c974a05457092ee3e7e2cdc9727
+type: Request
+parentId: fld_98c2fe09bbea417bad64befcf5a90822
+modified: 1641878437044
+created: 1641878437044
+url: https://cms-api.saku.kkvqa.com/graphql
+name: bannerGroupUpdateMutation
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation bannerGroupUpdateMutation()
+    {\n  UpdateCollections(collections: [{id: 361791,\n\t\tchildren:
+    [\n\t\t\t{\n\t\t\t\titem_type: \"collection\",\n\t\t\t\titem_id:
+    378604\n\t\t\t}\n\t\t]}]) {\n    Status\n    __typename\n  }\n}\n"}'
+parameters: []
+headers:
+  - name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJwcm92aWRlciI6IkpDT00iLCJjaGFubmVsX2lkIjowLCJwcm9wZXJ0eSI6bnVsbCwiZXhwIjoxNjU0MTU4MTI4LCJpc3MiOiJKQ09NX0NNUyIsInN1YiI6IkxPR0lORUQifQ.4urrOf6A3hdJOzqSTlDviy1gxNCTcdPWqNwmNUCXu80
+    description: ""
+    id: pair_a2633f1111dc4c0b8d0bf732d54b7c72
+  - name: Content-Type
+    value: application/json
+    id: pair_0491ce4b4fa046bd9fe4cab40c6d6994
+authentication: {}
+metaSortKey: -1620991411706.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,64 @@
+_id: req_411a007d14534b31820495806964b0bb
+type: Request
+parentId: fld_e3fc13c853454d6c97689752f1c5a92a
+modified: 1641878436661
+created: 1641878436661
+url: https://{{ _.kkvqa }}/graphql
+name: megaPack
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  collectionNew2(namespace: \"mobile_new_megapack\",
+    pagination: {page: 1, per_page: 10})
+    {\n    id\n    item_type\n    property\n    taxonomies\n    display_title\n    page\n    per_page\n    total\n    collection_items
+    {\n      ... on VideoNew {\n        lightTitle:
+    title\n        id\n        item_type\n        series_title\n        property\n        taxonomies\n        watch_history_id\n        playable
+    {\n          video_id\n          until\n          name\n          subdub\n          playable_platform\n          license_id\n        }\n        images
+    {\n          type\n          url\n        }\n        series_images
+    {\n          type\n          url\n        }\n        favorite\n        time
+    {\n          last_played\n          duration\n          opening_start\n          opening_end\n          end_start\n          chapters\n        }\n        rating\n        rating_value\n      }\n      ...
+    on LinkText
+    {\n        id\n        item_type\n        display_text\n        link_url\n        property\n        display_start_at\n        alternative_text\n        taxonomies\n        rating_value\n        image
+    {\n          url\n          width\n          height\n          type\n        }\n      }\n      ...
+    on CollectionNew2
+    {\n        id\n        item_type\n        property\n        taxonomies\n        display_title\n        page\n        per_page\n        total\n        collection_items
+    {\n          ... on VideoNew {\n            lightTitle:
+    title\n            id\n            item_type\n            series_title\n            property\n            taxonomies\n            watch_history_id\n            playable
+    {\n              video_id\n              until\n              name\n              subdub\n              playable_platform\n              license_id\n            }\n            images
+    {\n              type\n              url\n            }\n            series_images
+    {\n              type\n              url\n            }\n            favorite\n            time
+    {\n              last_played\n              duration\n              opening_start\n              opening_end\n              end_start\n              chapters\n            }\n            rating\n            rating_value\n          }\n          ...
+    on LinkText
+    {\n            id\n            item_type\n            display_text\n            link_url\n            property\n            display_start_at\n            alternative_text\n            taxonomies\n            rating_value\n            image
+    {\n              url\n              width\n              height\n              type\n            }\n          }\n          ...
+    on CollectionNew2
+    {\n            id\n            item_type\n            property\n            taxonomies\n            display_title\n            page\n            per_page\n            total\n            collection_items
+    {\n              ... on VideoNew {\n                lightTitle:
+    title\n                id\n                item_type\n                series_title\n                property\n                taxonomies\n                watch_history_id\n                playable
+    {\n                  video_id\n                  until\n                  name\n                  subdub\n                  playable_platform\n                  license_id\n                }\n                images
+    {\n                  type\n                  url\n                }\n                series_images
+    {\n                  type\n                  url\n                }\n                favorite\n                time
+    {\n                  last_played\n                  duration\n                  opening_start\n                  opening_end\n                  end_start\n                  chapters\n                }\n                rating\n                rating_value\n              }\n              ...
+    on LinkText
+    {\n                id\n                item_type\n                display_text\n                link_url\n                property\n                display_start_at\n                alternative_text\n                taxonomies\n                rating_value\n                image
+    {\n                  url\n                  width\n                  height\n                  type\n                }\n              }\n              ...
+    on CollectionNew2
+    {\n                id\n                item_type\n                property\n                taxonomies\n                display_title\n                page\n                per_page\n                total\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - id: pair_e1827a20371f42a6aa6bac112222db5d
+    name: Authorization
+    value: TnVmRExaclRVckdvRGZvc/3MhjzLe82Q2WozI05xDWZgW2FFwdLVdDyp3QPBnju2QIa0AoxMJrzzMZXf1oR6/ov1KSLFVBGVVICFGaf0SmY6XR/N7QVBjdQv4kLKOH8CVcyC8US082OfPU3YudCS57nI6vePBZ1B/w9qnKQBAoA=
+authentication: {}
+metaSortKey: -1560152308679.0234
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

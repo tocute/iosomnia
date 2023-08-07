@@ -1,0 +1,31 @@
+_id: req_bc0c68c2ad6045c8976019e8b112f4a5
+type: Request
+parentId: fld_0fb125f682c549d79e5e11c2deb1e118
+modified: 1651027251973
+created: 1641878436848
+url: https://{{ _.kkvqa }}/graphql
+name: STBUserProfile
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  stbProfile(mac_addr: \"FF1210427090\")
+    {\n    \n    stb_info
+    {\n      bound\n      mac_addr\n      is_dongle\n      box_id\n      r20_viewable\n      contract_status
+    {\n        plan_name\n        subscribed_channels\n        subscribed_channel_packages\n        subscribed_packages\n        viewable_channels\n        subscribed_package_linktexts
+    {\n          display_text\n        }\n        subscribed_package_linktexts_new_nhk
+    {\n          display_text\n        }\n      }\n    }\n    property\n  }\n}"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1560152297591.6406
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,41 @@
+_id: req_ad7e83cc265647848eabc12ded6fa2dd
+type: Request
+parentId: fld_9052cb0ad23b40a99503808cd73ea93a
+modified: 1655257607717
+created: 1641277944313
+url: https://{{ _.kkvqa }}/download
+name: downloadableList
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n    downloadableList(item_id: 2167187, item_type: Video)
+    {\n            item_id\n    item_type\n    title\n    duration\n    age\n    license
+    {\n        id\n        time
+    {\n            start_at\n            end_at\n            before_first_play\n            after_first_play\n            offline_duration\n            first_play_end_at\n            after_first_play_end_at\n            offline_end_at\n        }\n    }\n    images
+    {\n    url\n    width\n    height\n}\n    manifests
+    {\n        protocol\n        items
+    {\n            name\n            size\n            url\n        }\n    }\n    thumbnailSeeking
+    {\n      quality\n      url\n    }\n\n    endStart\n\n    sort\n    season
+    {\n        title\n        id\n        sort\n        series
+    {\n            id\n            title\n            images
+    {\n    url\n    width\n    height\n}\n        }\n    }\n    mediaSource\n    }\n}
+    "}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_64c0df83d8464201af0f682002eb863c
+  - id: pair_2fbd6b645e06433cadcfa321cc26b04a
+    name: Authorization
+    value: dUttTGh6T2JIS0llbXVsUejOMQ+zI8d9VMMsCBSqtzhP5w3lCFGWAloMBWWQV0Ck1C6tQ13WZ0E9d8kyIeBhmlnJyHImmvmPPsbsYQqttLnLRraE3yEf8cJ4rxl8kB3uRttH3sAQYOyomhw1s9Ad31yp33IxOseIRXEjll2Af9j0jc4mDoOGuS3qgr19VcR8LkCuLjR0R8LNKyYdGJDg5/K35ComJmqJg6UoicvF05K01qP9oYj5rEuk8aFr5U3A
+    description: ""
+authentication: {}
+metaSortKey: -1591158509921
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

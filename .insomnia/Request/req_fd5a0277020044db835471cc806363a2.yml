@@ -1,0 +1,30 @@
+_id: req_fd5a0277020044db835471cc806363a2
+type: Request
+parentId: fld_b71c29186c5543c59b362928f4491649
+modified: 1623047490445
+created: 1622167887557
+url: https://kkvideo.atlassian.net/rest/api/2/issue/ST-8012
+name: query ticket
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    value: Basic YmlsbGNoYW5nQGtrc3RyZWFtLmNvbTpKY2QydHRWWms1R3RUeWs4aGVodkJCOUE=
+    description: ""
+    id: pair_9b19e54dda1441fda54132c7aa518ede
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_2ede1c993b6b4a8ab1e3d12db6655cd4
+authentication: {}
+metaSortKey: -1620957573413
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,37 @@
+_id: req_748edaa7d8e648fdb7a9a29cd226d25c
+type: Request
+parentId: fld_859f722d63c341f38a944689b58a4841
+modified: 1685516526259
+created: 1630551544059
+url: https://api.blabo.kkv48.com/playback/v1/sessions/videos/1351641/playback/7ca80d14-c0e3-49b2-b225-12b9b287da8d/start?playback_type=mezzanine
+name: StartRequest
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - id: pair_05869b11f449489caf8e2edffbfe4b14
+    name: X-Device-Type
+    value: blaboios
+    description: ""
+  - id: pair_95939755184f4aca8dc768fa270506fc
+    name: Accept
+    value: application/json
+    description: ""
+  - id: pair_ad4ceeb196694b7585737fd4ea9182a2
+    name: X-Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiMTAwMCIsInN1YmFjY291bnRfaWQiOiIxODIiLCJqY29tX2FjY2Vzc190b2tlbiI6IkhncVVNQ3psMXdCNGhESVBxV2FrQzhrQ0Zqa2tZR1Q5T25IWnZKN284a2MiLCJkZXZpY2VfdHlwZSI6IndlYiIsImlzcyI6ImNsaWVudC1hcGktc2VydmljZSIsImV4cCI6MjY1MzAwMDQ5NiwibmJmIjoxNjUyNjk2ODk2LCJpYXQiOjE2NTI2OTY4OTYsImp0aSI6IjY0ZDRjMWU0LTU0MGYtMTFlZC1iZGMzLTAyNDJhYzEyMDAwMiJ9.e7-sutkL0KuL22g8jDvBRZauNFZKJ8GdDET3amH3H94
+    description: ""
+  - id: pair_abc98d11a49a4a708824d144ee2f616d
+    name: X-Device-ID
+    value: 7ca80d14-c0e3-49b2-b225-12b9b287da8d
+    description: ""
+authentication: {}
+metaSortKey: -1629132285591.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

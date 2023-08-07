@@ -1,0 +1,31 @@
+_id: req_dac782feb7f741e6ad513c4701bfde7f
+type: Request
+parentId: fld_e2dab734103b44aa8845aa550022b79a
+modified: 1652344894147
+created: 1623313513067
+url: https://api.saku.kkvqa.com/graphql
+name: See More Search Result
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  search(q: \"A\") {\n    collection_items {\n      ... on
+    CollectionNew2 {\n        id\n        collection_items {\n          ... on
+    CollectionNew2 {\n            id\n            collection_items
+    {\n              ... on VideoNew {\n                lightTitle:
+    title\n                id\n                item_type\n                series_images
+    {\n                  type\n                  url\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1560152308604.0234
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

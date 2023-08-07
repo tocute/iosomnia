@@ -1,0 +1,32 @@
+_id: req_b496f4b13d864013a52f782bf584b745
+type: Request
+parentId: fld_479aafb0b2864b5e8939a4eecaac6447
+modified: 1661934347461
+created: 1641878436768
+url: https://{{ staging  }}/graphql
+name: License
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n    licenseCandidate(mezzanineId: \"462899\")
+    {\n        cp_id\n        license_id\n        service_category\n        license_new_asset_id\n        package_id\n        package_name\n        package_type\n        package_new_asset_id\n        discount_price\n        isCatchUp\n        video_display_name\n        series_id\n        series_name\n        season_index\n        episode_index\n        genre_id\n        content_rating\n        start_time\n        end_time\n        flip_type\n        sales_plan\n        meta_license_id\n        meta_package_id\n        meta_group_id\n    }\n}"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_c23888eb288d482384d87abb1a08793c
+    name: Authorization
+    value: YXZXeHJFbFFRUWFHSlVBWTZdzniI/+u4uXr37a9NW67ESz8CCQx4AI318HNw3tu5GRHlwOX7pysAUxKAGWLfjZvwMxFBOJxPO3k4Ity2U5+orRadzLqXTVTi1FBv3QAqwXVw8CDq269cRsjAYYusDbkDii5Hphuu2TcQ0bX/aGPXl/AZmOiuHc8ud1O7xyfeFwI6PcRnrH3yZVM2DIUIGyN9Xg/T8MG8Wu8+ljrDnkw=
+    disabled: true
+authentication: {}
+metaSortKey: -1560152304249.8516
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,38 @@
+_id: req_d68549fb9701444391887c474793d44a
+type: Request
+parentId: fld_805c974082ad4f75a9d150d7e1a7a39c
+modified: 1657074022172
+created: 1625823693317
+url: https://{{ _.prod }}/graphql
+name: title
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  collectionNew2(\n    type: \"title\",\n    id:
+    \"1431430\",\n    pagination: {per_page: 30}\n  ) {\n    collection_items
+    {\n      ... on VideoNew
+    {\n        id\n        taxonomies\n        property\n        title\n      }\n    }\n  }\n}"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - id: pair_e1827a20371f42a6aa6bac112222db5d
+    name: Authorization
+    value: Y2tNTEhsSE11T2J6a2pqRydciON7m0OWE0L+5JGLBIgDbgx8qIIpFJsKuZ+3/jdViHOdf7dunBbW5s4Upae5TU2mqwpqFpcKSAIQq6XV9ARFGrUeIpjpIXb54ckgqWdqynfHyNS4zxWpPnAVBIkNDbYJfhD/O/VZImbgXlZxVek=
+    disabled: false
+  - id: pair_5d7fd36fd13e4734a256d369dbcf553c
+    name: X-Device-Type
+    value: sakuweb
+    description: ""
+    disabled: true
+authentication: {}
+metaSortKey: -1560152304299.0703
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

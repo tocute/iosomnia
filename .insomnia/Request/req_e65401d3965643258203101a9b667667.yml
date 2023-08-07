@@ -1,0 +1,35 @@
+_id: req_e65401d3965643258203101a9b667667
+type: Request
+parentId: fld_ae822c0767ca4b71bbf2b740ae1c9d2a
+modified: 1641877240652
+created: 1627456821891
+url: https://{{ kkvqa }}/graphql
+name: UserProfile
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n    userProfile(code:
+    \"qg7FpoqkPkoZd5VQZ_q97J4tjQ3VK5UfIYE5d1TSJqk\")
+    {\n        auth_token\n        stb_list
+    {\n            box_id\n            mac_addr\n            bound\n            contract_status
+    {\n                plan_name\n                subscribed_channels\n                subscribed_packages\n                viewable_channels\n                subscribed_channel_packages\n            }\n        }\n        user_type\n        name\n        age\n        gender\n        email\n        property\n        rating_user\n        rating_subscriber\n    }\n}"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_15c91993778c47ed89424380314183af
+    name: Authorization
+    value: cWhNbEVLRm1VRVJpb0dCUCeGx9V/Ole8+OfiXF6x8Jn/4BDd18bLze0FJwq6Z6EYD/y1N4917tF1M26/+9mhQocmWtMRUkunPH8zZrZBRSfw5uWVSKvc44TAIJ3RxQ3XJJrLI+HLQze6nrDzX00DkpQl1ATLw5FgA9Piy7HuEUs4/jNi48shVZK28pTouMSz4NnkQW6jbvT8PMX6QFaFDYvi7YscrS2K7TcyYVMKSZo=
+    disabled: true
+authentication: {}
+metaSortKey: -1560152297579.1406
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

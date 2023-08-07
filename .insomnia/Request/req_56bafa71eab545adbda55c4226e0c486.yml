@@ -1,0 +1,37 @@
+_id: req_56bafa71eab545adbda55c4226e0c486
+type: Request
+parentId: fld_66012c7db230415188bef51a0c2902b5
+modified: 1690447442185
+created: 1690339034778
+url: https://pay.yallvend.com/epay/model/payment_api
+name: payment_api
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - name: key
+      value: 7cebabb13fc431ecac1bb3deaa59ef47f615de6c5d62f161c4f4d4561b4103c3
+      id: pair_fa7e5861bdb44859b58ea416bfbbb110
+    - id: pair_f2b8cb7e14a54ed1bc88f1dfd2b012c6
+      name: func
+      value: loadDefaultAmount
+      description: ""
+    - id: pair_98f0742597f14ade9c78e26d9193fab9
+      name: vidCode
+      value: faa62cfd575a3de6d43098c0af1b4933
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_dae7193b5d8c4537be95caf8edf219c4
+authentication: {}
+metaSortKey: -1690447439403
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

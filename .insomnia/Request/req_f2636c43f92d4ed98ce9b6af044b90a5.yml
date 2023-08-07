@@ -1,0 +1,29 @@
+_id: req_f2636c43f92d4ed98ce9b6af044b90a5
+type: Request
+parentId: fld_40cee0ecb21944ca80cd9fd7213988d3
+modified: 1647932848610
+created: 1647932661502
+url: https://api.blabo.kkv-test.com/client/v1/pages/150/items?page=1&per_page=10
+name: GetPageInfo
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: X-Device-Type
+    value: blaboios
+    description: ""
+    id: pair_eaee5fe09a944a9db006a53c8df6d43a
+  - id: pair_93d5c543fa6b40a88d600201e9a521a9
+    name: X-Device-ID
+    value: 5224cead-a04c-485a-89c7-8e43b3414329
+    description: ""
+authentication: {}
+metaSortKey: -1567903599638
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

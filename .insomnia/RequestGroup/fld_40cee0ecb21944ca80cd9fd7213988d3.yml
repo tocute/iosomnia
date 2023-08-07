@@ -1,0 +1,17 @@
+_id: fld_40cee0ecb21944ca80cd9fd7213988d3
+type: RequestGroup
+parentId: wrk_8f7d981a997e49e4ba54d682b54aba19
+modified: 1683092652508
+created: 1641878436556
+name: Blabo
+description: ""
+environment:
+  dev: api.blabo.kkv-test.com
+  stag: api.blabo.kkv48.com
+  prep: api.blabo.preottfs.com
+environmentPropertyOrder:
+  "&":
+    - dev
+    - stag
+    - prep
+metaSortKey: -1554878383338

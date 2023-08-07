@@ -1,0 +1,34 @@
+_id: req_63650546429340b1abb8703ffa9b9f47
+type: Request
+parentId: fld_40cee0ecb21944ca80cd9fd7213988d3
+modified: 1671518379253
+created: 1664245832265
+url: https://{{ _.staging }}/graphql
+name: GOD Detail
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n\tcollectionNew2(\n\t\tid:
+    \"ted_test_package_167081597546571_ZII\"\n\t\ttype:
+    \"package_id\"\n\t\tpagination: { page: 1, per_page: 300 }\n\t)
+    {\n\t\tid\n\t}\n}\n"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_64c0df83d8464201af0f682002eb863c
+  - id: pair_2fbd6b645e06433cadcfa321cc26b04a
+    name: Authorization
+    value: dG5TWFllaFJkUnhmTUtMV/3ktyetN47Em5OxRuFg5qof+cRhS1DOQmn3ZBHb0go5GadJkOISNA2yt53lFc6tAufShCNTr28Jc4y7pzNq+A8hhfc+mSHyV4SkSGn/Hx1DaG5e+XcnPWMUa+FNfqEN66Fc+WOuVlB2thaBqDL6huk=
+    description: ""
+    disabled: true
+authentication: {}
+metaSortKey: -1590856726037.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

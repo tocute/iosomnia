@@ -1,0 +1,30 @@
+_id: req_44e4f1f0f069416eacdcce41f51fbc7d
+type: Request
+parentId: fld_b64bd6da4e5b441096a0ec4c7a1a11a2
+modified: 1627456908828
+created: 1627456822121
+url: https://auth.test.id2.zaq.ne.jp/task/u-bUX5zLQHSJGcW172IjhA/verify/otp
+name: login_2
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - name: otp
+      value: "731803"
+      description: ""
+      id: pair_61907d33b99e482cb084d78faa9a6a79
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_899c438d92f841c0b8677924e78281da
+authentication: {}
+metaSortKey: -1620957581347
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

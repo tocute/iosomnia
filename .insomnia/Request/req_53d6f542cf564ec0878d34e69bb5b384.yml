@@ -1,0 +1,30 @@
+_id: req_53d6f542cf564ec0878d34e69bb5b384
+type: Request
+parentId: fld_0ecf3074ceda435cabc277dfa6f5c4f7
+modified: 1644993183779
+created: 1627456822042
+url: "{{ _.API_Gateway_PREP }}/query_purchase_plans"
+name: query_purchase_plans
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: x-api-key
+    value: "{{ _.API_Gateway_X_API_KEY }}"
+    description: ""
+    id: pair_3ee4e69eb3c644a8b0abb177de8b078d
+    disabled: false
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_a0c3826d6a024025947daee412604a93
+authentication: {}
+metaSortKey: -1624814431415
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

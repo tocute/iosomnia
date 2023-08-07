@@ -1,0 +1,43 @@
+_id: req_d9f15ca40b214d23b99c24423c6d525b
+type: Request
+parentId: fld_98c2fe09bbea417bad64befcf5a90822
+modified: 1660210344918
+created: 1641878437060
+url: https://cms-api.saku.kkvqa.com/graphql
+name: CMS Page List
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":" {\n  Collections(filter: {\n    query:
+    [\n\t\t\t{\n\t\t\t\tfield: SOURCE,\n\t\t\t\toperator: EQUAL,\n\t\t\t\tvalue:
+    \"jcom\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tfield: TAXONOMIES,\n\t\t\t\toperator:
+    IN,\n\t\t\t\tvalue: \"cms-page\"\n\t\t\t}\n\t\t],\n\t\tsort:
+    [\n\t\t\t{\n\t\t\t\tfield: ID,\n\t\t\t\tdesc:
+    true\n\t\t\t}\n\t\t],\n\t\tpagination: {\n\t\t\tpage: 1,\n\t\t\tper_page:
+    10\n\t\t}\n  }) {\n    total\n    items {\n      item {\n        ... on
+    Collection
+    {\n          id\n          title\n          updated_at\n          taxonomies
+    {\n            key\n            __typename\n          }\n          properties\n          children(pagination:
+    {page: 1, per_page: 500}) {\n            items {\n              item
+    {\n                ... on Collection
+    {\n                  id\n                  taxonomies
+    {\n                    key\n                    __typename\n                  }\n                  __typename\n                }\n                __typename\n              }\n              __typename\n            }\n            __typename\n          }\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_320dc3f720774c9e910cfe983b814f16
+  - name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJwcm92aWRlciI6IkpDT00iLCJjaGFubmVsX2lkIjowLCJwcm9wZXJ0eSI6bnVsbCwiZXhwIjoxNjQ1NTk5Nzg0LCJpc3MiOiJKQ09NX0NNUyIsInN1YiI6IkxPR0lORUQifQ.RRjCAnxwC5Gkp64TLRae_3xqQbZb9Pacao_cw99q_TQ
+    description: ""
+    id: pair_d5327b7d4efb444dac9ede182237b5f8
+authentication: {}
+metaSortKey: -1621160603174.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

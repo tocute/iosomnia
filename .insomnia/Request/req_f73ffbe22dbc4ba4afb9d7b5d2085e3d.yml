@@ -1,0 +1,30 @@
+_id: req_f73ffbe22dbc4ba4afb9d7b5d2085e3d
+type: Request
+parentId: fld_805c974082ad4f75a9d150d7e1a7a39c
+modified: 1627458422437
+created: 1627456821730
+url: https://api.saku.kkvqa.com/graphql
+name: series
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  collectionNew2(id: \"sr00005409\", type: \"series\",
+    pagination: {page: 1, per_page: 30}) {\n    id\n  }\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - id: pair_e1827a20371f42a6aa6bac112222db5d
+    name: Authorization
+    value: QWRXeE5jVldOSUFBTHppdM6AVNdZdA2ly/54lfIyYWGqH94DGfKwaMvf3kWBQptbOr2bzx1gH3tpSKJLjjEz8VagTxJX9uwu+mUB6imfkyLeSD3X2QwmwL3pgh1yZSp32xjVc6DBif1jYmGBZA8uoiPWmhp8ZmF0DAO1GvWUpRpm1QovvMFJ5k8H0Kmv2C6siIdtE1DVgo8HRHM538ZzGyaYS/ikQT262C1VyBw4TVc=
+authentication: {}
+metaSortKey: -1560152304249.3633
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

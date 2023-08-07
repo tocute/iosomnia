@@ -1,0 +1,65 @@
+_id: req_72ff011a367b4786b6a83fdccfe1329b
+type: Request
+parentId: fld_505de71bff8f45688478e63af81d8c3b
+modified: 1660205835177
+created: 1641878436597
+url: https://{{ _.staging }}/graphql
+name: Watch List
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n\tcollectionNew2(\n\t\tid:
+    \"virtual-itemgroup-account-viewed_content\"\n\t\tfilters:
+    [\"ui-filter-sort-watched-time\"]\n\t\tpagination: { page: 1, per_page: 30
+    }\n\t)
+    {\n\t\tid\n\t\titem_type\n\t\tproperty\n\t\ttaxonomies\n\t\tdisplay_title\n\t\tnext_collection_id\n\t\tpage\n\t\tper_page\n\t\ttotal\n\t\tcollection_items
+    {\n\t\t\t... on VideoNew {\n\t\t\t\tlightTitle:
+    title\n\t\t\t\tid\n\t\t\t\titem_type\n\t\t\t\tseries_title\n\t\t\t\tseries_id\n\t\t\t\tseason_title\n\t\t\t\tdiscontinue\n\t\t\t\tpurchase_at\n\t\t\t\tpurchase_status\n\t\t\t\tpurchase_device_type\n\t\t\t\tpurchase_history_price\n\t\t\t\tpurchase_history_id\n\t\t\t\tpreorder_at\n\t\t\t\tpreorder_release_at\n\t\t\t\tproperty\n\t\t\t\ttag_group
+    {\n\t\t\t\t\tgroup_name\n\t\t\t\t\ttags
+    {\n\t\t\t\t\t\ttype\n\t\t\t\t\t\tvalue\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\ttaxonomies\n\t\t\t\twatch_history_id\n\t\t\t\tplayable
+    {\n\t\t\t\t\tvideo_id\n\t\t\t\t\tuntil\n\t\t\t\t\tname\n\t\t\t\t\tsubdub\n\t\t\t\t\tplayable_platform\n\t\t\t\t\tlicense_id\n\t\t\t\t}\n\t\t\t\tlicenseStatus:
+    status {\n\t\t\t\t\ttime\n\t\t\t\t\ttype\n\t\t\t\t}\n\t\t\t\tstatus_bar
+    {\n\t\t\t\t\ttype\n\t\t\t\t\tproperty\n\t\t\t\t}\n\t\t\t\tpreorder_status_bar
+    {\n\t\t\t\t\ttype\n\t\t\t\t\tproperty\n\t\t\t\t}\n\t\t\t\timages
+    {\n\t\t\t\t\ttype\n\t\t\t\t\turl\n\t\t\t\t}\n\t\t\t\tseries_images
+    {\n\t\t\t\t\ttype\n\t\t\t\t\turl\n\t\t\t\t}\n\t\t\t\tfavorite\n\t\t\t\ttime
+    {\n\t\t\t\t\tlast_played\n\t\t\t\t\tduration\n\t\t\t\t\topening_start\n\t\t\t\t\topening_end\n\t\t\t\t\tend_start\n\t\t\t\t\tchapters\n\t\t\t\t}\n\t\t\t\trating\n\t\t\t\trating_value\n\t\t\t\tlast_watch_date\n\t\t\t}\n\t\t\t...
+    on LinkText
+    {\n\t\t\t\tid\n\t\t\t\titem_type\n\t\t\t\tdisplay_text\n\t\t\t\tlink_url\n\t\t\t\tproperty\n\t\t\t\tdisplay_start_at\n\t\t\t\talternative_text\n\t\t\t\ttaxonomies\n\t\t\t\trating_value\n\t\t\t\timage
+    {\n\t\t\t\t\turl\n\t\t\t\t\twidth\n\t\t\t\t\theight\n\t\t\t\t\ttype\n\t\t\t\t}\n\t\t\t}\n\t\t\t...
+    on ArtistDetail
+    {\n\t\t\t\tid\n\t\t\t\titem_type\n\t\t\t\tname\n\t\t\t\toccupation\n\t\t\t\tbirthday\n\t\t\t\thometown\n\t\t\t\tsign\n\t\t\t\tblood_type\n\t\t\t\tbio\n\t\t\t\timage
+    {\n\t\t\t\t\turl\n\t\t\t\t\twidth\n\t\t\t\t\theight\n\t\t\t\t\ttype\n\t\t\t\t}\n\t\t\t\tfavorite\n\t\t\t}\n\t\t\t...
+    on Program
+    {\n\t\t\t\tid\n\t\t\t\tmeta_program_id\n\t\t\t\titem_type\n\t\t\t\timages
+    {\n\t\t\t\t\ttype\n\t\t\t\t\turl\n\t\t\t\t}\n\t\t\t\ttitle\n\t\t\t\tstartTime\n\t\t\t\tstartTimestamp\n\t\t\t\tendTime\n\t\t\t\tendTimestamp\n\t\t\t\tsynopsis\n\t\t\t\tprogramStatus:
+    status\n\t\t\t\tchannel
+    {\n\t\t\t\t\tid\n\t\t\t\t\tdisplay_title\n\t\t\t\t\tproperty\n\t\t\t\t}\n\t\t\t\ttags
+    {\n\t\t\t\t\ttype\n\t\t\t\t\tvalue\n\t\t\t\t}\n\t\t\t\ttag_group
+    {\n\t\t\t\t\tgroup_name\n\t\t\t\t\ttags
+    {\n\t\t\t\t\t\ttype\n\t\t\t\t\t\tvalue\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\tlogo
+    {\n\t\t\t\t\tname\n\t\t\t\t\timage
+    {\n\t\t\t\t\t\ttype\n\t\t\t\t\t\turl\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\tis_favorite\n\t\t\t\tcatchup_info
+    {\n\t\t\t\t\titem_id\n\t\t\t\t\titem_type\n\t\t\t\t}\n\t\t\t\trating\n\t\t\t\tactors\n\t\t\t\tactor_str\n\t\t\t\tproperty\n\t\t\t}\n\t\t\t...
+    on PaidLive
+    {\n\t\t\t\tid\n\t\t\t\tmeta_id\n\t\t\t\ttitle\n\t\t\t\titem_type\n\t\t\t\tthumbnail
+    {\n\t\t\t\t\ttype\n\t\t\t\t\turl\n\t\t\t\t}\n\t\t\t\tschedule_start_timestamp\n\t\t\t\tschedule_end_timestamp\n\t\t\t\tcatchup_start_timestamp\n\t\t\t\tcatchup_end_timestamp\n\t\t\t\tlive_status\n\t\t\t\tpurchase_history_id\n\t\t\t\tpurchase_history_price\n\t\t\t\tpurchase_at\n\t\t\t\tpurchase_device_type\n\t\t\t\tlast_watch_date_timestamp\n\t\t\t}\n\t\t}\n\t}\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - id: pair_a5d497affd934fcbb1177eade51033ed
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiNDMiLCJzdWJhY2NvdW50X2lkIjoiNDAiLCJqY29tX2FjY2Vzc190b2tlbiI6IjZuMzMtRnBpMFd2Tm8wMlpYa1lEOXZ6cDhFNDloM1ZydjNsNmZpZGpRN1kiLCJqY29tX3JlZnJlc2hfdG9rZW4iOiJFUDNrTW5QN1doZW5icDdWb3pEZ202YzhDWmZNWTg0VkZzMHRHR1BjLTVnIiwiZGV2aWNlX3R5cGUiOiJpb3MiLCJ0b2tlbl90eXBlIjoiYWNjZXNzX3Rva2VuIiwiaXNzIjoiY2xpZW50LWFwaS1zZXJ2aWNlIiwiZXhwIjoxNjU4OTk4NjgzLCJuYmYiOjE2NTg5OTUwODMsImlhdCI6MTY1ODk5NTA4MywianRpIjoiYjczNjQ0ODktMDQ3OC00ZDQwLTlhY2ItYzhjNTgyZDViYWFjIn0.17Onmh7ReEU2SVKecvH1QJMMdGf3wQWXEhXgrch7o4M
+    description: ""
+authentication: {}
+metaSortKey: -1560152168066.75
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

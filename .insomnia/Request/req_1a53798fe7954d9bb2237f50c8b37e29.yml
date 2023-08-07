@@ -1,0 +1,32 @@
+_id: req_1a53798fe7954d9bb2237f50c8b37e29
+type: Request
+parentId: fld_ae822c0767ca4b71bbf2b740ae1c9d2a
+modified: 1641784567180
+created: 1627456821946
+url: https://{{ _.prod }}/graphql
+name: GetUserProfile
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  userProfile(code: null) {\n    auth_token\n    stb_list
+    {\n      box_id\n      mac_addr\n      bound\n      is_dongle\n      contract_status
+    {\n        plan_name\n        subscribed_channels\n        subscribed_packages\n        viewable_channels\n        subscribed_channel_packages\n      }\n    }\n    user_type\n    name\n    age\n    gender\n    email\n    property\n    rating_user\n    rating_subscriber\n  }\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - id: pair_e1827a20371f42a6aa6bac112222db5d
+    name: Authorization
+    value: SFpvdlh3YWdGeUVidWxFaR2rhbGP8fvowROTUozB+LS0RA5mGusG3XRzyWTd09CUY8T6Q/vFXXKVtgeWyRc5k3XglObdpjfn4VBWBNgnPqicHQPpQJ3w9XD4C7hhJx4e+8mW1lu9ipUGL2NKGM+5o0mhh6JJoLdVSx8LalpxQZA=
+    disabled: false
+authentication: {}
+metaSortKey: -1560152297554.1406
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

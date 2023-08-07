@@ -1,0 +1,30 @@
+_id: req_da8e78069ae24ceb9fa249d7bd968486
+type: Request
+parentId: fld_0499a42f4160497391649ddefe8734b4
+modified: 1627456934042
+created: 1627456822104
+url: https://cms-api.saku.kkvqa.com/login
+name: CMS Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "kkstream",
+    	"password": "kkstream0077"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_320dc3f720774c9e910cfe983b814f16
+authentication: {}
+metaSortKey: -1621363632935.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

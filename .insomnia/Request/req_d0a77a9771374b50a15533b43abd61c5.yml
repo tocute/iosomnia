@@ -1,0 +1,62 @@
+_id: req_d0a77a9771374b50a15533b43abd61c5
+type: Request
+parentId: fld_40cee0ecb21944ca80cd9fd7213988d3
+modified: 1666772952119
+created: 1664269020992
+url: https://{{ _.staging }}/graphql
+name: My Favorite
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n    collectionNew2(id:
+    \"virtual-itemgroup-account-favorite_content\",filters:
+    [\"ui-filter-sort-created-time\"], pagination: {page: 2, per_page: 30})
+    {\n    id\nitem_type\nproperty\ntaxonomies\ndisplay_title\nnext_collection_id\npage\nper_page\ntotal\nstart_at\nend_at\n    collection_items
+    {\n... on VideoNew {\n    lightTitle:
+    title\n        id\n    item_type\n    series_title\n    series_id\n    season_title\n    discontinue\n    purchase_at\n    purchase_status\n    purchase_device_type\n    purchase_history_price\n    purchase_history_id\n    preorder_at\n    preorder_release_at\n    property\n    tag_group
+    {\n        group_name\n        tags
+    {\n            type\n            value\n        }\n    }\n    taxonomies\n    watch_history_id\n    playable
+    {\n    video_id\n    until\n    name\n    subdub\n    playable_platform\n    license_id\n}\n    licenseStatus:
+    status {\n    time\n    type\n}\n    status {\ntype\ntime\n}\n    status_bar
+    {\ntype\nproperty\n}\n    preorder_status_bar
+    {\ntype\nproperty\n}\n    images {\n    type\n    url\n}\n    series_images
+    {\n    type\n    url\n}\n    favorite\n    time
+    {\n    last_played\n    duration\n    opening_start\n    opening_end\n    end_start\n    chapters\n}\n    rating\n    rating_value\n    last_watch_date\n}\n...
+    on LinkText
+    {\n    id\n    item_type\n    display_text\n    link_url\n    property\n    display_start_at\n    alternative_text\n    taxonomies\n    rating_value\n    image
+    {\n        url\n        width\n        height\n        type\n    }\n}\n...
+    on ArtistDetail
+    {\n        id\n        item_type\n        name\n        occupation\n        role\n        birthday\n        hometown\n        sign\n        blood_type\n        bio\n        image
+    {\n            url\n            width\n            height\n            type\n        }\n        favorite\n    }\n...
+    on Program
+    {\n    id\n    meta_program_id\n    item_type\n    taxonomies\n    images
+    {\n    type\n    url\n}\n    title\n    startTime\n    startTimestamp\n    endTime\n    endTimestamp\n    synopsis\n    programStatus:
+    status\n    channel {\n    id\n    display_title\n    property\n}\n    tags
+    {\n    type\n    value\n}\n    tag_group {\n        group_name\n        tags
+    {\n            type\n            value\n        }\n    }\n    logo
+    {\n    name\n    image
+    {\n    type\n    url\n}\n}\n    is_favorite\n    catchup_info
+    {\n        item_id\n        item_type\n    }\n    rating\n    rating_value\n    actors\n    actor_str\n    property\n    is_on_air\n}\n...
+    on PaidLive {\n    id\n    meta_id\n    title\n    item_type\n    images
+    {\n    type\n    url\n}\n    schedule_start_timestamp\n    schedule_end_timestamp\n    catchup_start_timestamp\n    catchup_end_timestamp\n    live_status\n    taxonomies\n    purchase_history_id\n    purchase_history_price\n    purchase_at\n    purchase_device_type\n    watch_history_id\n    last_watch_date_timestamp\n    favorite_content_id\n    is_exclusive\n    is_free\n    is_new_arrival\n    is_on_air\n    time
+    {\n    last_played\n    duration\n    opening_start\n    opening_end\n    end_start\n    chapters\n}\n    rating\n    rating_value\n}\n}\n}\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_64c0df83d8464201af0f682002eb863c
+  - id: pair_2fbd6b645e06433cadcfa321cc26b04a
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiMTI0Iiwic3ViYWNjb3VudF9pZCI6IjEwNSIsImpjb21fYWNjZXNzX3Rva2VuIjoiZGdKaE02RW9WdWhqaUZwY2NBTTh0dUNaR3VmdEdWN2xqY1RxeDl4MkVyOCIsImpjb21fcmVmcmVzaF90b2tlbiI6IjVORkJ1dGlQOGN6WmNBN21tNHg4VXVsMHhYT1pCSXFMYTZVV3pVM2FFMzAiLCJkZXZpY2VfdHlwZSI6ImlvcyIsInRva2VuX3R5cGUiOiJhY2Nlc3NfdG9rZW4iLCJpc3MiOiJjbGllbnQtYXBpLXNlcnZpY2UiLCJleHAiOjE2NjY2ODc1NTAsIm5iZiI6MTY2NjY4Mzk1MCwiaWF0IjoxNjY2NjgzOTUwLCJqdGkiOiI0MGNhMTQxOS1lOGEyLTRhZmQtOGNhMy1iYThjMDQ2ZmE0YTQifQ.bg0_9Td2aH85fehBkB0FleWnkw37h0iFdX4IRyTe15E
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1590781280066.3125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

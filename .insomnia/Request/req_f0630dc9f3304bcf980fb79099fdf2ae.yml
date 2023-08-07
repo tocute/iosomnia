@@ -1,0 +1,33 @@
+_id: req_f0630dc9f3304bcf980fb79099fdf2ae
+type: Request
+parentId: fld_40cee0ecb21944ca80cd9fd7213988d3
+modified: 1661247656903
+created: 1651653090099
+url: https://api.blabo.kkv48.com/client/v1/channels
+name: GetChannelList
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: X-Device-Type
+    value: blaboios
+    description: ""
+    id: pair_eaee5fe09a944a9db006a53c8df6d43a
+  - id: pair_93d5c543fa6b40a88d600201e9a521a9
+    name: X-Device-ID
+    value: 5224cead-a04c-485a-89c7-8e43b3414329
+    description: ""
+  - id: pair_07fecf20e32e4f3fa6667e30ad894f94
+    name: ""
+    value: SFpvdlh3YWdGeUVidWxFaR2rhbGP8fvowROTUozB+LS0RA5mGusG3XRzyWTd09CUY8T6Q/vFXXKVtgeWyRc5k3XglObdpjfn4VBWBNgnPqicHQPpQJ3w9XD4C7hhJx4e+8mW1lu9ipUGL2NKGM+5o0mhh6JJoLdVSx8LalpxQZA=
+    description: ""
+authentication: {}
+metaSortKey: -1565965777464.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

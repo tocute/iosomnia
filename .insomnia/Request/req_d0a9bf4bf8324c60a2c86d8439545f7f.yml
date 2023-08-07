@@ -1,0 +1,37 @@
+_id: req_d0a9bf4bf8324c60a2c86d8439545f7f
+type: Request
+parentId: fld_9052cb0ad23b40a99503808cd73ea93a
+modified: 1665553397351
+created: 1665552199576
+url: https://{{ _.preprod }}/playback
+name: Web Player Page
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n\tmezzanine(id: \"1298621\", license_id: \"250119\")
+    {\n\t\tid\n\t\ttitle\n\t\ttime
+    {\n\t\t\tlast_played\n\t\t\tduration\n\t\t\tendStart\n\t\t}\n\t\trecommend
+    {\n\t\t\tprevious {\n\t\t\t\tid\n\t\t\t\ttitle\n\t\t\t}\n\t\t\tnext
+    {\n\t\t\t\tid\n\t\t\t\ttitle\n\t\t\t\timages
+    {\n\t\t\t\t\turl\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t\tvideo
+    {\n\t\t\tid\n\t\t}\n\t\tmediaSources\n\t}\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_15c91993778c47ed89424380314183af
+    name: Authorization
+    value: TFJiSUxVTm5IdFVWT0ZPSdyAO6XTnkbzFJk/gNaX0BDVxkyXH5rf2PZJS6kZ1tjOTGesRGe9dv5eUEjKwo0Els9n8FbPgrs+abnp9lVbfsjgcpJOhSfobixYkJ+bZvRrfUNq544leYksiMt1XCoFcGN07ndj36VKFI5IntzJTOfR/8IK0iqo8+2YTsS4ICPYtK46iYvychHXUhF2o+/IcJ2Whe31CMfsIARPTAAXjdV6qkZTPmas9wSbIxZ0Mopc
+    disabled: false
+authentication: {}
+metaSortKey: -1575429028992.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

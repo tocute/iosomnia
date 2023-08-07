@@ -1,0 +1,47 @@
+_id: req_6ab5a06a31f74b80a33c7edfba69df82
+type: Request
+parentId: fld_479aafb0b2864b5e8939a4eecaac6447
+modified: 1663665064880
+created: 1641878436755
+url: https://{{ _.staging }}/graphql
+name: GOD
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  collectionNew2(id: \"108854\", type: \"package\",
+    pagination: {page: 1, per_page: 300})
+    {\n    id\n    item_type\n    property\n    taxonomies\n    display_title\n    page\n    per_page\n    total\n    collection_items
+    {\n      ... on CollectionNew2
+    {\n        id\n        item_type\n        property\n        taxonomies\n        display_title\n        page\n        per_page\n        total\n        collection_items
+    {\n          ... on VideoNew {\n            lightTitle:
+    title\n            id\n            item_type\n            series_title\n            season_title\n            discontinue\n            purchase_at\n            purchase_status\n            purchase_device_type\n            purchase_history_price\n            property\n            tag_group
+    {\n              group_name\n              tags
+    {\n                type\n                value\n              }\n            }\n            taxonomies\n            watch_history_id\n            playable
+    {\n              video_id\n              until\n              name\n              subdub\n              playable_platform\n              license_id\n            }\n            licenseStatus:
+    status
+    {\n              time\n              type\n            }\n            status_bar
+    {\n              type\n              property\n            }\n            images
+    {\n              type\n              url\n            }\n            favorite\n            time
+    {\n              last_played\n              duration\n              opening_start\n              opening_end\n              end_start\n              chapters\n            }\n            rating\n            rating_value\n            last_watch_date\n          }\n          ...
+    on LinkText
+    {\n            id\n            item_type\n            display_text\n            link_url\n            property\n            display_start_at\n            alternative_text\n            taxonomies\n            rating_value\n            image
+    {\n              url\n              width\n              height\n              type\n            }\n          }\n        }\n      }\n    }\n  }\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - id: pair_e1827a20371f42a6aa6bac112222db5d
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiMTAxIiwic3ViYWNjb3VudF9pZCI6IjkyIiwiamNvbV9hY2Nlc3NfdG9rZW4iOiI1X3VKOERmOEtoeHRyT0duMzJ3eVJVT1RfUzYzYlRSSTYyMVpNU3F2QmhnIiwiamNvbV9yZWZyZXNoX3Rva2VuIjoiYzREQnVEUkJsN3U0NHR4WEhrNnB3QkVMMV9taDMyaDhYZTZMNlBEaTk5byIsImRldmljZV90eXBlIjoiaW9zIiwidG9rZW5fdHlwZSI6ImFjY2Vzc190b2tlbiIsImlzcyI6ImNsaWVudC1hcGktc2VydmljZSIsImV4cCI6MTY2MzIzMTkwOCwibmJmIjoxNjYzMjI4MzA4LCJpYXQiOjE2NjMyMjgzMDgsImp0aSI6ImE5OTA3NGEwLTIxOTMtNDgyMS1iNTRjLTVmYjFhODQ5NzMxZCJ9.rWTzcQig7GvuvPB7QBa78Bwhf7KoQ2rVETuVlwyJUQs
+    disabled: false
+authentication: {}
+metaSortKey: -1560152304261.5703
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

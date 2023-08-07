@@ -1,0 +1,39 @@
+_id: req_9de010c6ba8345f39b1d26567cf8e1e0
+type: Request
+parentId: fld_40cee0ecb21944ca80cd9fd7213988d3
+modified: 1668606056020
+created: 1661830957037
+url: https://api.blabo.kkv48.com/client/v1/playback/amplitude
+name: GetLive
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_52a56167826b4d32a321906842591bf6
+    name: playback_token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Njg2OTI0MzYsIm5iZiI6MTY2ODYwNjAzNiwiaWF0IjoxNjY4NjA2MDM2LCJqdGkiOiI4MzdkZmMzZC03ZTYzLTQyOTQtYmU2Yy00ZTkzNjgxMDg4MjgiLCJEYXRhIjp7IlN1YmFjY291bnRJRCI6IjEwMiIsIlN0cmVhbWluZ1R5cGUiOiJ2aWRlb3MiLCJQbGF5YmFja1R5cGUiOiJtZXp6YW5pbmUiLCJQbGF5YmFja0lEIjoiMTMzNDMwNSIsIkRldmljZVR5cGUiOiJpb3MiLCJEZXZpY2VJRCI6IjIyMmI2NjQ4LTFkZDUtNDNlNC1hMzBhLTVjMWM3MDhmZjI5OCIsIkxpY2Vuc2VUeXBlIjoiVFZPRCIsIkxpY2Vuc2VJRCI6IjMwMTQ1MCIsIkRpc3RyaWJ1dGlvblR5cGUiOiJpT1MiLCJJc05IS0NvbnRlbnQiOmZhbHNlLCJTZWxmTGluZWFyTWV6emFuaW5lSUQiOiIiLCJPcHRpb25EYXRhIjpudWxsfX0.yz08ZADe2a6qKJf8Es1YKiYnRMcR0P3CZC199TgIDCk
+    description: ""
+headers:
+  - name: X-Device-Type
+    value: blabodongle
+    description: ""
+    id: pair_eaee5fe09a944a9db006a53c8df6d43a
+    disabled: false
+  - id: pair_93d5c543fa6b40a88d600201e9a521a9
+    name: X-Device-ID
+    value: 5224cead-a04c-485a-89c7-8e43b3414329
+    description: ""
+  - id: pair_07fecf20e32e4f3fa6667e30ad894f94
+    name: X-Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiMTM5Iiwic3ViYWNjb3VudF9pZCI6IjExNyIsImpjb21fYWNjZXNzX3Rva2VuIjoiZXBXNGZYNkZoTXpTeWNFZ3BJcW9GS0l0RURyT1R2dVJTb2p3c29wYURjdyIsImpjb21fcmVmcmVzaF90b2tlbiI6IkRrLXkzcHBRQkh1TFU5ZDZvUEJpdThUSjBTQXNfaUtYOV9jRk5Rb3UySTgiLCJkZXZpY2VfdHlwZSI6ImlvcyIsInRva2VuX3R5cGUiOiJhY2Nlc3NfdG9rZW4iLCJpc3MiOiJjbGllbnQtYXBpLXNlcnZpY2UiLCJleHAiOjE2NjE4MzY3MjcsIm5iZiI6MTY2MTgzMzEyNywiaWF0IjoxNjYxODMzMTI3LCJqdGkiOiIwOWJjNWVmYy1lZmY5LTRkNWQtOTBlYS00YWZkYzZmMDk4YjUifQ.ZsUnmRj9g1dSvi0PDepsCe_axBvl7yJBLgg0poIW2zs
+    description: ""
+    disabled: true
+authentication: {}
+metaSortKey: -1561121222030.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

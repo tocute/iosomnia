@@ -1,0 +1,50 @@
+_id: req_37c4c1b1d61e4ea08bc22bf5504c9de3
+type: Request
+parentId: fld_d6d6bb32ae4440baa8fd747408c6fdfc
+modified: 1627458500280
+created: 1627456821814
+url: https://api.saku.kkvqa.com/graphql
+name: Program
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  collectionNew2(id: \"23066\", type: \"program\",
+    pagination: {page: 1, per_page: 30})
+    {\n    id\n    item_type\n    property\n    taxonomies\n    display_title\n    page\n    per_page\n    total\n    collection_items
+    {\n      ... on Program
+    {\n        id\n        meta_program_id\n        item_type\n        images
+    {\n          type\n          url\n        }\n        title\n        startTime\n        startTimestamp\n        endTime\n        endTimestamp\n        synopsis\n        programStatus:
+    status\n        channel
+    {\n          id\n          display_title\n          property\n        }\n        tags
+    {\n          type\n          value\n        }\n        logo
+    {\n          name\n          image
+    {\n            type\n            url\n          }\n        }\n        property\n      }\n      ...
+    on CollectionNew2
+    {\n        id\n        item_type\n        property\n        taxonomies\n        display_title\n        page\n        per_page\n        total\n        collection_items
+    {\n          ... on Program
+    {\n            id\n            item_type\n            images
+    {\n              type\n              url\n            }\n            title\n            startTime\n            startTimestamp\n            endTime\n            endTimestamp\n            synopsis\n            programStatus:
+    status\n            channel
+    {\n              id\n              display_title\n              property\n            }\n            tags
+    {\n              type\n              value\n            }\n            logo
+    {\n              name\n              image
+    {\n                type\n                url\n              }\n            }\n            property\n          }\n        }\n      }\n    }\n  }\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - disabled: true
+    id: pair_e1827a20371f42a6aa6bac112222db5d
+    name: Authorization
+    value: VXVoYUFlbUhoT1NGa1ZmTgXJXUFTFyuRGzMqSm1CgUl8QwwHhItll9R3+FfIBMTqrnTlgwgXn7dE3e//i4pz8xCuGba2JXH6RHRYDkEoT+zieAB6li43IrhFt77FyASLWTbWVhZkuVWvKR4cmiFf+dOtiEzCWUfQ6Ax2RXB4E58yhWTwWKPkNQDfHUrWXccR3XTzp/kv5gFVrbQqJKfsvjzsRt9KlyCZoLDc9WKFJBI=
+authentication: {}
+metaSortKey: -1560152168285.5
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

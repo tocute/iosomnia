@@ -1,0 +1,40 @@
+_id: req_858a4209d70349bcb9dc8fca86866755
+type: Request
+parentId: fld_40cee0ecb21944ca80cd9fd7213988d3
+modified: 1666773643799
+created: 1666773585637
+url: https://api.blabo.kkv48.com/download/v1/users/blabo.dev+01@gmail.com/download/222b6648-1dd5-43e4-a30a-5c1c708ff298/download_items/267957/complete
+name: DownloadCompleteRequest
+description: ""
+method: GET
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n    downloadList(item_id: 1355216, item_type: \"Video\")
+    {\n        item_id\n        item_type\n        title\n    }\n}"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_f68e07228d0f4084aa5a7f68ef59f48d
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiMTQyIiwic3ViYWNjb3VudF9pZCI6IjEyOCIsImpjb21fYWNjZXNzX3Rva2VuIjoib2tYVmhGVXJ2YzBUZkdzY1ZqNHlaZzExdDFZa3pFcVQ5ODJFV2swb24tRSIsImpjb21fcmVmcmVzaF90b2tlbiI6IklpYkxhYUltaHhuMXlrMjJPLURpRGx4QVpJN2ZkX2J3V1RERkpjemRtRlUiLCJkZXZpY2VfdHlwZSI6ImlvcyIsInRva2VuX3R5cGUiOiJhY2Nlc3NfdG9rZW4iLCJpc3MiOiJjbGllbnQtYXBpLXNlcnZpY2UiLCJleHAiOjE2NjY3NzY0MjQsIm5iZiI6MTY2Njc3MjgyNCwiaWF0IjoxNjY2NzcyODI0LCJqdGkiOiI0MmM2NDQ4OS0zMDY4LTRmMTYtOTEyMi1iYjVmMTQ4ZGMyNTgifQ.8G-ILaqqbktpdBeJiN8RWDKijVCjvR2bzFV0m00P4ck
+    disabled: false
+  - id: pair_b7b9e8d9e44d463fb36affdf473c8800
+    name: X-Device-ID
+    value: 222b6648-1dd5-43e4-a30a-5c1c708ff298
+    description: ""
+  - id: pair_dab20a60fc30423ea305a102bf7848df
+    name: X-Device-Type
+    value: blaboios
+    description: ""
+authentication: {}
+metaSortKey: -1625475045383.75
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

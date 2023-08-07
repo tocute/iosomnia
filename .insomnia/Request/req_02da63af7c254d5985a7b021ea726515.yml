@@ -1,0 +1,60 @@
+_id: req_02da63af7c254d5985a7b021ea726515
+type: Request
+parentId: fld_b71c29186c5543c59b362928f4491649
+modified: 1622167887563
+created: 1622167887563
+url: https://kkvideo.atlassian.net/rest/api/2/issue/
+name: create nasa ticket
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"fields": {
+    		"project": {
+    			"key": "OTP"
+    		},
+    		"summary": "REST ye merry gentlemen.",
+    		"description": "Creating of an issue using project keys and issue type names using the REST API",
+    		"issuetype": {
+    			"name": "Bug Report"
+    		}
+    	},
+    	"update":{
+          "issuelinks":[
+             {
+                "add":{
+                   "type":{
+                      "name":"Blocks",
+                      "inward":"is blocked by",
+                      "outward":"blocks"
+                   },
+                   "outwardIssue":{
+                      "key":"ST-8012"
+                   }
+                }
+             }
+          ]
+       }
+    }
+parameters: []
+headers:
+  - name: Authorization
+    value: Basic YmlsbGNoYW5nQGtrc3RyZWFtLmNvbTpKY2QydHRWWms1R3RUeWs4aGVodkJCOUE=
+    description: ""
+    id: pair_9b19e54dda1441fda54132c7aa518ede
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_2ede1c993b6b4a8ab1e3d12db6655cd4
+authentication: {}
+metaSortKey: -1575353626523.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

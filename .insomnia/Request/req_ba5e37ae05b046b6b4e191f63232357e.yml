@@ -1,0 +1,79 @@
+_id: req_ba5e37ae05b046b6b4e191f63232357e
+type: Request
+parentId: fld_505de71bff8f45688478e63af81d8c3b
+modified: 1641878436628
+created: 1641878436628
+url: https://api.saku.kkv-simcity.com/graphql
+name: Download List
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n    collectionNew2(id: \"50153\",type: \"title\",
+    pagination: {page: 1, per_page: 30})
+    {\n    id\nitem_type\nproperty\ntaxonomies\ndisplay_title\npage\nper_page\ntotal\n    collection_items
+    {\n... on VideoNew
+    {\n        id\n    item_type\n    series_title\n    season_title\n    discontinue\n    purchase_at\n    purchase_status\n    purchase_device_type\n    purchase_history_price\n    property\n    tag_group
+    {\n        group_name\n        tags
+    {\n            type\n            value\n        }\n    }\n    taxonomies\n    watch_history_id\n    playable
+    {\n    video_id\n    until\n    name\n    subdub\n    playable_platform\n    license_id\n}\n    licenseStatus:
+    status {\n    time\n    type\n}\n    status_bar
+    {\ntype\nproperty\n}\n    images
+    {\n    type\n    url\n}\n    favorite\n    time
+    {\n    last_played\n    duration\n    opening_start\n    opening_end\n    end_start\n    chapters\n}\n    rating\n    rating_value\n    last_watch_date\n    title\n    season_sequence\n    episode_sequence\n    language\n    status_notice
+    {\n    time\n    type\n}\n    synopsis\n    actors {\n    role\n    artist
+    {\n        id\n        role\n        name\n    }\n}\n    creators
+    {\n    role\n    artist
+    {\n        id\n        role\n        name\n    }\n}\n    directors
+    {\n    role\n    artist
+    {\n        id\n        role\n        name\n    }\n}\n    copyright\n    studio\n    trailer
+    {\n    hls\n    mezzanine_id\n}\n    purchase_plans
+    {\n    purchasable\n    name\n    warning_note
+    {\n        state\n    }\n}\n}\n... on CollectionNew2
+    {\n    id\nitem_type\nproperty\ntaxonomies\ndisplay_title\npage\nper_page\ntotal\n    collection_items
+    {\n... on LinkText
+    {\n    id\n    item_type\n    display_text\n    link_url\n    property\n    display_start_at\n    alternative_text\n    taxonomies\n    rating_value\n    image
+    {\n        url\n        width\n        height\n        type\n    }\n}\n...
+    on VideoNew {\n    lightTitle:
+    title\n        id\n    item_type\n    series_title\n    season_title\n    discontinue\n    purchase_at\n    purchase_status\n    purchase_device_type\n    purchase_history_price\n    property\n    tag_group
+    {\n        group_name\n        tags
+    {\n            type\n            value\n        }\n    }\n    taxonomies\n    watch_history_id\n    playable
+    {\n    video_id\n    until\n    name\n    subdub\n    playable_platform\n    license_id\n}\n    licenseStatus:
+    status {\n    time\n    type\n}\n    status_bar
+    {\ntype\nproperty\n}\n    images
+    {\n    type\n    url\n}\n    favorite\n    time
+    {\n    last_played\n    duration\n    opening_start\n    opening_end\n    end_start\n    chapters\n}\n    rating\n    rating_value\n    last_watch_date\n}\n...
+    on CollectionNew2
+    {\n    id\nitem_type\nproperty\ntaxonomies\ndisplay_title\npage\nper_page\ntotal\n    collection_items
+    {\n... on VideoNew {\n    lightTitle:
+    title\n        id\n    item_type\n    series_title\n    season_title\n    discontinue\n    purchase_at\n    purchase_status\n    purchase_device_type\n    purchase_history_price\n    property\n    tag_group
+    {\n        group_name\n        tags
+    {\n            type\n            value\n        }\n    }\n    taxonomies\n    watch_history_id\n    playable
+    {\n    video_id\n    until\n    name\n    subdub\n    playable_platform\n    license_id\n}\n    licenseStatus:
+    status {\n    time\n    type\n}\n    status_bar
+    {\ntype\nproperty\n}\n    images
+    {\n    type\n    url\n}\n    favorite\n    time
+    {\n    last_played\n    duration\n    opening_start\n    opening_end\n    end_start\n    chapters\n}\n    rating\n    rating_value\n    last_watch_date\n}\n...
+    on CollectionNew2
+    {\n    id\nitem_type\nproperty\ntaxonomies\ndisplay_title\npage\nper_page\ntotal\n    collection_items
+    {\n... on LinkText
+    {\n    id\n    item_type\n    display_text\n    link_url\n    property\n    display_start_at\n    alternative_text\n    taxonomies\n    rating_value\n    image
+    {\n        url\n        width\n        height\n        type\n    }\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_cb39720f351442019c10374b9a225b04
+    name: Authorization
+    value: WWVxU1dBVG1Bd0RobFZXeUM9loES4zhL8zM++KfM2wLzSDXpiWi5TEnRwdj+0qRNUA0U0i3oYUJkxluViUF2yM9BZ6Nj2xQA7f1Y/yCsgm0WIqUl2j4HqBH5zhtTPX0wwG6ig0eK6efVD1gfG6XHO6GNi92qGpz+mMbUlyFmQuN6IsuL4H31PmkeatXxpWlg8bMd7ERhCXPGA0jC3S9N5/rIP59MW9ti9ymN8BzSxK4=
+authentication: {}
+metaSortKey: -1560152168069.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

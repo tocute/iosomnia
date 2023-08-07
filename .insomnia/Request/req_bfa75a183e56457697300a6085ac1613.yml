@@ -1,0 +1,49 @@
+_id: req_bfa75a183e56457697300a6085ac1613
+type: Request
+parentId: fld_c5ae421eb67b4522ad8b5f6a06ee7bb3
+modified: 1636444610218
+created: 1627456821868
+url: https://{{ _.kkvqa }}/graphql
+name: Purchase List
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\ncollectionNew2(id: \"28\",filters:
+    [\"ui-itemgroup-orderby-purchased-time\"], pagination: {page: 1, per_page:
+    30})
+    {\n    id\nitem_type\nproperty\ntaxonomies\ndisplay_title\npage\nper_page\ntotal\n    collection_items
+    {\n... on VideoNew {\n    lightTitle:
+    title\n        id\n    item_type\n    series_title\n    season_title\n    discontinue\n    purchase_at\n    purchase_status\n    purchase_device_type\n    purchase_history_price\n    purchase_history_id\n    preorder_at\n    preorder_release_at\n    property\n    tag_group
+    {\n        group_name\n        tags
+    {\n            type\n            value\n        }\n    }\n    taxonomies\n    watch_history_id\n    playable
+    {\n    video_id\n    until\n    name\n    subdub\n    playable_platform\n    license_id\n}\n    licenseStatus:
+    status {\n    time\n    type\n}\n    status_bar
+    {\ntype\nproperty\n}\n    preorder_status_bar
+    {\ntype\nproperty\n}\n    images {\n    type\n    url\n}\n    series_images
+    {\n    type\n    url\n}\n    favorite\n    time
+    {\n    last_played\n    duration\n    opening_start\n    opening_end\n    end_start\n    chapters\n}\n    rating\n    rating_value\n    last_watch_date\n}\n...
+    on LinkText
+    {\n    id\n    item_type\n    display_text\n    link_url\n    property\n    display_start_at\n    alternative_text\n    taxonomies\n    rating_value\n    image
+    {\n        url\n        width\n        height\n        type\n    }\n}\n...
+    on ArtistDetail
+    {\n        id\n        item_type\n        name\n        occupation\n        birthday\n        hometown\n        sign\n        blood_type\n        bio\n        image
+    {\n            url\n            width\n            height\n            type\n        }\n        favorite\n    }\n}\n}\n}"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_cb39720f351442019c10374b9a225b04
+    name: Authorization
+    value: eFRUU2JlaXhRck91cG5hYYXKrx1iX7GT5C6KcU/9MYD96fCqQDqL4JHwIeNO6ddpHSSMelpRBmX0a1zEJOaH3B5cLQnG96QU3U9/b7wOARoq547Isx35FKC6JyJTd/FjsxFqGADf3BloVAqzEf8gHJjXqjHor2Px1uk7mL/UEL0=
+authentication: {}
+metaSortKey: -1560152168076.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

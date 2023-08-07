@@ -1,0 +1,37 @@
+_id: req_94896ce89d6e442583356c40f28f4eb8
+type: Request
+parentId: fld_98c2fe09bbea417bad64befcf5a90822
+modified: 1660210493841
+created: 1641878437055
+url: https://cms-api.blabo.kkv48.com/graphql
+name: CMS Add to Line
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation {\n  UpdateCollections(collections:
+    [\n\t\t{\n\t\t\tid: 664170,\n      children:
+    [\n\t\t\t\t{\n\t\t\t\t\titem_type: \"other_ott_item\",\n\t\t\t\t\titem_id:
+    1\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\titem_type:
+    \"other_ott_item\",\n\t\t\t\t\titem_id: 2\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t])
+    {\n    ...lineMutationResult\n\n  }\n}\n\nfragment lineMutationResult on
+    ActionResult {\n  Status\n  Success {\n    ... on Collection
+    {\n      id\n      title\n      active_status\n      start_at\n      end_at\n      properties\n    }\n  }\n}\n"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_320dc3f720774c9e910cfe983b814f16
+  - name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJwcm92aWRlciI6IkpDT00iLCJjaGFubmVsX2lkIjowLCJwcm9wZXJ0eSI6Int9IiwiZXhwIjoxNjkxNzQyMDc1LCJpc3MiOiJKQ09NX0NNUyIsInN1YiI6IkxPR0lORUQifQ.B1G809vOFCwiQGOjVGtR3RkhivmrbcqT-Mu67sF8hag
+    description: ""
+    id: pair_d5327b7d4efb444dac9ede182237b5f8
+authentication: {}
+metaSortKey: -1621042169146.9062
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

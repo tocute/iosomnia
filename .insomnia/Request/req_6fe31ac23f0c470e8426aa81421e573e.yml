@@ -1,0 +1,43 @@
+_id: req_6fe31ac23f0c470e8426aa81421e573e
+type: Request
+parentId: fld_479aafb0b2864b5e8939a4eecaac6447
+modified: 1663033973956
+created: 1641878436765
+url: https://{{ _.staging }}/graphql
+name: Artist Detail
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n    artistDetail(id: 140619)
+    {\n        id\n        item_type\n        name\n        occupation\n        role\n        birthday\n        hometown\n        sign\n        blood_type\n        bio\n        image
+    {\n            url\n            width\n            height\n            type\n        }\n        favorite\n        video_list(pagination:
+    {page: 1, per_page: 30}) {\n            ... on CollectionNew2
+    {\n    id\nitem_type\nproperty\ntaxonomies\ndisplay_title\nnext_collection_id\npage\nper_page\ntotal\nstart_at\nend_at\n    collection_items
+    {\n... on VideoNew {\n    lightTitle:
+    title\n        id\n    item_type\n    series_title\n    series_id\n    season_title\n    discontinue\n    purchase_at\n    purchase_status\n    purchase_device_type\n    purchase_history_price\n    purchase_history_id\n    preorder_at\n    preorder_release_at\n    property\n    tag_group
+    {\n        group_name\n        tags
+    {\n            type\n            value\n        }\n    }\n    taxonomies\n    watch_history_id\n    playable
+    {\n    video_id\n    until\n    name\n    subdub\n    playable_platform\n    license_id\n}\n    licenseStatus:
+    status {\n    time\n    type\n}\n    status {\ntype\ntime\n}\n    status_bar
+    {\ntype\nproperty\n}\n    preorder_status_bar
+    {\ntype\nproperty\n}\n    images {\n    type\n    url\n}\n    series_images
+    {\n    type\n    url\n}\n    favorite\n    time
+    {\n    last_played\n    duration\n    opening_start\n    opening_end\n    end_start\n    chapters\n}\n    rating\n    rating_value\n    last_watch_date\n}\n...
+    on LinkText
+    {\n    id\n    item_type\n    display_text\n    link_url\n    property\n    display_start_at\n    alternative_text\n    taxonomies\n    rating_value\n    image
+    {\n        url\n        width\n        height\n        type\n    }\n}\n}\n}\n        }\n    }\n}"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1560152304255.3203
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

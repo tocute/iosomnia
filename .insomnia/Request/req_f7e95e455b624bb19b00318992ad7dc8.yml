@@ -1,0 +1,31 @@
+_id: req_f7e95e455b624bb19b00318992ad7dc8
+type: Request
+parentId: fld_54ee6444b3564976b34ed2b8a0f7e190
+modified: 1690447566287
+created: 1640054771811
+url: https://gitlab.kkinternal.com/api/v4/projects/7433/pipelines/1340971/jobs
+name: Gitlab Get Jobs
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: scope
+    value: tags
+    description: ""
+    id: pair_7dbc17bc9258458fb30bebeb50e465d3
+    disabled: true
+headers:
+  - name: PRIVATE-TOKEN
+    value: x73kyJQ8nTfxxn7tQdYE
+    description: ""
+    id: pair_ca0993257c6e407784cb83e3861de02f
+    disabled: false
+authentication: {}
+metaSortKey: -1690447560635
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

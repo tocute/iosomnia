@@ -1,0 +1,39 @@
+_id: req_f9735b9a32a0413e84cfbb08cd1dacd7
+type: Request
+parentId: fld_479aafb0b2864b5e8939a4eecaac6447
+modified: 1657073859457
+created: 1641878436834
+url: https://api.saku.kkvqa.com/graphql
+name: Artist Detail Video List
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  artistDetail(id: 33678)
+    {\n    name\n    occupation\n    birthday\n    hometown\n    sign\n    blood_type\n    bio\n    image
+    {\n      url\n      width\n      height\n      type\n    }\n    favorite\n    video_list(pagination:
+    {page: 1, per_page: 30}) {\n      id\n      total\n      collection_items
+    {\n        ... on VideoNew {\n          lightTitle:
+    title\n          id\n          item_type\n          series_title\n          season_title\n          discontinue\n          purchase_at\n          purchase_status\n          purchase_device_type\n          purchase_history_price\n          property\n          tag_group
+    {\n            group_name\n            tags
+    {\n              type\n              value\n            }\n          }\n          taxonomies\n          watch_history_id\n          playable
+    {\n            video_id\n            until\n            name\n            subdub\n            playable_platform\n            license_id\n          }\n          licenseStatus:
+    status
+    {\n            time\n            type\n          }\n          status_bar
+    {\n            type\n            property\n          }\n          images
+    {\n            type\n            url\n          }\n          favorite\n          time
+    {\n            last_played\n            duration\n            opening_start\n            opening_end\n            end_start\n            chapters\n          }\n          rating\n          rating_value\n          last_watch_date\n        }\n      }\n    }\n  }\n}\n","variables":{"id":"65237","pagination":{"page":1,"per_page":10}}}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1560152304249.0947
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

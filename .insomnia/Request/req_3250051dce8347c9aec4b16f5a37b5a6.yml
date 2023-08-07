@@ -1,0 +1,81 @@
+_id: req_3250051dce8347c9aec4b16f5a37b5a6
+type: Request
+parentId: fld_40cee0ecb21944ca80cd9fd7213988d3
+modified: 1666684144453
+created: 1664343845473
+url: https://api.blabo.kkv48.com/client/v1/auth/refresh_token
+name: Refresh Token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"manifests": [
+    		{
+    			"items": [
+    				{
+    					"name": "720p",
+    					"url": "https://theater.saku.ottfs.com/19/733119_ed6b903243ecaeee23c291ff97235192/1631090154_hls_240_360_480_720.m3u8"
+    				},
+    				{
+    					"name": "480p",
+    					"url": "https://theater.saku.ottfs.com/19/733119_ed6b903243ecaeee23c291ff97235192/1631090154_hls_240_360_480.m3u8"
+    				},
+    				{
+    					"name": "360p",
+    					"url": "https://theater.saku.ottfs.com/19/733119_ed6b903243ecaeee23c291ff97235192/1631090154_hls_240_360.m3u8"
+    				},
+    				{
+    					"name": "240p",
+    					"url": "https://theater.saku.ottfs.com/19/733119_ed6b903243ecaeee23c291ff97235192/1631090154_hls_240.m3u8"
+    				}
+    			],
+    			"protocol": "hls"
+    		},
+    		{
+    			"items": [
+    				{
+    					"name": "720p",
+    					"url": "https://theater.saku.ottfs.com/19/733119_ed6b903243ecaeee23c291ff97235192/1631090154_dash_240_360_480_720.mpd"
+    				},
+    				{
+    					"name": "480p",
+    					"url": "https://theater.saku.ottfs.com/19/733119_ed6b903243ecaeee23c291ff97235192/1631090154_dash_240_360_480.mpd"
+    				},
+    				{
+    					"name": "360p",
+    					"url": "https://theater.saku.ottfs.com/19/733119_ed6b903243ecaeee23c291ff97235192/1631090154_dash_240_360.mpd"
+    				},
+    				{
+    					"name": "240p",
+    					"url": "https://theater.saku.ottfs.com/19/733119_ed6b903243ecaeee23c291ff97235192/1631090154_dash_240.mpd"
+    				}
+    			],
+    			"protocol": "dash"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: X-Device-Type
+    value: blaboios
+    description: ""
+    id: pair_eaee5fe09a944a9db006a53c8df6d43a
+  - id: pair_93d5c543fa6b40a88d600201e9a521a9
+    name: X-Device-ID
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiMTQyIiwic3ViYWNjb3VudF9pZCI6IjEyOCIsImpjb21fYWNjZXNzX3Rva2VuIjoiYUhXUWo4MHRVaVhmMkZCNVhTOUhjUTRZcTRvQVg1OExMa05id0xXQzdwayIsImpjb21fcmVmcmVzaF90b2tlbiI6Im96ZzBZdWpjTnp6Zl94RHlxeFpXdjQxQUdZRjVOM2RZcWFhYzdhNFJzSmsiLCJkZXZpY2VfdHlwZSI6ImlvcyIsInRva2VuX3R5cGUiOiJhY2Nlc3NfdG9rZW4iLCJpc3MiOiJjbGllbnQtYXBpLXNlcnZpY2UiLCJleHAiOjE2NjYyMzY1NDYsIm5iZiI6MTY2NjIzMjk0NiwiaWF0IjoxNjY2MjMyOTQ2LCJqdGkiOiI1Y2QxYjdjMC00MWIxLTRlMDctYmQzMS03N2UzNTkzYmU4ODAifQ.gNXhVko-H-4fuEpJx2U-bgvt-AFbie7HoMAq6OVNe4k
+    description: ""
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_a7d8ffca592146f4a32dff9723f92a39
+authentication: {}
+metaSortKey: -1566934688551.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

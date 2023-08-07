@@ -1,0 +1,45 @@
+_id: req_b86a914ded434683921f1f4db0684bc9
+type: Request
+parentId: fld_4afeb69068ee4be3bd296fe14331cd38
+modified: 1653965542897
+created: 1653552079327
+url: https://api.saku.kkvqa.com/playback
+name: Get Manifest Test
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  manifests(item_id: \"1308823\", item_type: Mezzanine)
+    {\n    protocol\n    items {\n      name\n      url\n      resolution
+    {\n        height\n      }\n    }\n  }\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - id: pair_e1827a20371f42a6aa6bac112222db5d
+    name: Authorization
+    value: SHR0dHlDT2FidGtjYm1qbJTtV+0BB2wSDZz/pFuptTg3JPppM3xX1NO+VPPTiEjtAWapJYxtlYEOl6zLb76lqiqw/GtGXnNKZg1/xW7IOqaXGWpg0Nr8W7kmfBcjhODEic5zChQgsnU1mjUht7Vp1LqU1GIOYaLQBpJrzQuEvk8=
+  - description: ""
+    id: pair_62822f4a448e44cebb631dafdea66b54
+    name: X-Device-ID
+    value: 9cf52a54-2e11-4fc2-9f04-2584d4c3f4ab
+  - description: ""
+    id: pair_0b45ac2bb164440e82485e28f245f28e
+    name: x-api-key
+    value: da2-3cspkhrt4fbw5c4m2zrzdfs75e
+    disabled: true
+  - description: ""
+    id: pair_bcde98aa41374ed79919a4b1516bb005
+    name: X-Device-Type
+    value: sakuweb
+    disabled: false
+authentication: {}
+metaSortKey: -1560152238507.2617
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

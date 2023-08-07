@@ -1,0 +1,36 @@
+_id: req_a35352be218a41e9a94fa721837c1a8c
+type: Request
+parentId: fld_caf8f716ba254ec2a8928378bc2e25b7
+modified: 1641878437072
+created: 1641878437072
+url: https://auth.id2.zaq.ne.jp/api/connect/v1/login
+name: login_1
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - name: username
+      value: saku.bys.acct+011@gmail.com
+      id: pair_94c694b1837747a98a69dc24db0b11cf
+    - name: password
+      value: saku0077
+      id: pair_97441252614b4557a4d0ba8d429fcba8
+    - name: ""
+      value: ""
+      description: ""
+      id: pair_01062c863ce44f74b0a25e03358a4a9b
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_a1b931f5261549b5b221680de760c82d
+authentication: {}
+metaSortKey: -1620957581372
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

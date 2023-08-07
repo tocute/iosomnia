@@ -1,0 +1,30 @@
+_id: req_4c6a895c17ef4e5389237c067be6ef03
+type: Request
+parentId: fld_98c2fe09bbea417bad64befcf5a90822
+modified: 1660206835207
+created: 1641878437052
+url: https://cms-api.blabo.kkv48.com/login
+name: CMS Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "kkstream",
+    	"password": "kkstream0077"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_320dc3f720774c9e910cfe983b814f16
+authentication: {}
+metaSortKey: -1621363632935.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

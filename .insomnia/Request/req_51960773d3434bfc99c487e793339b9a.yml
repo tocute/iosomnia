@@ -1,0 +1,44 @@
+_id: req_51960773d3434bfc99c487e793339b9a
+type: Request
+parentId: fld_c5ae421eb67b4522ad8b5f6a06ee7bb3
+modified: 1627458634038
+created: 1627456821750
+url: https://api.saku.kkvqa.com/graphql
+name: PurchaseList
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  collectionNew2(id: \"28\", filters:
+    [\"ui-itemgroup-orderby-purchased-time\"], pagination: {page: 1, per_page:
+    30})
+    {\n    id\n    item_type\n    property\n    taxonomies\n    display_title\n    page\n    per_page\n    total\n    collection_items
+    {\n      ... on VideoNew {\n        lightTitle:
+    title\n        id\n        item_type\n        series_title\n        season_title\n        discontinue\n        purchase_at\n        purchase_status\n        purchase_device_type\n        purchase_history_price\n        property\n        tag_group
+    {\n          group_name\n          tags
+    {\n            type\n            value\n          }\n        }\n        taxonomies\n        watch_history_id\n        playable
+    {\n          video_id\n          until\n          name\n          subdub\n          playable_platform\n          license_id\n        }\n        licenseStatus:
+    status {\n          time\n          type\n        }\n        status_bar
+    {\n          type\n          property\n        }\n        images
+    {\n          type\n          url\n        }\n        favorite\n        time
+    {\n          last_played\n          duration\n          opening_start\n          opening_end\n          end_start\n          chapters\n        }\n        rating\n        rating_value\n        last_watch_date\n      }\n      ...
+    on LinkText
+    {\n        id\n        item_type\n        display_text\n        link_url\n        property\n        display_start_at\n        alternative_text\n        taxonomies\n        rating_value\n        image
+    {\n          url\n          width\n          height\n          type\n        }\n      }\n    }\n  }\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - id: pair_e1827a20371f42a6aa6bac112222db5d
+    name: Authorization
+    value: anVNc2pDbHlNUGdjeFdFTT2EMuNy0SdtpWrYK+DUND3hF7jHUu8j3+LgP7bl+tKGPdZgO4VM4rwULWQwVcrYPPUNE+YF5+RxJbfGLW1LXJfkANa3hJ8jP2LqjGh7hMussUGUIsXfGc2FDfo3qcMFRX3p9n3jYQfSJFaD1+nzbI/dJ2zX3UIdkxVYpKLksbAGmgsJHTVQ6YMR35FRm+NthdvODxvUVUu1NrtQcTpNt9g=
+authentication: {}
+metaSortKey: -1560152168023
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

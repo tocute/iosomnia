@@ -1,0 +1,27 @@
+_id: req_98f32cf998594096a9cc4188dacd9102
+type: Request
+parentId: fld_9863ca6d15514d23b07533470ff750eb
+modified: 1641878436990
+created: 1641878436990
+url: https://stag-jon-saku-kkvqa.kkstream.tech/
+name: DRM_Post
+description: ""
+method: POST
+body:
+  mimeType: application/octet-stream
+  fileName: /Users/bill/Desktop/drm script/b.txt
+parameters: []
+headers:
+  - name: X-Custom-Data
+    value: token_type=playback&token_value=37efaf10ea3d2d1b7e125fb72dc0de57dc341812c87a0f10467345dfb986430d&widevine_security_level=L3
+  - name: X-Custom-Header
+    value: X-Device-Type=sakuweb
+authentication: {}
+metaSortKey: -1560152218453.7227
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,39 @@
+_id: req_9ea4908fcd26444e9a5bf5738baa7248
+type: Request
+parentId: fld_98c2fe09bbea417bad64befcf5a90822
+modified: 1660634566842
+created: 1641878437058
+url: https://cms-api.blabo.kkv48.com/graphql
+name: CMS Get Line Info
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  Collections(filter: {query: [{field: ID, operator: EQUAL,
+    value: \"664170\"}]}) {\n    items {\n      item {\n        ... on
+    Collection
+    {\n          id\n          title\n          active_status\n          start_at\n          end_at\n          children(pagination:
+    {page: 1, per_page: 100}) {\n            items
+    {\n              item_type\n              item {\n                ... on
+    Collection
+    {\n                  id\n                  title\n                }\n                ...
+    on Video
+    {\n                  id\n                  display_title\n                }\n              }\n            }\n          }\n          \n        }\n      }\n    }\n    \n  }\n}\n\n"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_320dc3f720774c9e910cfe983b814f16
+  - name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJwcm92aWRlciI6IkpDT00iLCJjaGFubmVsX2lkIjowLCJwcm9wZXJ0eSI6Int9IiwiZXhwIjoxNjkxNzQyMDc1LCJpc3MiOiJKQ09NX0NNUyIsInN1YiI6IkxPR0lORUQifQ.B1G809vOFCwiQGOjVGtR3RkhivmrbcqT-Mu67sF8hag
+    description: ""
+    id: pair_d5327b7d4efb444dac9ede182237b5f8
+authentication: {}
+metaSortKey: -1621059088293.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

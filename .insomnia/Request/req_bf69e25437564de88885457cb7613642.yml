@@ -1,0 +1,30 @@
+_id: req_bf69e25437564de88885457cb7613642
+type: Request
+parentId: fld_ae822c0767ca4b71bbf2b740ae1c9d2a
+modified: 1641277992091
+created: 1626226062243
+url: https://{{ _.kkvqa }}/graphql
+name: BindSTB
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation {\n    bindSTB(mac_addr: \"\")\n}"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - id: pair_e1827a20371f42a6aa6bac112222db5d
+    name: Authorization
+    value: VFlCUGp4UE9PVkxVRGtsafwQSP+6MUtSS40AaGu8LIKSZmYVBSeyCsUEDZQlDDeN3HfenmnDv/78IZw1EWCsLOxNlBOhEQhD3pdAwl2e46SM9HPvqKNQpCv7RXfrQZuPBLlgrIAXOJOlj9pPuATT92bcVG5xCgU+g4T1AchWBxA=
+    disabled: false
+authentication: {}
+metaSortKey: -1560152297666.6406
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

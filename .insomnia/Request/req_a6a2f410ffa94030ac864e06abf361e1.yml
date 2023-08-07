@@ -1,0 +1,39 @@
+_id: req_a6a2f410ffa94030ac864e06abf361e1
+type: Request
+parentId: fld_98c2fe09bbea417bad64befcf5a90822
+modified: 1660210335245
+created: 1660206104035
+url: https://cms-api.blabo.kkv48.com/graphql
+name: Create Ott Type
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation {\n\tCreateOtherOttItems(\n\t\tother_ott_items:
+    [\n\t\t\t{\n\t\t\t\ttitle: \"bill_title\"\n\t\t\t\tdescription:
+    \"bill_description\"\n\t\t\t\tott_type_id: 1\n\t\t\t\timage_id:
+    1\n\t\t\t\tlink_url: \"https://www.google.com\"\n\t\t\t\tenable_for_dongle:
+    1\n\t\t\t\tenable_for_android: 0\n\t\t\t\tenable_for_ios:
+    0\n\t\t\t\tenable_for_web: 0\n\t\t\t\tproperty: \"{}\"\n\t\t\t\tstart_at:
+    1659425126\n\t\t\t\tend_at: 1799596800\n\t\t\t}\n\t\t]\n\t)
+    {\n\t\tStatus\n\t\tSuccess {\n\t\t\t... on OtherOttItem
+    {\n\t\t\t\tid\n\t\t\t\ttitle\n\t\t\t}\n\t\t}\n\t\tFail {\n\t\t\t... on
+    OtherOttItem {\n\t\t\t\tid\n\t\t\t\ttitle\n\t\t\t}\n\t\t}\n\t}\n}\n"}'
+parameters: []
+headers:
+  - name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJwcm92aWRlciI6IkpDT00iLCJjaGFubmVsX2lkIjowLCJwcm9wZXJ0eSI6Int9IiwiZXhwIjoxNjkxNzQyMDc1LCJpc3MiOiJKQ09NX0NNUyIsInN1YiI6IkxPR0lORUQifQ.B1G809vOFCwiQGOjVGtR3RkhivmrbcqT-Mu67sF8hag
+    description: ""
+    id: pair_a2633f1111dc4c0b8d0bf732d54b7c72
+  - name: Content-Type
+    value: application/json
+    id: pair_0491ce4b4fa046bd9fe4cab40c6d6994
+authentication: {}
+metaSortKey: -1621194441467.9375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

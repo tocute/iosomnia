@@ -1,0 +1,33 @@
+_id: req_afe7dd7dee9946929101716c6c6602e1
+type: Request
+parentId: fld_7a5ca5ab8270459aaf47bfbb181a440b
+modified: 1627457417869
+created: 1627456822077
+url: localhost:5000/downloaded_video/
+name: Delete Download
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email" : "saku.bys.acct+011@gmail.com",
+    }
+parameters: []
+headers:
+  - name: x-api-key
+    value: "{{ _.API_Gateway_X_API_KEY }}"
+    description: ""
+    id: pair_2ffc315d35af413f87ac82016c3ce244
+  - name: Content-Type
+    value: application/json
+    id: pair_81de92c8ec0f4b638de887aaab39baed
+authentication: {}
+metaSortKey: -1624814431420.4688
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

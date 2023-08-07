@@ -1,0 +1,33 @@
+_id: req_4b706d08502a41b5a005309f3a5f165f
+type: Request
+parentId: fld_505de71bff8f45688478e63af81d8c3b
+modified: 1658888552940
+created: 1641878436604
+url: 127.0.0.1:5000/health_check/api_status
+name: Set Artist Favorite
+description: ""
+method: GET
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation {\n  setFavorite(\n    title_ids: [\"1354467\"],
+    \n    collection_ids: [], \n    artist_ids: [],
+    \n\t\tprogram_ids:[],\n    paidlive_ids:[],\n    favorite: true\n  )\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_991442ac9c8a4183b64e0d77d4ab4272
+    name: Query-Environment
+    value: qa
+    disabled: false
+authentication: {}
+metaSortKey: -1560152167998
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

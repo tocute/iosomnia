@@ -1,0 +1,52 @@
+_id: req_e0686bb1988e41c2a39a70cf7e374451
+type: Request
+parentId: fld_4afeb69068ee4be3bd296fe14331cd38
+modified: 1652777365455
+created: 1652344925430
+url: https://api.saku.kkvqa.com/playback
+name: Get Program Info
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n\tmanifests(\n\t\titem_id: \"96817\"\n\t\titem_type:
+    Program\n\t) {\n\t\tprotocol\n\t\titems
+    {\n\t\t\tname\n\t\t\turl\n\t\t\tresolution
+    {\n\t\t\t\theight\n\t\t\t}\n\t\t}\n\t}\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - id: pair_e1827a20371f42a6aa6bac112222db5d
+    name: Authorization
+    value: "
+      cEFCRVdkRlZOd3dOSlJ3b6Mfyye9Io/FMdl9Ktq96SMPZJbJrVGuegbA4QWBYDnA00rKcpNbU\
+      Poq7uuFCS5i0dgDF4/RyGec5MYglTo2sT+vDq0UkiNZnqnuAa2q8k9mBqb/lvRdvLkj7OYsPu\
+      NCUjAI6OnKaJ5V6LpFCNl49//js9QinpWQ+e7rdDy9bj/cOqYAiFX/3yjCw6j4ZdHcb6X174M\
+      89r5SmL88uOdhH94+tCaF/l9A4bwyBGGrHpa3"
+    disabled: true
+  - description: ""
+    id: pair_62822f4a448e44cebb631dafdea66b54
+    name: X-Device-ID
+    value: 9cf52a54-2e11-4fc2-9f04-2584d4c3f4ab
+    disabled: true
+  - description: ""
+    id: pair_0b45ac2bb164440e82485e28f245f28e
+    name: x-api-key
+    value: da2-3cspkhrt4fbw5c4m2zrzdfs75e
+    disabled: true
+  - description: ""
+    id: pair_bcde98aa41374ed79919a4b1516bb005
+    name: X-Device-Type
+    value: sakuweb
+    disabled: false
+authentication: {}
+metaSortKey: -1560152248559.0312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

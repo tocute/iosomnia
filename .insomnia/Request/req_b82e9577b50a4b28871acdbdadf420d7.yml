@@ -1,0 +1,34 @@
+_id: req_b82e9577b50a4b28871acdbdadf420d7
+type: Request
+parentId: fld_0ecf3074ceda435cabc277dfa6f5c4f7
+modified: 1647330488943
+created: 1627456822065
+url: "{{ _.API_Gateway_PREP }}/query_purchased"
+name: Query Purchase
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: email
+    value: saku.bys.acct+011@gmail.com
+    description: ""
+    id: pair_73f3b25695654344938121247eb20333
+headers:
+  - name: x-api-key
+    value: "{{ _.API_Gateway_X_API_KEY }}"
+    description: ""
+    id: pair_3ee4e69eb3c644a8b0abb177de8b078d
+    disabled: false
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_a0c3826d6a024025947daee412604a93
+authentication: {}
+metaSortKey: -1624814431390
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

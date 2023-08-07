@@ -1,0 +1,25 @@
+_id: req_109bb6187b8e4cc9afcdc3f5e0943599
+type: Request
+parentId: fld_7a5ca5ab8270459aaf47bfbb181a440b
+modified: 1627457408288
+created: 1627456822071
+url: localhost:5000/downloaded_video?email=saku.bys.acct+011@gmail.com
+name: Query Download
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: x-api-key
+    value: "{{ _.API_Gateway_X_API_KEY }}"
+    description: ""
+    id: pair_2ffc315d35af413f87ac82016c3ce244
+authentication: {}
+metaSortKey: -1624814431370.4688
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

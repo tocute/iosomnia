@@ -1,0 +1,26 @@
+_id: req_8ff894250d5f4f8592307f00b726c9db
+type: Request
+parentId: fld_6319f29f72524dbc8e0039fd81d62e98
+modified: 1628152622366
+created: 1627456822062
+url: localhost:5000/query/stb/mac/002CFC65C101
+name: Query STB
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Query-Environment
+    value: qa
+    description: ""
+    id: pair_3ee4e69eb3c644a8b0abb177de8b078d
+    disabled: false
+authentication: {}
+metaSortKey: -1624814431324.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,52 @@
+_id: req_aa8f955bc68a4bad8f536856ddd22afc
+type: Request
+parentId: fld_31ee9480d7524100bc4547d4495b1c0e
+modified: 1641278094470
+created: 1627456821880
+url: https://api.saku.kkvqa.com/download
+name: Start Download
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  downloadableList(item_id: 422350, item_type: Video)
+    {\n    item_id\n    item_type\n    title\n    duration\n    age\n    license
+    {\n      id\n      time
+    {\n        start_at\n        end_at\n        before_first_play\n        after_first_play\n        offline_duration\n        first_play_end_at\n        after_first_play_end_at\n        offline_end_at\n      }\n    }\n    images
+    {\n      url\n      width\n      height\n    }\n    manifests
+    {\n      protocol\n      items
+    {\n        name\n        size\n        url\n      }\n    }\n    thumbnailSeeking
+    {\n      quality\n      url\n    }\n    endStart\n    sort\n    season
+    {\n      title\n      id\n      sort\n      series
+    {\n        id\n        title\n        images
+    {\n          url\n          width\n          height\n        }\n      }\n    }\n  }\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_991442ac9c8a4183b64e0d77d4ab4272
+    name: Authorization
+    value: c1N1dVBXSnNSUVR3UG1SQljLmiMHzyI2q3ptrLjx925izZs3M7qLrUy+PZeOhM1CqrD8n0oH4rhbcFodRLg2gJnacYmF8wRhVj1mSFrU8G+ussa0hEqzJ8+fhH1qbVMg3sVzGM7MMdK3C9Zz+vzPp0FQpaij7Fncfo41vx+MCRyJF2q0m6Z7rX/YH9oj7Vg3ca2pPY2NonSJMCYXPnRmnecgLS1t76FLGpZN1ktC6Fc=
+  - description: ""
+    id: pair_bd7c3ad28e9c4cc4bb7e59eb4319f8ad
+    name: X-Device-ID
+    value: cada645e-9523-4615-82bf-ad1bdb43ebab
+  - description: ""
+    id: pair_72c76c333fdf49c8a8e59e21de65840b
+    name: X-Device-Type
+    value: sakuios
+  - description: ""
+    id: pair_1047e4e6159b485691f7177b60b64f95
+    name: x-api-key
+    value: da2-3cspkhrt4fbw5c4m2zrzdfs75e
+authentication: {}
+metaSortKey: -1560152297441.6406
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

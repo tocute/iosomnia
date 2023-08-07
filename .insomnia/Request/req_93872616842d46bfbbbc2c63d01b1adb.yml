@@ -1,0 +1,35 @@
+_id: req_93872616842d46bfbbbc2c63d01b1adb
+type: Request
+parentId: fld_0499a42f4160497391649ddefe8734b4
+modified: 1627457739928
+created: 1622622736842
+url: https://cms-api.saku.kkvqa.com/graphql
+name: pageUpdateMutation
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation pageUpdateMutation($input: [CollectionInput]!)
+    {\n  UpdateCollections(collections: $input)
+    {\n    ...pageMutationResult\n    __typename\n  }\n}\n\nfragment
+    pageMutationResult on ActionResult {\n  Status\n  Success {\n    ... on
+    Collection {\n      id\n      title\n      taxonomies
+    {\n        key\n        __typename\n      }\n      properties\n      __typename\n    }\n    __typename\n  }\n  __typename\n}\n","variables":{"input":[{"id":361781,"title":"アダルト","children":[{"item_type":"collection","item_id":361782},{"item_type":"collection","item_id":361783},{"item_type":"collection","item_id":531554},{"item_type":"collection","item_id":361787},{"item_type":"collection","item_id":361784},{"item_type":"collection","item_id":361786},{"item_type":"collection","item_id":361788},{"item_type":"collection","item_id":520961},{"item_type":"collection","item_id":516367},{"item_type":"collection","item_id":362410},{"item_type":"collection","item_id":129600},{"item_type":"collection","item_id":147175},{"item_type":"collection","item_id":129636},{"item_type":"collection","item_id":129634},{"item_type":"collection","item_id":516368},{"item_type":"collection","item_id":506503},{"item_type":"collection","item_id":491158},{"item_type":"collection","item_id":481126},{"item_type":"collection","item_id":129637},{"item_type":"collection","item_id":129602},{"item_type":"collection","item_id":361790},{"item_type":"collection","item_id":361789},{"item_type":"collection","item_id":361785},{"item_type":"collection","item_id":361791}],"start_at":1,"end_at":2147483647,"property":"{\"cms_category\":\"\"}"}]},"operationName":"pageUpdateMutation"}'
+parameters: []
+headers:
+  - name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJwcm92aWRlciI6IkpDT00iLCJjaGFubmVsX2lkIjowLCJwcm9wZXJ0eSI6bnVsbCwiZXhwIjoxNjU0MTU4MTI4LCJpc3MiOiJKQ09NX0NNUyIsInN1YiI6IkxPR0lORUQifQ.4urrOf6A3hdJOzqSTlDviy1gxNCTcdPWqNwmNUCXu80
+    description: ""
+    id: pair_a2633f1111dc4c0b8d0bf732d54b7c72
+  - name: Content-Type
+    value: application/json
+    id: pair_0491ce4b4fa046bd9fe4cab40c6d6994
+authentication: {}
+metaSortKey: -1620966032986.3906
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

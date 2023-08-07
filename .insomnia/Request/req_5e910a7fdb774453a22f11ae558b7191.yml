@@ -1,0 +1,65 @@
+_id: req_5e910a7fdb774453a22f11ae558b7191
+type: Request
+parentId: fld_b71c29186c5543c59b362928f4491649
+modified: 1622167887560
+created: 1622167887560
+url: https://kkvideo.atlassian.net/rest/api/2/issue/
+name: create st ticket
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"fields": {
+    		"project": {
+    			"key": "ST"
+    		},
+    		"summary": "BILL TEST",
+    		"description": "",
+    		"issuetype": {
+    			"name": "Bug"
+    		},
+    		"components": [
+    			{
+    				"name": "8hrs"
+    			}
+    		],
+    		"customfield_13321": [{
+    				"value": "iOS"
+    			}],
+    		"customfield_13423": [
+          {
+            "value": "Release 3"
+          }
+        ]
+    	}
+    }
+parameters: []
+headers:
+  - name: Authorization
+    value: Basic YmlsbGNoYW5nQGtrc3RyZWFtLmNvbTpIYWx2MTR1dWRhTWlkWkNrMGc0bDhCREY=
+    description: ""
+    id: pair_9b19e54dda1441fda54132c7aa518ede
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_2ede1c993b6b4a8ab1e3d12db6655cd4
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_40545eab4d33464fac98ef5642fceca4
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_b84c0f1e3b4b465f851b8c76a8d2864a
+authentication: {}
+metaSortKey: -1590554942153.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

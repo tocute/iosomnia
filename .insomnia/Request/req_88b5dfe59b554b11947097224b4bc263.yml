@@ -1,0 +1,21 @@
+_id: req_88b5dfe59b554b11947097224b4bc263
+type: Request
+parentId: fld_0ecf3074ceda435cabc277dfa6f5c4f7
+modified: 1647330319287
+created: 1627456822045
+url: "{{ _.API_Gateway_PROD }}/query_license?license_id=244451"
+name: query_license
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1624814431377.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,50 @@
+_id: req_edcd0208b293441f85f7bf43450aed26
+type: Request
+parentId: fld_805c974082ad4f75a9d150d7e1a7a39c
+modified: 1627458082864
+created: 1622167887443
+url: https://{{ kkvqa }}/graphql
+name: Title with artist
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  collectionNew2(id: \"67184\", type: \"title\", pagination:
+    {page: 1, per_page: 30})
+    {\n    id\n    item_type\n    property\n    taxonomies\n    display_title\n    page\n    per_page\n    total\n    collection_items
+    {\n      ... on VideoNew
+    {\n        id\n        item_type\n        series_title\n        season_title\n        discontinue\n        purchase_at\n        purchase_status\n        purchase_device_type\n        purchase_history_price\n        property\n        tag_group
+    {\n          group_name\n          tags
+    {\n            type\n            value\n          }\n        }\n        taxonomies\n        watch_history_id\n        playable
+    {\n          video_id\n          until\n          name\n          subdub\n          playable_platform\n          license_id\n        }\n        licenseStatus:
+    status {\n          time\n          type\n        }\n        status_bar
+    {\n          type\n          property\n        }\n        images
+    {\n          type\n          url\n        }\n        favorite\n        time
+    {\n          last_played\n          duration\n          opening_start\n          opening_end\n          end_start\n          chapters\n        }\n        rating\n        rating_value\n        last_watch_date\n        title\n        season_sequence\n        episode_sequence\n        language\n        status_notice
+    {\n          time\n          type\n        }\n        synopsis\n        actors
+    {\n          role\n          artist
+    {\n            id\n            role\n            name\n            image
+    {\n              type\n              url\n            }\n            favorite\n          }\n        }\n        creators
+    {\n          role\n          artist
+    {\n            id\n            role\n            name\n            image
+    {\n              type\n              url\n            }\n            favorite\n          }\n        }\n        directors
+    {\n          role\n          artist
+    {\n            id\n            role\n            name\n            image
+    {\n              type\n              url\n            }\n            favorite\n          }\n        }\n        copyright\n        studio\n        trailer
+    {\n          hls\n          mezzanine_id\n        }\n        purchase_plans
+    {\n          purchasable\n          name\n          warning_note
+    {\n            state\n          }\n        }\n      }\n    }\n  }\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1560152304252.1953
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

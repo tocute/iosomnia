@@ -1,0 +1,37 @@
+_id: req_1b1c9a40bdc44043aa8a1ba4ecace178
+type: Request
+parentId: fld_859f722d63c341f38a944689b58a4841
+modified: 1630551628152
+created: 1630549144641
+url: https://mock-playback.tfc.kkv-test.com/v1/lives/1
+name: fetch_live
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_05869b11f449489caf8e2edffbfe4b14
+    name: X-Device-Type
+    value: ios
+    description: ""
+  - id: pair_95939755184f4aca8dc768fa270506fc
+    name: PaaS-Sample-Platform-Type
+    value: ios-streaming
+    description: ""
+  - id: pair_ad4ceeb196694b7585737fd4ea9182a2
+    name: Authorization
+    value: ios+automation@kkstream.com
+    description: ""
+  - id: pair_abc98d11a49a4a708824d144ee2f616d
+    name: X-Device-ID
+    value: e8ea3c7a-2f85-4452-99c9-09c8ab4ebadc
+    description: ""
+authentication: {}
+metaSortKey: -1630549144642
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

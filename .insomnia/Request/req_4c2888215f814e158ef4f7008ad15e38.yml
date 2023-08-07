@@ -1,0 +1,71 @@
+_id: req_4c2888215f814e158ef4f7008ad15e38
+type: Request
+parentId: fld_25b75e56b469424d9ca1ea39d003a582
+modified: 1641877231785
+created: 1641785392715
+url: https://{{ _.blabo_dev }}/graphql
+name: VideoTop_bloba
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  collectionNew2(namespace: \"mobile_new_videotop\",
+    pagination: {page: 1, per_page: 10}, children_pagination: [{per_page: 30},
+    {per_page: 30}])
+    {\n    id\n    item_type\n    property\n    taxonomies\n    display_title\n    page\n    per_page\n    total\n    collection_items
+    {\n      ... on VideoNew {\n        lightTitle:
+    title\n        id\n        item_type\n        series_title\n        property\n        taxonomies\n        watch_history_id\n        playable
+    {\n          video_id\n          until\n          name\n          subdub\n          playable_platform\n          license_id\n        }\n        images
+    {\n          type\n          url\n        }\n        series_images
+    {\n          type\n          url\n        }\n        favorite\n        time
+    {\n          last_played\n          duration\n          opening_start\n          opening_end\n          end_start\n          chapters\n        }\n        rating\n        rating_value\n      }\n      ...
+    on LinkText
+    {\n        id\n        item_type\n        display_text\n        link_url\n        property\n        display_start_at\n        alternative_text\n        taxonomies\n        rating_value\n        image
+    {\n          url\n          width\n          height\n          type\n        }\n      }\n      ...
+    on CollectionNew2
+    {\n        id\n        item_type\n        property\n        taxonomies\n        display_title\n        page\n        per_page\n        total\n        collection_items
+    {\n          ... on VideoNew {\n            lightTitle:
+    title\n            id\n            item_type\n            series_title\n            property\n            taxonomies\n            watch_history_id\n            playable
+    {\n              video_id\n              until\n              name\n              subdub\n              playable_platform\n              license_id\n            }\n            images
+    {\n              type\n              url\n            }\n            series_images
+    {\n              type\n              url\n            }\n            favorite\n            time
+    {\n              last_played\n              duration\n              opening_start\n              opening_end\n              end_start\n              chapters\n            }\n            rating\n            rating_value\n          }\n          ...
+    on LinkText
+    {\n            id\n            item_type\n            display_text\n            link_url\n            property\n            display_start_at\n            alternative_text\n            taxonomies\n            rating_value\n            image
+    {\n              url\n              width\n              height\n              type\n            }\n          }\n          ...
+    on CollectionNew2
+    {\n            id\n            item_type\n            property\n            taxonomies\n            display_title\n            page\n            per_page\n            total\n            collection_items
+    {\n              ... on VideoNew {\n                lightTitle:
+    title\n                id\n                item_type\n                series_title\n                property\n                taxonomies\n                watch_history_id\n                playable
+    {\n                  video_id\n                  until\n                  name\n                  subdub\n                  playable_platform\n                  license_id\n                }\n                images
+    {\n                  type\n                  url\n                }\n                series_images
+    {\n                  type\n                  url\n                }\n                favorite\n                time
+    {\n                  last_played\n                  duration\n                  opening_start\n                  opening_end\n                  end_start\n                  chapters\n                }\n                rating\n                rating_value\n              }\n              ...
+    on LinkText
+    {\n                id\n                item_type\n                display_text\n                link_url\n                property\n                display_start_at\n                alternative_text\n                taxonomies\n                rating_value\n                image
+    {\n                  url\n                  width\n                  height\n                  type\n                }\n              }\n              ...
+    on CollectionNew2
+    {\n                id\n                item_type\n                property\n                taxonomies\n                display_title\n                page\n                per_page\n                total\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_a319cb46a135403c915b4650d05a6ffe
+    name: Authorization
+    value: RmhuSkh5ZUZlaENrY1R3atqCkPVIINomr8svHfrfiV5XEsRfmA3cF2UYfB+efGxZJlJddCcfZdu6qJObZ+ATxKt1fkr1iLbXKJoKASI+mfyInqNvvJnUfx1G7kwuwrExaq5lmzcv0sHAAXWmAvMIIaoeXC+ldK3TCyT87Wob/rqIru4moMJ2J0UjITkLuHASAQ6yNYHfvjbpnqlUhfYm9H1JlmWFqZG37iRQkrveFjnD8sAgjiKGHafx79JUFGTU
+    disabled: true
+  - name: x-device-type
+    value: blobaios
+    description: ""
+    id: pair_eaee5fe09a944a9db006a53c8df6d43a
+authentication: {}
+metaSortKey: -1560152310912.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

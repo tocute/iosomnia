@@ -1,0 +1,86 @@
+_id: req_bd43959791b04dd0b82d528f44c76019
+type: Request
+parentId: fld_805c974082ad4f75a9d150d7e1a7a39c
+modified: 1683077857181
+created: 1625216331136
+url: https://{{ _.prod }}/graphql
+name: Title Detail
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  collectionNew2(\n    type: \"title\",\n    id:
+    \"83584\",\n    pagination: {per_page: 30}\n  ) {\n    collection_items
+    {\n      ... on VideoNew
+    {\n        id\n        taxonomies\n        property\n        images
+    {\n          type\n          url\n        }\n        series_title\n        series_images
+    {\n          type\n          url\n        }\n        season_title\n        title\n        tag_group
+    {\n          group_name\n          tags
+    {\n            type\n            value\n          }\n        }\n        synopsis\n        studio\n        copyright\n        actor_str\n        director_str\n        creator_str\n        actors
+    {\n          role\n          artist
+    {\n            id\n            name\n            favorite\n          }\n        }\n        directors
+    {\n          role\n          artist
+    {\n            id\n            name\n            favorite\n          }\n        }\n        creators
+    {\n          role\n          artist
+    {\n            id\n            name\n            favorite\n          }\n        }\n        rating_value\n        playable
+    {\n          video_id\n          license_id\n          name\n          subdub\n          until\n          playable_platform\n        }\n        status
+    {\n          type\n          time\n        }\n        status_notice
+    {\n          type\n          time\n        }\n        preordered
+    {\n          id\n          purchase_type\n          price\n          discount\n          name\n          warning_note
+    {\n            state\n            preorder_release_time\n          }\n        }\n        unpurchased_plans
+    {\n          id\n          purchase_type\n          price\n          discount\n          name\n          warning_note
+    {\n            state\n            preorder_release_time\n          }\n        }\n        trailer
+    {\n          mezzanine_id\n        }\n        favorite\n        preorder_status_bar
+    {\n          type\n        }\n        status_bar
+    {\n          type\n          property\n        }\n      }\n      \n    ...
+    on CollectionNew2
+    {\n      id\n      display_title\n      property\n      taxonomies\n      collection_items
+    {\n        \n    ... on CollectionNew2
+    {\n      id\n      display_title\n      property\n      taxonomies\n      collection_items
+    {\n        \n    ... on CollectionNew2
+    {\n      id\n      display_title\n      property\n      taxonomies\n      collection_items
+    {\n        \n  ... on LinkText
+    {\n    id\n    property\n    item_type\n    target_type\n    image
+    {\n      url\n    }\n    display_start_at\n    alternative_text\n    display_text\n    link_url\n    rating_value\n  }\n\n      }\n      \n    }\n  \n    ...
+    on VideoNew
+    {\n      id\n      watch_history_id\n      taxonomies\n      images
+    {\n        type\n        url\n      }\n      series_title\n      series_images
+    {\n        type\n        url\n      }\n      season_title\n      title\n      rating_value\n      tag_group
+    {\n        group_name\n        tags
+    {\n          type\n          value\n        }\n      }\n      playable
+    {\n        video_id\n        license_id\n        name\n        subdub\n        until\n        playable_platform\n      }\n      time
+    {\n        last_played\n        duration\n      }\n      property\n      \n    }\n  \n      }\n      \n  page\n  per_page\n  total\n\n    }\n  \n  ...
+    on LinkText
+    {\n    id\n    property\n    item_type\n    target_type\n    image
+    {\n      url\n    }\n    display_start_at\n    alternative_text\n    display_text\n    link_url\n    rating_value\n  }\n\n    ...
+    on VideoNew
+    {\n      id\n      watch_history_id\n      taxonomies\n      images
+    {\n        type\n        url\n      }\n      series_title\n      series_images
+    {\n        type\n        url\n      }\n      season_title\n      title\n      rating_value\n      tag_group
+    {\n        group_name\n        tags
+    {\n          type\n          value\n        }\n      }\n      playable
+    {\n        video_id\n        license_id\n        name\n        subdub\n        until\n        playable_platform\n      }\n      time
+    {\n        last_played\n        duration\n      }\n      property\n      \n    }\n  \n  ...
+    on BonusDetail {\n    id\n    title\n    image
+    {\n      url\n      width\n      height\n      type\n    }\n    available_version\n    playable_info
+    {\n      mezzanine_id\n    }\n    time
+    {\n      last_played\n      duration\n    }\n  }\n\n      }\n      \n  page\n  per_page\n  total\n\n    }\n  \n    }\n  }\n}"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - id: pair_a5d497affd934fcbb1177eade51033ed
+    name: Authorization
+    value: Sk10YnhmTllNTGxiQkxCSnvIfruTwjkmnSEOThIBO1uIXPN8M71rcSQ7kl0o96RvqwMpAtBFn7stFZdOSqDLHa/qS+v98phWZmvuA3Ivr4UG4Hx1xxvBT+LFgbgelQzw1vudzNbTCpPg+SHbGO4u2Ur4N5sq3oyTg4dSVEF+kuL4eEMXIvgxIp78ZyFTBwEarUgcBnHw6kmjd5gbKBC0n37Uj9iqLrOQA7UJbtI6YyMT6jeAdscJ71dI2avxhFSk
+    description: ""
+    disabled: true
+authentication: {}
+metaSortKey: -1560152304274.0703
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

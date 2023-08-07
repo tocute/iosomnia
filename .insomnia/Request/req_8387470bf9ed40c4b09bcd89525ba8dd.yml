@@ -1,0 +1,39 @@
+_id: req_8387470bf9ed40c4b09bcd89525ba8dd
+type: Request
+parentId: fld_9863ca6d15514d23b07533470ff750eb
+modified: 1667384562274
+created: 1641878436996
+url: https://api.blabo.preottfs.com/playback/v1/sessions/videos/1403975/playback/222b6648-1dd5-43e4-a30a-5c1c708ff298/info
+name: Get Video Info
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_e1827a20371f42a6aa6bac112222db5d
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiMTciLCJzdWJhY2NvdW50X2lkIjoiMzYiLCJqY29tX2FjY2Vzc190b2tlbiI6ImxEbVYwbTVjRlZsd3NjNEtoRWNSMUFEbVdYbzljNGwwMGJ0V2t2MVZnR3MiLCJqY29tX3JlZnJlc2hfdG9rZW4iOiI2NmdOVzJRU0U5LUVRZ3YwbzZQbVdqdjlhb2FTem5hOERrUGFwZDZDb2prIiwiZGV2aWNlX3R5cGUiOiJpb3MiLCJ0b2tlbl90eXBlIjoiYWNjZXNzX3Rva2VuIiwiaXNzIjoiY2xpZW50LWFwaS1zZXJ2aWNlIiwiZXhwIjoxNjY3Mzg2MTk1LCJuYmYiOjE2NjczODI1OTUsImlhdCI6MTY2NzM4MjU5NSwianRpIjoiMGFkN2Y2ZTItOGJjNC00ZjM3LTg5MzctNDk0ZmQwZWZjNmZjIn0.3NPQN_LHlieSvtxKculnjPTdTxxZOYocL6IIANqdRug
+    disabled: false
+  - description: ""
+    id: pair_62822f4a448e44cebb631dafdea66b54
+    name: X-Device-ID
+    value: 222b6648-1dd5-43e4-a30a-5c1c708ff298
+  - description: ""
+    id: pair_0b45ac2bb164440e82485e28f245f28e
+    name: x-api-key
+    value: da2-3cspkhrt4fbw5c4m2zrzdfs75e
+    disabled: true
+  - description: ""
+    id: pair_bcde98aa41374ed79919a4b1516bb005
+    name: X-Device-Type
+    value: blaboios
+    disabled: false
+authentication: {}
+metaSortKey: -1560152248574.6562
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

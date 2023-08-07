@@ -1,0 +1,35 @@
+_id: req_62241c3888a34947a3c0f3a7d7e544ac
+type: Request
+parentId: fld_54ee6444b3564976b34ed2b8a0f7e190
+modified: 1690447568583
+created: 1640055890172
+url: https://gitlab.kkinternal.com/api/v4/projects/7433/jobs/4784139/artifacts/cd_conf/cd.conf
+name: Gitlab Download a single artifact file by job ID
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: scope
+    value: tags
+    description: ""
+    id: pair_7dbc17bc9258458fb30bebeb50e465d3
+    disabled: true
+headers:
+  - name: PRIVATE-TOKEN
+    value: x73kyJQ8nTfxxn7tQdYE
+    description: ""
+    id: pair_ca0993257c6e407784cb83e3861de02f
+    disabled: false
+  - id: pair_0abbd99b216147fc927d1d8ef92d7702
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1690447560647.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_60cad2dcefd34df1b9a469dc25139b75
+type: Request
+parentId: fld_805c974082ad4f75a9d150d7e1a7a39c
+modified: 1664872849021
+created: 1627456821700
+url: https://api.saku.preottfs.com/
+name: download List
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n    downloadList(item_id: 288202, item_type: \"Video\")
+    {\n        item_id\n        item_type\n        title\n    }\n}"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_f68e07228d0f4084aa5a7f68ef59f48d
+    name: Authorization
+    value: V3VOZG5pS3VZbGJTTWtCdbDEjQ2Czg2Y6EEg/Dz2J166EqGkBUfcMHjt6GGhSYJi27Uyy+RPwO86SZlYoTNX39KGP0zuh2RcZIprO8cOKLJdAvxAWNbYE+D15tALFzyMrgvQ4AclG0wFV9ycQcj1jgWwtVpTPhwVs+Yq8C62hOw=
+authentication: {}
+metaSortKey: -1560152304249.461
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

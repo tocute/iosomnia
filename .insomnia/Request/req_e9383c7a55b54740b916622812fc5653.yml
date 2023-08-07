@@ -1,0 +1,37 @@
+_id: req_e9383c7a55b54740b916622812fc5653
+type: Request
+parentId: fld_479aafb0b2864b5e8939a4eecaac6447
+modified: 1663210260589
+created: 1641878436777
+url: https://api.blabo.kkv48.com/graphql
+name: title
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n\tcollectionNew2(\n\t\tid: \"1329344\"\n\t\ttype:
+    \"mezzanine_id\"\n\t\tpagination: { page: 1, per_page: 30 }\n\t)
+    {\n\t\tid\n\t\titem_type\n\t\tproperty\n\t\ttaxonomies\n\t\tdisplay_title\n\t\tnext_collection_id\n\t\tpage\n\t\tper_page\n\t\ttotal\n\t\tstart_at\n\t\tend_at\n\t}\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - id: pair_e1827a20371f42a6aa6bac112222db5d
+    name: Authorization
+    value: Y2tNTEhsSE11T2J6a2pqRydciON7m0OWE0L+5JGLBIgDbgx8qIIpFJsKuZ+3/jdViHOdf7dunBbW5s4Upae5TU2mqwpqFpcKSAIQq6XV9ARFGrUeIpjpIXb54ckgqWdqynfHyNS4zxWpPnAVBIkNDbYJfhD/O/VZImbgXlZxVek=
+    disabled: true
+  - id: pair_5d7fd36fd13e4734a256d369dbcf553c
+    name: X-Device-Type
+    value: sakuweb
+    description: ""
+    disabled: true
+authentication: {}
+metaSortKey: -1560152304299.0703
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_560e449df90c4ba39c7ae0c892f4f36b
+type: Request
+parentId: fld_6319f29f72524dbc8e0039fd81d62e98
+modified: 1628152609613
+created: 1627959223423
+url: localhost:5000/query/stb/account/saku.bys.acct+010@gmail.com
+name: Query STB by account
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Query-Environment
+    value: qa
+    description: ""
+    id: pair_3ee4e69eb3c644a8b0abb177de8b078d
+    disabled: false
+authentication: {}
+metaSortKey: -1624814431319.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

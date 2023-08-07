@@ -1,0 +1,39 @@
+_id: req_e7199c3cc39942ddba4b4b41019d50ba
+type: Request
+parentId: fld_40cee0ecb21944ca80cd9fd7213988d3
+modified: 1667905383299
+created: 1666774070547
+url: https://api.blabo.kkv48.com/download/v1/users/blabo.dev+01@gmail.com/download/222b6648-1dd5-43e4-a30a-5c1c708ff298/download_items/sync
+name: DownloadSyncRequest
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "[]"
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_f68e07228d0f4084aa5a7f68ef59f48d
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiMTQyIiwic3ViYWNjb3VudF9pZCI6IjEyOCIsImpjb21fYWNjZXNzX3Rva2VuIjoiUXRJaU9tNXdCOEJmUzlXWXFmUmtBdUdhZHFKZEFQcG9VMHZHUF90OTllMCIsImpjb21fcmVmcmVzaF90b2tlbiI6ImQ2cnRQWHRoWFI5QndIOUtoQjhsSDBkc3FXdDlfQUJKS0d5ZnNDRURnTVEiLCJkZXZpY2VfdHlwZSI6ImlvcyIsInRva2VuX3R5cGUiOiJhY2Nlc3NfdG9rZW4iLCJpc3MiOiJjbGllbnQtYXBpLXNlcnZpY2UiLCJleHAiOjE2NjY3NzgwNjgsIm5iZiI6MTY2Njc3NDQ2OCwiaWF0IjoxNjY2Nzc0NDY4LCJqdGkiOiI5ODkwNWMyNi05OGVhLTQ1ZmItYTg0OS1kOWFhMjkyZTFiMzAifQ.nXqCTDk2I0ziMAVSBZy7nS2H3YwOwvHp7EInpM7SCBM
+    disabled: false
+  - id: pair_b7b9e8d9e44d463fb36affdf473c8800
+    name: X-Device-ID
+    value: 222b6648-1dd5-43e4-a30a-5c1c708ff298
+    description: ""
+  - id: pair_dab20a60fc30423ea305a102bf7848df
+    name: X-Device-Type
+    value: blaboios
+    description: ""
+authentication: {}
+metaSortKey: -1625144738499.375
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

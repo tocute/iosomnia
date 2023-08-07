@@ -1,0 +1,33 @@
+_id: req_8c492aec95e34094b91ca9debe8c5d75
+type: Request
+parentId: fld_e4b10291636740b4ad465185e4a9e3ee
+modified: 1641878436906
+created: 1641878436906
+url: https://{{ _.kkvqa }}/graphql
+name: SetPurchase
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation {  \n  setPurchase(\n    PurchasePlanID: \"107769\",
+    \n    VideoID: \"1312839\",\n    PurchasePrice: \"4,444円\")\n}"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+  - id: pair_e1827a20371f42a6aa6bac112222db5d
+    name: Authorization
+    value: "
+      cVJLR2pMVnhTUVZaUWNTQ27irGCR/KECkyzFhNdK2Hig+HFxF5ObWVaTsjtqJ1TXKnOQahl5w\
+      XXtJgZNO0Efp+daVoKg7Tdd523K5M8SdTdME2W2wOrva1HP9RLlZTQGb0RcYUjCBKafvmHReo\
+      5CEz82U+XU1Tf9mGYqeqt7bLU="
+authentication: {}
+metaSortKey: -1560152306464.0469
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

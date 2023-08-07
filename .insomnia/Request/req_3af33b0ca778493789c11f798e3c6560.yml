@@ -1,0 +1,25 @@
+_id: req_3af33b0ca778493789c11f798e3c6560
+type: Request
+parentId: fld_0ecf3074ceda435cabc277dfa6f5c4f7
+modified: 1627457490025
+created: 1624844727946
+url: 127.0.0.1:5000/health_check/qa/url/BE API
+name: health_check
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: repeat_times
+    value: "1"
+    description: ""
+    id: pair_c92d02728ed344fab0fab2c03eac882a
+headers: []
+authentication: {}
+metaSortKey: -1624814431215
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

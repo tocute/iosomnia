@@ -1,0 +1,45 @@
+_id: req_c80653113a0b42c299d3d02d4c35b704
+type: Request
+parentId: fld_f108964a10894ee5b73539990f01a0ae
+modified: 1641878436713
+created: 1641878436713
+url: https://api.saku.kkv48.com/graphql
+name: program detail
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  collectionNew2(type: \"program\", id: \"19750\",
+    pagination: {page: 1, per_page: 30})
+    {\n    id\n    item_type\n    property\n    taxonomies\n    display_title\n    page\n    per_page\n    total\n    collection_items
+    {\n      ... on Program {\n        id\n        item_type\n        images
+    {\n          type\n          url\n        }\n        title\n        startTime\n        startTimestamp\n        endTime\n        endTimestamp\n        synopsis\n        programStatus:
+    status\n        channel
+    {\n          id\n          display_title\n        }\n        tags
+    {\n          type\n          value\n        }\n        logo
+    {\n          name\n          image
+    {\n            type\n            url\n          }\n        }\n        property\n      }\n      ...
+    on CollectionNew2
+    {\n        id\n        item_type\n        property\n        taxonomies\n        display_title\n        page\n        per_page\n        total\n        collection_items
+    {\n          ... on Program
+    {\n            id\n            item_type\n            images
+    {\n              type\n              url\n            }\n            title\n            startTime\n            startTimestamp\n            endTime\n            endTimestamp\n            synopsis\n            programStatus:
+    status\n            channel
+    {\n              id\n              display_title\n            }\n            tags
+    {\n              type\n              value\n            }\n            logo
+    {\n              name\n              image
+    {\n                type\n                url\n              }\n            }\n            property\n          }\n        }\n      }\n    }\n  }\n}\n"}'
+parameters: []
+headers:
+  - id: pair_1949da50736e4461b303aa73981fea6f
+    name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1560152168273
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

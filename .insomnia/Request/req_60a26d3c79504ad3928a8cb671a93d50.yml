@@ -1,0 +1,30 @@
+_id: req_60a26d3c79504ad3928a8cb671a93d50
+type: Request
+parentId: fld_b9c2596055524595bef5dcd50563bee6
+modified: 1664267619059
+created: 1644993223610
+url: https://mypage.jcom.co.jp/
+name: test
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - description: ""
+    id: pair_bde4f2106e1a4ec399b480614d915d90
+    name: X-Device-Type
+    value: sakuios
+    disabled: true
+  - id: pair_4aceca943e954ad388f4c32674828330
+    name: X-Authorization
+    value: bHJyUHZtSWhHQXZVZWhla6Ty/cd37vnaF2p+d836ge4j6/bPoLRkW0sgTD7ph/2HTFNqeair70fZvIHGcCdHb3Ss0iadlIQ2licYzh4OzWSoELLYTtVmEcBC4mKyaNVjyAkbz55XlbCggI0BmFgmYqmZXtB1TABBrCbUjAjMRDw92S8Ao9o7Ivvpvb+s6hBjPvIjkS7ghBBqD3KLM3wHZXvTOvYndrlAjprPTaKdEISFW190lSJ8HGhexYlcczXb
+    description: ""
+authentication: {}
+metaSortKey: -1560152167760.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

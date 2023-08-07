@@ -1,0 +1,31 @@
+_id: req_3f55ba78c75c422e8ee39ba7a7ae1b19
+type: Request
+parentId: fld_0dd13034911b4652bedf13f2396f6ec4
+modified: 1627457485603
+created: 1627456822088
+url: localhost:5000/health_check/api_status
+name: Check API Status
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Query-Environment
+    value: prod
+    description: ""
+    id: pair_2ffc315d35af413f87ac82016c3ce244
+    disabled: false
+  - name: Query-Environment
+    value: qa
+    description: ""
+    id: pair_5c5d0efd47e540e4946babd21afb23c1
+    disabled: true
+authentication: {}
+metaSortKey: -1624814431565
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
