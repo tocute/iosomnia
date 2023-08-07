@@ -1,10 +1,15 @@
 _id: fld_736540ce545c40568c6b7d60e8533e7c
 type: RequestGroup
 parentId: wrk_8f7d981a997e49e4ba54d682b54aba19
-modified: 1690446845832
+modified: 1691396564600
 created: 1690446829344
 name: SmartPass
 description: ""
-environment: {}
-environmentPropertyOrder: null
+environment:
+  QA: https://player-adaptor.smartpass.kkvqa.com
+  STAGE: https://player-adaptor.smartpass.kkv48.com
+environmentPropertyOrder:
+  "&":
+    - QA
+    - STAGE
 metaSortKey: -1681064433540.5

@@ -1,9 +1,9 @@
 _id: req_d1f02a8a63e04b76b01171085e52a63c
 type: Request
 parentId: fld_736540ce545c40568c6b7d60e8533e7c
-modified: 1690446870972
+modified: 1691396591905
 created: 1687827956561
-url: https://player-adaptor.smartpass.kkv48.com/client/v1/videos/7946
+url: "{{ _.QA }}/client/v1/videos/7946"
 name: Telasa Video Info
 description: ""
 method: GET

@@ -1,9 +1,11 @@
 _id: req_d87e1baec3b54f418735f778196b19d9
 type: Request
 parentId: fld_736540ce545c40568c6b7d60e8533e7c
-modified: 1690447164976
+modified: 1691396608730
 created: 1690446485293
-url: https://player-adaptor.smartpass.kkv48.com/playback/v1/sessions/videos/7946/playback/7ca80d14-c0e3-49b2-b225-12b9b287da8d/start
+url: "{{ _.QA
+  }}/playback/v1/sessions/videos/7946/playback/7ca80d14-c0e3-49b2-b225-12b9b287\
+  da8d/start"
 name: Session Start
 description: ""
 method: POST

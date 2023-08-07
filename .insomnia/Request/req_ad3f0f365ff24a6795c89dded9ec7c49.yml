@@ -1,9 +1,11 @@
 _id: req_ad3f0f365ff24a6795c89dded9ec7c49
 type: Request
 parentId: fld_736540ce545c40568c6b7d60e8533e7c
-modified: 1690447171044
+modified: 1691396623442
 created: 1690446774470
-url: https://player-adaptor.smartpass.kkv48.com/playback/v1/sessions/videos/7946/playback/7ca80d14-c0e3-49b2-b225-12b9b287da8d/info
+url: "{{ _.QA
+  }}/playback/v1/sessions/videos/7946/playback/7ca80d14-c0e3-49b2-b225-12b9b287\
+  da8d/info"
 name: Streaming Info
 description: ""
 method: GET

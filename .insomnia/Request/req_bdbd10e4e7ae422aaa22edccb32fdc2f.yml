@@ -1,0 +1,35 @@
+_id: req_bdbd10e4e7ae422aaa22edccb32fdc2f
+type: Request
+parentId: fld_736540ce545c40568c6b7d60e8533e7c
+modified: 1691396643447
+created: 1691396149141
+url: "{{ _.QA }}/client/v1/videos/32982/trailer"
+name: Get Trailer Information
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_5b2a947803774502a6b35419e24c2fc0
+    name: Authorization
+    value: Bearer
+      eyJraWQiOiJWK2EzS0s2ODdnZm0wOGM5RDhMUFwvRlwvQ0tXQmRjNE5MaWJMM0dhSWJ1YnM9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI2YWRjZWNmOC04MDdhLTQ1NDAtOTc5Mi1mYjI1Nzk0NDc2MWEiLCJldmVudF9pZCI6IjFkYzVlZjc0LWYxY2QtNDhjNi04ZTQ3LThiYjZmMjU0MTg3ZiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2OTExMTY2ODQsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5hcC1ub3J0aGVhc3QtMS5hbWF6b25hd3MuY29tXC9hcC1ub3J0aGVhc3QtMV95VXdQbUhSNmMiLCJleHAiOjE2OTExMTc1ODQsImlhdCI6MTY5MTExNjY4NCwianRpIjoiOGVlMTkxNGItODU3NS00YzQ1LWI2ZWEtOTBhYWU0MmYwNmIxIiwiY2xpZW50X2lkIjoiNzV0bHZwZXU5Mm8yZXJ0Njc0YmViMWRqbTEiLCJ1c2VybmFtZSI6IjY2MGYxN2FkLTgwYmUtNGQ4OS05ZmFkLTY0OGE2NmJkZjJhNCJ9.dwdgs347XGdaLW0dUBhU4WRT4SrZWQfrWlrdp5JcYXgnFv17Hdpwakz1PT4xqi8PVYM33WHt-IwzOc_fEWgjT72sc721nRl5dxB_CXF5jAbPUgT_mV8vhom9RLGXHcvLtu7OpN2tZbRJEhKycrGJOkBYE8Wy3SwSOftxBr2vuA4xB_9i5hltXWkj_ls-CUwP0DxXFGheEjJqZm-lsdX_3QgBUTqKb8YZ_FZkMVdmWQpcv6WzfHNNm4ac5zm43IvvkrPZBeVlIqG185Q0oAbszKK5w22o59sN18p-xSYitVxt45AaqYZdJAsTp_Ghf0WYHuu3R8lm4FnZ4_G0nAnjjA
+    description: ""
+    disabled: false
+  - id: pair_485cf716b6c44ad7aa850f9aeaf45b82
+    name: X-Device-ID
+    value: 7ca80d14-c0e3-49b2-b225-12b9b287da8d
+    description: ""
+  - id: pair_00b0783aecaa473daf187cdea3f1a198
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1691396149141
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
